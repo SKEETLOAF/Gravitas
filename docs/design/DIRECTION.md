@@ -63,3 +63,6 @@ Additional assistant-suggested references (not owner-confirmed requirements): Gr
 
 ## Pending architecture alternative (2026-11-26)
 Owner is considering five core role lineages (Tank, Ranger, Mage, Melee DPS, Support) with sequential earned promotions inspired by Go Go Muffin, and independent special unlocks for unusual classes. This is an alternative to the previously established four-family branching model, not a confirmed replacement. Prior class expansion and hybrid eligibility decisions remain in force unless explicitly revised. See [class architecture](CLASSES.md#alternative-architecture-under-consideration-2026-11-26-promotion-lineages).
+
+## Weapon roster (2026-11-26)
+Owner's planned full-game weapons: Sword, Greatsword, Polearm, Dagger, Mace, Gauntlet, Shield, Bow, Firearms (Light, Medium, Heavy), Magic Staff, Tome. Each foundational class should have a primary and secondary weapon; Warrior uses Sword primary and Shield secondary, Ranger Dagger secondary, Rogue Sword secondary, Mage Magic Staff primary with Dagger or Tome secondary, Cleric Shield/Mace options. Recommended mapping and status distinctions are in [WEAPONS.md](WEAPONS.md).
