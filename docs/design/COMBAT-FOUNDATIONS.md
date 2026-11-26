@@ -41,3 +41,6 @@ For each accepted status define application, magnitude, duration, tick frequency
 5. Equipment slots, item stats and gear progression.
 6. Universal class/weapon kit anatomy and promotion progression, then individual foundations.
 Order is flexible; retain the existing 24-branch master index. No individual kits, formulas, exact status values, equipment counts or final class assignments established here.
+
+## Elemental and supplemental development
+See [ELEMENTS.md](ELEMENTS.md) for the owner's element roster, original reaction direction, refined status and cosmic catalyst proposals, modular VFX approach, and relic/mount/pet decisions. Relics are confirmed as unique upgrades; their equip structure remains open. Mounts and pets are desired; exact mechanics remain open.
