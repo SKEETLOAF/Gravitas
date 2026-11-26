@@ -129,7 +129,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Open: avoid forcing one character to interrupt combat for chores.
 
 ## XVI. Supplemental character growth
-- Pet and mount collection/upgrade direction: both available from start, each one skill, pets also basic attacks; summon offerings improve with regions or class evolution. Detailed relic design deferred: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
+- Pet and mount collection/upgrade direction: both available from start, each one skill, pets also basic attacks; pet generations improve with class progression plus character level; mounts more universal; potential donor-sacrifice ascension for earlier pets. Detailed relic design deferred: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
 - Owner confirms relics as unique upgrades, and mounts/pets as character enhancement directions. Specific mechanics, slots, acquisition and scope remain open; see [ELEMENTS.md](ELEMENTS.md).
 - Companions/familiars/pets: combat/gathering assistance, passive bonuses, development.
 - Mounts/transport; relic/collection systems; housing; personal training facilities; reputation/factions; titles/achievements; blessings/contracts; transformations/temporary states; account-wide benefits.
