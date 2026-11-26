@@ -106,3 +106,7 @@ Owner confirms stats can exceed 100%, including to withstand debuffs; Critical C
 
 ## Critical damage baseline clarification (2026-11-26)
 Owner confirms other stat overflow counters clashing stats. Base Critical Damage default recommendation 200% (double damage), with proposed linear critical tiers 2x/3x/4x at baseline; exact tier multipliers remain open.
+
+
+## Additive critical damage (2026-11-26)
+Owner confirms base critical bonus +50% (150% total), Critical Damage attribute adds to bonus rather than multiplying it. Supersedes earlier 200% base proposal. Retaining linear bonus scaling across critical tiers recommended; exact tier scaling remains open.
