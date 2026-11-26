@@ -98,3 +98,7 @@ Owner revisits ordinary buffs/debuffs: multiplicative stacking with ceiling deri
 
 ## Modifier cap revision under review (2026-11-26)
 Owner favors baseline-relative cap instead of twice strongest effect, asks whether +100% or +50% temporary buffs; explicitly excludes skill scaling. Recommendation +100% of passive stat per ordinary positive stat category, -50% enemy reductions, multiplicative stacking retained. See ELEMENTS.md; exact caps remain pending confirmation.
+
+
+## Raw stat overflow and critical hits (2026-11-26)
+Owner confirms stats can exceed 100%, including to withstand debuffs; Critical Chance above 100% introduces Super Crits, above 200% Ultra Crits. Candidate tier probabilities and scaling in COMBAT-FOUNDATIONS.md; exact multipliers, defensive probability rules and handling above 300% remain open. Distinguish raw stats from temporary buff ceilings and skill coefficients.
