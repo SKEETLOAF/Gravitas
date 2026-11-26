@@ -139,3 +139,6 @@ Owner establishes Evasion as the defensive focus of dexterous builds and Block a
 
 ## Equipment and cosmetics direction (2026-11-26)
 Owner favors Go Go Muffin-style progression, class-relevant gear pickups, increasingly strong gear sets, fixed slot primary attributes and ranged randomized secondary attributes. Stat gear has no individual wearable models; cosmetics supply appearance, obtainable by purchase or summons with earnable free spins and small bonuses. See [ITEMIZATION.md](ITEMIZATION.md) for proposals including slot enhancement inheritance, mixed set bonuses, shared weapon visuals, class loot focus, and capped wardrobe bonuses. Exact slot stat mapping, rarity/roll ranges, upgrades, cosmetic cap and acquisition rules remain open.
+
+## Itemization refinement (2026-11-26)
+Owner approves general itemization direction with unrestricted secondary attribute eligibility (smaller relative roll budgets), optional slot-favored rolls, overlapping/repeated attributes and variable number of secondary lines. Accessories may roll any primary and any secondary attribute. Add black Secret tier after Mythic. Future Reforge can change attribute identities (including selected lines) or reroll existing values; display actual possible ranges before rolling. Exact distribution, costs, caps and Reforge implementation deferred. See ITEMIZATION.md.
