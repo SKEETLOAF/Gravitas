@@ -1,0 +1,13 @@
+# Design notebook workflow
+This is a collaborative exploration framework, not a fixed GDD or implementation backlog.
+
+- Start at the [master tree](MASTER-TREE.md) and the [decision ledger](DIRECTION.md).
+- Expand each branch recursively as decisions require: purpose, reference, alternatives, mechanics, dependencies, player experience, risks, innovation, validation and open questions.
+- Label owner-confirmed decisions Established; tentative owner or assistant ideas Exploratory; intended later features Future; unanswered choices Undecided. Record discarded/superseded ideas with rationale when applicable.
+- Keep examples visibly illustrative. Never convert brainstorming or assistant recommendations into confirmed canon.
+- Maintain one canonical location for each decision, cross-link dependent branches, and preserve stable branch IDs.
+- When the owner changes a decision, update the ledger and affected branch docs; record date and implications. Preserve unresolved alternatives rather than prematurely narrowing.
+- Discussion order is flexible; the master tree has six suggested phases, not a release schedule.
+- Keep separate project design from any other Roblox project; no imported assumptions from ORBIT!, OMDB or other concepts.
+- Current suggested next discussion: Branch I, identity and core gameplay loops (first ten minutes, first hour, first week, hundredth hour). The owner may instead explore combat/class swapping first.
+- No gameplay code or implementation has been approved by this notebook.
