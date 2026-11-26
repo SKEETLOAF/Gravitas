@@ -132,3 +132,7 @@ Owner confirms shields scale according to their creating skill and increase reci
 
 ## Accuracy and Block counter (2026-11-26)
 Owner confirms Accuracy counters Block Chance as well as Evasion. No separate Block Penetration; exact counter formula remains open.
+
+
+## Defensive build identities (2026-11-26)
+Owner establishes Evasion as the defensive focus of dexterous builds and Block as the focus of tanks/high-Aggro builds. This is build identity, not a confirmed automatic stat conversion or class restriction.
