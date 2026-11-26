@@ -94,3 +94,7 @@ Owner approves remaining refinement recommendations and clarifies: dungeons cont
 
 ## Temporary modifier stacking (proposal, 2026-11-26)
 Owner revisits ordinary buffs/debuffs: multiplicative stacking with ceiling derived from strongest active effect, suggested 50% total enemy reduction. Recommended interpretation: total same-stat effect capped at twice strongest individual effect, negative enemy modifiers additionally capped at 50% per affected stat; same-source refresh, stat-specific exceptions and dynamic recalculation. See ELEMENTS.md. Pending owner confirmation, not an approved replacement for prior rule.
+
+
+## Modifier cap revision under review (2026-11-26)
+Owner favors baseline-relative cap instead of twice strongest effect, asks whether +100% or +50% temporary buffs; explicitly excludes skill scaling. Recommendation +100% of passive stat per ordinary positive stat category, -50% enemy reductions, multiplicative stacking retained. See ELEMENTS.md; exact caps remain pending confirmation.
