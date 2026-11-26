@@ -17,7 +17,7 @@ Updated 2026-11-26.
 These are 11 named weapon families, or 13 categories if the three firearm weights are counted individually. No additional families or specific weapon items are confirmed. Not all need to be available at launch.
 
 ## Proposed foundational loadout mapping
-Five-role promotion architecture is under consideration. Owner requests primary and secondary weapons for each foundation, with Warrior using Sword as primary rather than sword-and-shield as one combined weapon.
+Five-role promotion architecture is the working direction. Owner requests primary and secondary weapons for each foundation, with Warrior using Sword as primary rather than sword-and-shield as one combined weapon.
 
 | Class | Primary | Secondary | Status |
 | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ Five-role promotion architecture is under consideration. Owner requests primary 
 | Rogue | Dagger | Sword | Dagger carried forward from earlier proposed mapping; Sword owner specified |
 | Cleric | Tome | Shield | Tome owner specified; Shield retained as recommendation from prior options |
 
-Early compatibility: Sword connects Warrior/Rogue; Dagger connects Rogue/Ranger; Shield connects Warrior/Cleric; Tome connects Cleric/Mage. All five belong to a connected compatibility network, but not every pair shares a weapon. Shared weapons should encourage synergy rather than dictate class pair eligibility (recommended principle). Mage's earlier Dagger alternative and Cleric's Mace primary recommendation are superseded. Mace is retained in the full-game roster, currently unassigned to a foundation. Shield is listed independently; whether it functions as an active weapon, off-hand, or both is unresolved. Gauntlet/Monk and Warrior/gauntlet examples from earlier discussion are illustrative and not part of the current proposed foundational loadout.
+Early compatibility: Sword connects Warrior/Rogue; Dagger connects Rogue/Ranger; Shield connects Warrior/Cleric; Tome connects Cleric/Mage. All five belong to a connected compatibility network, but not every pair shares a weapon. Shared weapons should encourage synergy rather than dictate class pair eligibility (recommended principle). Mace remains in the full-game roster, currently unassigned to a foundation. Shield is listed independently; whether it functions as an active weapon, off-hand, or both is unresolved.
 
 ## Open design questions
 - Whether secondary means alternative equipped weapon, separate off-hand, or both; two-weapon cap scope and interaction with three classes.
