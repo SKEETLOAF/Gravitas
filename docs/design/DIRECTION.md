@@ -11,6 +11,12 @@ Updated 2026-11-26. Owner decisions supersede earlier suggestions. A proposal is
 - Full manual combat mode is planned for later. Build shared underlying combat actions with that possibility in mind (technical recommendation).
 - Personal character development remains the central fantasy. Co-op does not mean managing multiple characters.
 
+## Class architecture (2026-11-26)
+- Four foundational classes with individual advancement branches; Warrior and Mage locked, Rogue and Cleric tentative. Every class should have its own benefit.
+- Warrior -> Berserker is an advancement example. Hybrid classes unlock through progression of multiple disciplines; Warrior + Cleric -> Paladin is an example, not a finalized roster commitment. Main class branches and template take priority over hybrid design.
+- Independent special classes may come from game passes, limited events/battle passes, or dungeons; acquisition and balance remain exploratory.
+- See [class architecture and template](CLASSES.md) for candidate branches and open decisions.
+
 ## New exploratory direction
 - Possible in-combat class or weapon switching to increase combat liveliness and extend combos.
 - Swapping should let the character access another kit's available skills rather than all kits sharing one skill cooldown pool.
