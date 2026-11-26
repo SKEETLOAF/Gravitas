@@ -20,4 +20,4 @@ Roblox semi-idle single-character hack-and-slash RPG. Collaborative design noteb
 - [World, multiplayer and idle progression](docs/design/WORLD-AND-IDLE.md)
 - [Economy and currencies](docs/design/ECONOMY.md)
 
-Current discussion: economy; next class architecture. Established means owner-confirmed; proposed means not yet approved; future means deferred. No fixed launch scope or numerical balance implied.
+Current discussion: class architecture; economy concept established. Established means owner-confirmed; proposed means not yet approved; future means deferred. No fixed launch scope or numerical balance implied.
