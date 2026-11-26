@@ -1,12 +1,12 @@
 # Master Game Design Tree
 
-Status: exploratory index except where the [direction ledger](DIRECTION.md) explicitly confirms a decision. All topics below are discussion branches, not requirements or a release schedule. IDs are stable navigation references.
+Status: navigation index; linked canonical system documents distinguish established rules from proposals. See [current direction](DIRECTION.md). All topics below are discussion branches, not requirements or a release schedule. IDs are stable navigation references.
 
 ## I. Game identity and design foundations
 - Game identity: genre/subgenres; core fantasy; unique selling points; inspirations; target audience; setting/themes.
 - Design philosophy: idle vs active participation; accessibility vs complexity; power fantasy vs challenge; freedom vs specialization; solo vs multiplayer viability.
 - Gameplay loops: moment-to-moment; short sessions; daily; weekly; long-term; endgame; returning-player experience.
-- Established: one persistent character, multiple classes, fast semi-idle hack-and-slash combat.
+- Established: one persistent character, multiple classes, fast semi-idle hack-and-slash combat. Reference library: [REFERENCES.md](REFERENCES.md).
 
 ## II. Character creation and identity
 - Identity: name/profile; appearance (body proportions, facial features, hair/color, distinguishing features); races/species (characteristics, abilities, progression); origins/backgrounds (starting benefits, opportunities, narrative significance); traits (innate talents, strengths/weaknesses, acquired traits).
@@ -14,7 +14,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Open: mechanical versus cosmetic individuality.
 
 ## III. Class and discipline systems
-- Owner direction: four foundational classes (Warrior and Mage confirmed; Rogue and Cleric tentative), individual advancement branches, multi-class progression unlocks for later hybrids, each class offers a distinct benefit, potential independently acquired special classes. Prioritize main branches before hybrids. See [class architecture and template](CLASSES.md).
+- Working foundation model: Warrior, Ranger, Mage, Rogue, Cleric; earned promotions and independent retained disciplines, distinct benefits, potential hybrid/special classes. Exact lineage structure open. See [class architecture and template](CLASSES.md).
 - Architecture: base, advanced, specialized, hybrid, hidden/unlockable classes; advancements/awakenings.
   - Class expansion is established: unlocking a descendant adds a distinct, independently developable and equippable discipline; no parent is replaced or consumed. Players can progress every accessible class, including sibling branches, and return to previous styles with their progression retained. Class lineage represents a common concept and unlock ancestry, not a mandatory power hierarchy. Every foundational, advanced, hybrid or special class must have a distinct combat identity and benefit, even relative to its parents or descendants. Combos, synergies and future hybrid unlock paths may originate from any class or branch, not only foundations; exact combinations, unlock requirements and equipment compatibility are still design work. This does not promise that every pair yields a bespoke hybrid.
   - Class switching: restrictions, loadouts, progression retention, in-combat swaps, progression-gated swap capacity, cooldown ownership.
@@ -25,7 +25,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 
 ## IV. Combat systems
 - Elemental architecture and reaction exploration: [ELEMENTS.md](ELEMENTS.md).
-- Current exploration: establish shared roles, combat specialties, damage rules, statuses and equipment foundations before individual class kits. See [COMBAT-FOUNDATIONS.md](COMBAT-FOUNDATIONS.md).
+- Shared combat foundations and attribute roster established conceptually; exact formulas open. See [COMBAT-FOUNDATIONS.md](COMBAT-FOUNDATIONS.md).
 - Offense:
   - Basic attacks: attack chains, branching combos, attack speed, recovery, hit reactions.
   - Heavy attacks: charges, guard breaks, launchers, finishers.
@@ -54,7 +54,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Masteries: weapons, combat, class, abilities, professions.
 - Permanent development: bonuses, character-wide unlocks, milestone abilities, achievement benefits, training, collections, potential swap-slot unlocks.
 - Management: respec, catch-up, compression, pacing, soft/hard walls, newcomer/veteran growth.
-- Open: separation of character, class, equipment and ability progression; avoid redundant leveling.
+- Established separate Character Level, Class Mastery, promotions, skill and equipment development; exact scaling open. Avoid redundant leveling.
 
 ## VII. Ability and build systems
 - Owner direction on Energy, skill acquisition, upgrade/duplicate ranks, focused summons and Stardust: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
@@ -64,6 +64,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Management: presets/loadouts, auto/active configurations, testing, statistics, damage analysis, sharing, recommendations.
 
 ## VIII. Equipment and itemization
+- Current itemization specification: [ITEMIZATION.md](ITEMIZATION.md).
 - Planned full-game weapon roster and foundational compatibility: see [WEAPONS.md](WEAPONS.md). Each foundational class has primary and secondary compatibility; exact equip and swap rules remain open.
 - Weapons: categories, movesets, attributes, exclusive abilities, mastery, stances, dual wield, off-hand, unique/legendary weapons, potential weapon swap slots; primary and secondary class compatibility; shared weapon bridges.
 - Armor/accessories: slots, categories, jewelry, relics/artifacts, set bonuses, exclusive effects.
@@ -72,7 +73,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Inventory: gear/material storage, sorting/filtering, locking, auto-selling/salvaging, comparison, transmog, loot protection.
 
 ## IX. World structure and adventure
-- Map-ending dungeon progression gate, ten-minute cooldown/Robux skip, and party progression rules: [WORLD-AND-IDLE.md](WORLD-AND-IDLE.md).
+- Map-ending dungeon progression gate, farmable dungeon, boss-only ten-minute respawn/Robux skip, party progression rules: [WORLD-AND-IDLE.md](WORLD-AND-IDLE.md).
 - Architecture: personal worlds, public areas, hubs, instances, regions/biomes, maps, fast travel.
 - Progression: chapters, regions, stages/substages, difficulty tiers, unlocks, clear conditions, world scaling, co-op credit.
 - Exploration: points of interest, hidden areas, treasure, environmental puzzles, secret encounters, discoverable abilities/gear.
@@ -148,7 +149,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Rewards: XP, equipment, materials, first-clear/repeatable/performance/milestone rewards, guaranteed growth, rare drops, pity/bad-luck protection.
 - Shops/services: NPCs, rotating stock, specialized shops, exchanges, upgrades.
 - Player economy: trading, gifting, marketplace, auctions, binding, restrictions, fraud/exploit prevention.
-- Consider AFK resource generation and cooperative acceleration.
+- Current economy proposal: [ECONOMY.md](ECONOMY.md). Offline rewards and co-op progression: [WORLD-AND-IDLE.md](WORLD-AND-IDLE.md).
 
 ## XIX. Monetization
 - Cosmetics: outfits, weapon skins, hair, auras, effects.
@@ -158,7 +159,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Collection: limited appearances/collectibles.
 - Premium services: customization/appearance changes.
 - Subscriptions; possible gacha; gifting; guild customization/supporter benefits.
-- Open: P2W tolerance, spending advantages, pressure, random rewards, economic effects. No monetization method confirmed.
+- Established: paid acceleration with attainable free equivalents, guaranteed acquisition paths, free cosmetic summons, minor cosmetic bonuses and optional boss respawn skips. Exact pricing, odds, progression rates and purchase scope open. See [ECONOMY.md](ECONOMY.md).
 
 ## XX. User interface and player experience
 - Combat HUD: health/resources, ability slots/cooldowns, buffs/debuffs, enemy info, targeting, automation, potential swap/cooldown indicators.
@@ -210,6 +211,3 @@ Character -> classes, attributes, equipment -> abilities/builds -> combat -> aut
 4. Multiplayer: XII, XIII, XIV.
 5. Supporting systems: XVIII, XIX, XX, XXI, XXII.
 6. Implementation: XXIII, XXIV, release scope/roadmap.
-
-## Current itemization exploration
-See [ITEMIZATION.md](ITEMIZATION.md) for owner direction on gear progression, slot attributes, sets, class loot relevance and cosmetics; not a replacement for the existing equipment branch.
