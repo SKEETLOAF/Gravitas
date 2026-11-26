@@ -18,3 +18,7 @@ Simple default view: character level, equipped class and mastery progress, next 
 
 ## Open decisions
 Character/class XP curves, whether mastery has a common cap or promotion-specific cap, distribution between equipped styles, offline class XP attribution, catch-up rates, exact promotion structure, player-assigned stats, unlock order for additional swap slots, character level caps, skill/talent relationship, promotion trial content. No numerical values or class progression implementation approved.
+
+
+## Promotion requirement closure proposal (2026-11-26)
+Recommend each core promotion requires appropriate class mastery threshold, a character/campaign milestone (already attained milestones count), and a class promotion trial/challenge designed for ordinary viable auto-combat with optional active input. No duplicate grind for already-cleared campaign gates, no summon rarity or paid requirement, no loss of character level or learned disciplines. Catch-up accelerates mastery but does not skip promotion eligibility or trial. Special/hybrid classes may require different accomplishments. Exact levels, trials, mastery caps and future branch structure deferred until class/content design. Overall progression direction already approved; these requirement rules await owner approval.
