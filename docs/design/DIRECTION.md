@@ -114,3 +114,7 @@ Owner confirms base critical bonus +50% (150% total), Critical Damage attribute 
 
 ## Critical Resistance (2026-11-26)
 Critical Resistance is a confirmed attribute, opposing Critical Chance; recommended percentage-point subtraction before tier selection. Exact counter formula remains open.
+
+
+## Attribute consolidation and enemy armor (2026-11-26)
+Owner specifies unified Penetration, distinct Critical Defense (critical damage) and Critical Resistance (critical chance), PP/MP without general Attack Power, Resistance for status application/duration, Physical/Magical Defense for damage reduction, healing scaling from MP and shielding from defense. Remove redundant Healing Power, Shielding Power and general Damage Reduction stats. Armor is principally an elite/strong-enemy property tied to defense, with heightened status resistance until broken; Break Power accelerates breaking armor. Current consolidated 29-attribute roster and open formula details in COMBAT-FOUNDATIONS.md. General Combat Power rating, exact shield formula, armor durability/recovery, penetration interaction with block and critical defense formula remain recommendations/open.
