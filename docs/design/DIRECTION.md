@@ -1,9 +1,9 @@
 # Current direction and decision ledger
-Updated 2026-11-25. Owner decisions supersede earlier suggestions. A proposal is not an implementation requirement.
+Updated 2026-11-26. Owner decisions supersede earlier suggestions. A proposal is not an implementation requirement.
 
 ## Established
 - Roblox semi-idle RPG centered on one persistent customizable character, rather than a collectible team or roster.
-- The same character can wield multiple classes. Class architecture and weapon relationship remain open.
+- The same character can wield multiple classes. Classes have linked weapons (confirmed 2026-11-26); exact compatibility and switching rules remain open.
 - Hybrid world and instanced encounters. Players can join another player's world and help clear stages; cooperative play and guilds are desired.
 - Fast-paced, real-time hack-and-slash combat: physical movement/pursuit, continuous battles, expressive attack sequences, satisfying automated combat. Not Raid: Shadow Legends-style stationary/turn-based combat.
 - AFK Dungeon is the closest reference for actual combat flow. Wuthering Waves and Phantom Blade Zero influence visual fluidity, choreography and impact, not a requirement to build their entire manual combat system.
@@ -16,6 +16,7 @@ Updated 2026-11-25. Owner decisions supersede earlier suggestions. A proposal is
 - Swapping should let the character access another kit's available skills rather than all kits sharing one skill cooldown pool.
 - Additional swap options earned through grinding/progression.
 - Tentative maximum: three classes and two weapons. Which switching layer(s) exist and how these limits relate remain open.
+- Owner proposal (2026-11-26): secondary/alternative compatible weapons can bridge classes. Example: sword is Warrior's primary, gauntlets are Warrior's secondary but Monk's primary. These are illustrative classes; exact compatibility rules remain open.
 - See [combat switching](COMBAT-SWITCHING.md). These are owner proposals, not finalized mechanics.
 
 ## Inspirations and intended study areas
