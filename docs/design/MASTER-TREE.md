@@ -210,3 +210,6 @@ Character -> classes, attributes, equipment -> abilities/builds -> combat -> aut
 4. Multiplayer: XII, XIII, XIV.
 5. Supporting systems: XVIII, XIX, XX, XXI, XXII.
 6. Implementation: XXIII, XXIV, release scope/roadmap.
+
+## Current itemization exploration
+See [ITEMIZATION.md](ITEMIZATION.md) for owner direction on gear progression, slot attributes, sets, class loot relevance and cosmetics; not a replacement for the existing equipment branch.
