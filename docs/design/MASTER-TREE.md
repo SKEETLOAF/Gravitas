@@ -59,6 +59,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Management: presets/loadouts, auto/active configurations, testing, statistics, damage analysis, sharing, recommendations.
 
 ## VIII. Equipment and itemization
+- Planned full-game weapon roster and foundational compatibility: see [WEAPONS.md](WEAPONS.md). Each foundational class has primary and secondary compatibility; exact equip and swap rules remain open.
 - Weapons: categories, movesets, attributes, exclusive abilities, mastery, stances, dual wield, off-hand, unique/legendary weapons, potential weapon swap slots; primary and secondary class compatibility; shared weapon bridges.
 - Armor/accessories: slots, categories, jewelry, relics/artifacts, set bonuses, exclusive effects.
 - Generation: rarity, item levels, fixed/random stats, affixes/modifiers, unique effects, drop tables, targeted loot, duplicates.
