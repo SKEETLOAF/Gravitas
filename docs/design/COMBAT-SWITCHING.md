@@ -4,6 +4,9 @@ Started 2026-11-25; updated 2026-11-26 | Class-linked weapons confirmed; switchi
 ## Owner intent
 Make automated hack-and-slash combat more lively and dynamic by enabling in-combat class and/or weapon swaps. Swapping extends combos and gives access to available skills in the incoming kit instead of all classes/weapons being held by the outgoing kit's cooldowns. Players grind to unlock more swap options. Tentative caps: 3 classes and 2 weapons. The owner has not decided whether switching is class-based, weapon-based, or both.
 
+## Eligible disciplines (confirmed 2026-11-26)
+Class expansion is established: unlocking a descendant adds a distinct, independently developable and equippable discipline; no parent is replaced or consumed. Players can progress every accessible class, including sibling branches, and return to previous styles with their progression retained. Class lineage represents a common concept and unlock ancestry, not a mandatory power hierarchy. Every foundational, advanced, hybrid or special class must have a distinct combat identity and benefit, even relative to its parents or descendants. Combos, synergies and future hybrid unlock paths may originate from any class or branch, not only foundations; exact combinations, unlock requirements and equipment compatibility are still design work. This does not promise that every pair yields a bespoke hybrid.
+
 ## Class-linked weapons and asymmetric compatibility
 Owner confirmed classes have linked weapons. Proposed: a weapon that is a secondary alternative for one class can be the primary weapon of another. Illustrative example, explicitly clarified by owner: Warrior primary sword, secondary gauntlets; Monk primary gauntlets. Monk's other weapons are unspecified. Class names are examples, not roster commitments.
 
