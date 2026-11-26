@@ -14,4 +14,4 @@ This is a collaborative exploration framework, not a fixed GDD or implementation
 
 - Latest owner priority: explore [shared combat and equipment foundations](COMBAT-FOUNDATIONS.md) before fleshing out individual class kits; return to class architecture afterwards.
 
-- Owner accessibility principle: preserve depth without requiring players to understand every subsystem. Detailed UX/onboarding later. Current progression proposal in [PROGRESSION.md](PROGRESSION.md) awaits review.
+- Owner accessibility principle: preserve depth without requiring players to understand every subsystem. Detailed UX/onboarding later. Overall progression direction in [PROGRESSION.md](PROGRESSION.md) approved; detailed implementation and tuning remain open.
