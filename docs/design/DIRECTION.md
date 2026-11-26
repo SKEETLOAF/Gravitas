@@ -12,6 +12,7 @@ Updated 2026-11-26. Owner decisions supersede earlier suggestions. A proposal is
 - Personal character development remains the central fantasy. Co-op does not mean managing multiple characters.
 
 ## Class architecture (2026-11-26)
+- Class expansion is established: unlocking a descendant adds a distinct, independently developable and equippable discipline; no parent is replaced or consumed. Players can progress every accessible class, including sibling branches, and return to previous styles with their progression retained. Class lineage represents a common concept and unlock ancestry, not a mandatory power hierarchy. Every foundational, advanced, hybrid or special class must have a distinct combat identity and benefit, even relative to its parents or descendants. Combos, synergies and future hybrid unlock paths may originate from any class or branch, not only foundations; exact combinations, unlock requirements and equipment compatibility are still design work. This does not promise that every pair yields a bespoke hybrid.
 - Four foundational classes with individual advancement branches; Warrior and Mage locked, Rogue and Cleric tentative. Every class should have its own benefit.
 - Warrior -> Berserker is an advancement example. Hybrid classes unlock through progression of multiple disciplines; Warrior + Cleric -> Paladin is an example, not a finalized roster commitment. Main class branches and template take priority over hybrid design.
 - Independent special classes may come from game passes, limited events/battle passes, or dungeons; acquisition and balance remain exploratory.
@@ -45,7 +46,7 @@ Additional assistant-suggested references (not owner-confirmed requirements): Gr
 - Active advantages could emerge from execution (timing, targeting, repositioning, combos) rather than arbitrary manual XP multipliers.
 - Build quality and automation configuration may let an optimized idle player outperform an unprepared active player.
 - Consider class-specific automated behavior, tactical presets, conditional skill usage, mastery affecting behavior; none confirmed.
-- Character-wide progression vs discipline mastery; potential class switching, primary/secondary classes, inheritance, or fusion.
+- Character-wide progression vs discipline mastery; class expansion and switching established; primary/secondary roles and inheritance details exploratory.
 - Visual growth: new chains, follow-ups, animations, fighting styles, transformations, equipment-changing abilities; not required for all classes.
 - Personal world progression and shared hubs, host/guest credit, worthwhile helper rewards, co-op scaling, carrying rules: details open.
 - Offline simulation is separate from online AFK; offline mechanics not confirmed.
