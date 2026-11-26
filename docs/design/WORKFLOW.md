@@ -11,3 +11,5 @@ This is a collaborative exploration framework, not a fixed GDD or implementation
 - Keep separate project design from any other Roblox project; no imported assumptions from ORBIT!, OMDB or other concepts.
 - Current owner-prioritized discussion: Branch III, four foundational classes, reusable class template, and individual advancement trees before hybrid branches. See [class architecture](CLASSES.md). Return to Branch I and other dependencies as needed.
 - No gameplay code or implementation has been approved by this notebook.
+
+- Latest owner priority: explore [shared combat and equipment foundations](COMBAT-FOUNDATIONS.md) before fleshing out individual class kits; return to class architecture afterwards.
