@@ -91,3 +91,7 @@ Shield strength scales according to the skill that creates it, rather than neces
 
 ## Accuracy and Block counter (2026-11-26)
 Owner confirms Accuracy counters both Evasion and Block Chance. Unified Penetration counters Defense and Magical Defense, not Block Chance. No separate Block Penetration attribute. Recommended (not approved) subtract effective Accuracy in percentage points from each opposing chance before resolving evasion/block tier; exact calculation and resolution order remain open.
+
+
+## Defensive build identities (2026-11-26)
+Evasion is the defensive specialty of dexterous/agile builds; Block is the defensive specialty of tanks and high-Aggro builds. Both remain general attributes, countered by Accuracy. No hard class restrictions or Dexterity primary attribute introduced. Aggro does not automatically increase Block unless an explicit mechanic specifies it.
