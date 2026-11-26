@@ -136,3 +136,6 @@ Owner confirms Accuracy counters Block Chance as well as Evasion. No separate Bl
 
 ## Defensive build identities (2026-11-26)
 Owner establishes Evasion as the defensive focus of dexterous builds and Block as the focus of tanks/high-Aggro builds. This is build identity, not a confirmed automatic stat conversion or class restriction.
+
+## Equipment and cosmetics direction (2026-11-26)
+Owner favors Go Go Muffin-style progression, class-relevant gear pickups, increasingly strong gear sets, fixed slot primary attributes and ranged randomized secondary attributes. Stat gear has no individual wearable models; cosmetics supply appearance, obtainable by purchase or summons with earnable free spins and small bonuses. See [ITEMIZATION.md](ITEMIZATION.md) for proposals including slot enhancement inheritance, mixed set bonuses, shared weapon visuals, class loot focus, and capped wardrobe bonuses. Exact slot stat mapping, rarity/roll ranges, upgrades, cosmetic cap and acquisition rules remain open.
