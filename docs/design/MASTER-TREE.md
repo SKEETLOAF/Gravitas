@@ -17,7 +17,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Architecture: base, advanced, specialized, hybrid, hidden/unlockable classes; advancements/awakenings.
   - Class switching: restrictions, loadouts, progression retention, in-combat swaps, progression-gated swap capacity, cooldown ownership.
   - Multiclassing: primary/secondary disciplines, cross-class abilities, inherited passives, class combinations.
-  - Class/weapon relationship: class-defined movesets vs independent weapons; see [switching proposal](COMBAT-SWITCHING.md).
+  - Class/weapon relationship: linked compatible weapons (confirmed); potential primary and secondary weapon roles, asymmetric shared compatibility and cross-class synergy; see [switching proposal](COMBAT-SWITCHING.md).
 - Development: experience, mastery, ranks, skill trees, talent trees, specialization, trials, quests, mastery rewards.
 - Identity: unique mechanics/resources/movement/automation; weapon proficiency; strengths/weaknesses; solo/co-op roles; fantasy/visual identity.
 
@@ -57,7 +57,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Management: presets/loadouts, auto/active configurations, testing, statistics, damage analysis, sharing, recommendations.
 
 ## VIII. Equipment and itemization
-- Weapons: categories, movesets, attributes, exclusive abilities, mastery, stances, dual wield, off-hand, unique/legendary weapons, potential weapon swap slots.
+- Weapons: categories, movesets, attributes, exclusive abilities, mastery, stances, dual wield, off-hand, unique/legendary weapons, potential weapon swap slots; primary and secondary class compatibility; shared weapon bridges.
 - Armor/accessories: slots, categories, jewelry, relics/artifacts, set bonuses, exclusive effects.
 - Generation: rarity, item levels, fixed/random stats, affixes/modifiers, unique effects, drop tables, targeted loot, duplicates.
 - Development: enhancement, refinement, reforging, enchantments, gems/sockets, evolution, rerolling, inheritance, salvage.
