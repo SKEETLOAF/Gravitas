@@ -1,13 +1,18 @@
 # Combat switching proposal
-Date: 2026-11-25 | Status: exploratory, owner-originated.
+Started 2026-11-25; updated 2026-11-26 | Class-linked weapons confirmed; switching details exploratory.
 
 ## Owner intent
 Make automated hack-and-slash combat more lively and dynamic by enabling in-combat class and/or weapon swaps. Swapping extends combos and gives access to available skills in the incoming kit instead of all classes/weapons being held by the outgoing kit's cooldowns. Players grind to unlock more swap options. Tentative caps: 3 classes and 2 weapons. The owner has not decided whether switching is class-based, weapon-based, or both.
 
-## Models to evaluate
+## Class-linked weapons and asymmetric compatibility
+Owner confirmed classes have linked weapons. Proposed: a weapon that is a secondary alternative for one class can be the primary weapon of another. Illustrative example, explicitly clarified by owner: Warrior primary sword, secondary gauntlets; Monk primary gauntlets. Monk's other weapons are unspecified. Class names are examples, not roster commitments.
+
+Possible implementation: each class has a primary weapon type and limited compatible alternatives. Shared weapon compatibility enables Warrior/sword -> Warrior/gauntlets -> Monk/gauntlets, or a direct Warrior/sword -> Monk/gauntlets transition. A shared weapon could retain base moveset and weapon mastery while each class supplies distinct skills or modifiers. These are proposals, not confirmed rules. Whether primary weapons grant exclusive skills, whether secondary weapons require mastery, and whether swaps can occur independently remain open. Shared weapon abilities could retain their cooldown across class swaps, while distinct class abilities retain independent cooldowns; recommended, not confirmed. If two weapon slots are global, three equipped classes would need compatible coverage; whether the cap is global or per class remains open.
+
+## Models to evaluate (constrained by class-linked compatibility)
 | Model | Description | Key tradeoff |
 | --- | --- | --- |
-| Class swap | One character rotates between equipped class kits; each has its own abilities. | Strong expression of multi-discipline mastery; classes may need weapon mappings. |
+| Class swap | One character rotates between equipped class kits; each has its own abilities. | Strong expression of multi-discipline mastery; classes have compatibility mappings. |
 | Weapon swap | One active class, two equipped weapons with distinct movesets/weapon skills. | Easier visual continuity; class switching may happen separately. |
 | Both | Up to three class selections and two weapon selections, with a defined relationship. | More build variety but potentially large interaction and balance cost. |
 | Bound kits | Each equipped discipline has a defined compatible weapon or loadout; one swap changes the kit. | Lower control complexity; less freedom than independent swapping. |
