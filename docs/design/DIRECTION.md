@@ -110,3 +110,7 @@ Owner confirms other stat overflow counters clashing stats. Base Critical Damage
 
 ## Additive critical damage (2026-11-26)
 Owner confirms base critical bonus +50% (150% total), Critical Damage attribute adds to bonus rather than multiplying it. Supersedes earlier 200% base proposal. Retaining linear bonus scaling across critical tiers recommended; exact tier scaling remains open.
+
+
+## Critical Resistance (2026-11-26)
+Critical Resistance is a confirmed attribute, opposing Critical Chance; recommended percentage-point subtraction before tier selection. Exact counter formula remains open.
