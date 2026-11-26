@@ -90,3 +90,7 @@ Owner specifies primer-first order for primer-dependent reactions, either order 
 
 ## Refinement closure (2026-11-26)
 Owner approves remaining refinement recommendations and clarifies: dungeons continuously farmable, only boss room respawns every ten minutes, existing Robux skip applies to boss timer; DoTs stack with time decay and effect/build-specific potential ceilings rather than universal cap; buffs refresh/retain stronger; reactions transform and consume. Enemy-specific elemental resistances, optional Quick Rewards, paid acceleration with attainable free equivalents and guaranteed acquisition, and promotion mastery+adventure milestone+trial approved. Reduced offline rewards capped at 24 hours with no equipment. Six previously explored refinement subjects are conceptually complete (attributes, equipment slots, elemental/status rules, idle, monetization, promotions). Numerical tuning and individual mechanics remain open. Next discussion: equipment itemization, not revisiting slots or stats.
+
+
+## Temporary modifier stacking (proposal, 2026-11-26)
+Owner revisits ordinary buffs/debuffs: multiplicative stacking with ceiling derived from strongest active effect, suggested 50% total enemy reduction. Recommended interpretation: total same-stat effect capped at twice strongest individual effect, negative enemy modifiers additionally capped at 50% per affected stat; same-source refresh, stat-specific exceptions and dynamic recalculation. See ELEMENTS.md. Pending owner confirmation, not an approved replacement for prior rule.
