@@ -55,3 +55,7 @@ Owner specifies stats should be able to exceed 100% because debuffs and counter 
 
 ## Critical damage baseline clarification (2026-11-26)
 Owner confirms non-critical stat overflow is for countering clashing stats and debuffs, not separate overflow reward tiers. Owner expects double base critical damage; recommended default 200% total (100% bonus). Proposed linear bonus scaling yields 2x/3x/4x normal/super/ultra at base, pending confirmation of tier multipliers.
+
+
+## Additive critical damage (2026-11-26)
+Owner sets base critical bonus to +50% (150% total damage), superseding earlier double-damage recommendation. Critical Damage attribute adds directly in percentage points to this base bonus. Recommended retained linear tier scaling: total multiplier = 1 + tier * (0.5 + additive Crit Damage attribute expressed as decimal), tier 0 normal, 1 critical, 2 super, 3 ultra. At zero attribute: 1.5x/2x/2.5x; +50% attribute: 2x/3x/4x. Base and additive attribute confirmed; exact higher-tier formula remains recommendation pending confirmation.
