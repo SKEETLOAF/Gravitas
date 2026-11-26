@@ -22,3 +22,6 @@ Character/class XP curves, whether mastery has a common cap or promotion-specifi
 
 ## Promotion requirement closure proposal (2026-11-26)
 Recommend each core promotion requires appropriate class mastery threshold, a character/campaign milestone (already attained milestones count), and a class promotion trial/challenge designed for ordinary viable auto-combat with optional active input. No duplicate grind for already-cleared campaign gates, no summon rarity or paid requirement, no loss of character level or learned disciplines. Catch-up accelerates mastery but does not skip promotion eligibility or trial. Special/hybrid classes may require different accomplishments. Exact levels, trials, mastery caps and future branch structure deferred until class/content design. Overall progression direction already approved; these requirement rules await owner approval.
+
+## Promotion refinement approved (2026-11-26)
+Owner approves ordinary promotion requirements: appropriate Class Mastery, adventure milestone (already completed milestones count), and promotion trial achievable through ordinary automated combat with optional active input. Catch-up accelerates mastery, not automatic qualification. Prior classes and progression retained. Special/hybrid acquisition can differ. Exact thresholds and trial content deferred. Conceptual progression refinement complete.
