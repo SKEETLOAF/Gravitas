@@ -66,3 +66,6 @@ Owner is considering five core role lineages (Tank, Ranger, Mage, Melee DPS, Sup
 
 ## Weapon roster (2026-11-26)
 Owner's planned full-game weapons: Sword, Greatsword, Polearm, Dagger, Mace, Gauntlet, Shield, Bow, Firearms (Light, Medium, Heavy), Magic Staff, Tome. Each foundational class should have a primary and secondary weapon; Warrior uses Sword primary and Shield secondary, Ranger Dagger secondary, Rogue Sword secondary, Mage Magic Staff primary with Tome secondary, Cleric Tome primary with Shield secondary recommended from the earlier options. Owner's Tome clarification supersedes earlier Mage Dagger and Cleric Mace proposals. Recommended mapping and status distinctions are in [WEAPONS.md](WEAPONS.md).
+
+## Shared foundations discussion priority (2026-11-26)
+Owner wants general RPG mechanics (DPS, tank, sustain, burst, DoT, buffs/debuffs, healing, CC, status effects and equipment slots) explored before individual class design. See [COMBAT-FOUNDATIONS.md](COMBAT-FOUNDATIONS.md); candidate mechanics are not accepted automatically.
