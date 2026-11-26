@@ -53,3 +53,6 @@ Warrior opens with a dash and launch; uses its available skills. Switch to an il
 
 ## Suggested prototype validation
 Compare one kit vs two kits with the same enemy encounter; measure damage uptime, idle gaps, transition readability, cooldown accuracy, AI swap churn, manual override behavior and co-op/network stability. Add a third class and two weapons only after the fundamental relationship is understood. These are suggested tests, not an approved launch scope.
+
+## Current foundational compatibility (2026-11-26)
+See [WEAPONS.md](WEAPONS.md) for the proposed five-role loadout mapping. Warrior sword/gauntlets and Monk gauntlets remain historical illustrative examples, not the current Warrior foundation assignment. Owner now specifies Warrior Sword primary and Shield secondary. Two-weapon cap, shield/off-hand behavior, cooldown ownership and class transitions remain open.
