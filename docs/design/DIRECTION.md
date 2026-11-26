@@ -124,3 +124,7 @@ Owner confirms Armor is available to players and enemies, not enemy-specific, wi
 
 ## Attack and player Armor correction (2026-11-26)
 Owner renames Physical Attack to Attack (ATK); Magic Attack remains MATK. Owner leans against player breakable Armor, superseding prior universal-player-Armor direction. Default design uses enemy Armor with higher elite/boss scaling; player exclusion tentative. Defensive stats and shields remain.
+
+
+## Shield, Defense and overflow revision (2026-11-26)
+Owner confirms shields scale according to their creating skill and increase recipient Block depending on shield; rename Physical Defense to Defense, retaining Magical Defense separately. Ordinary Block halves damage; Block overflow above 100% enables a quarter-damage block. Remove Ultra Crits for now, retaining Critical and Super Crit. Recommended tier probability resolution in COMBAT-FOUNDATIONS.md; block counter, shield calculation, critical tier damage scaling and resolution order remain open.
