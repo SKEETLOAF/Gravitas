@@ -1,33 +1,26 @@
-# Equipment and itemization
-2026-11-26 | Owner direction and candidate design, not numerical specification.
+# Equipment and cosmetics
+Updated 2026-11-26. Overall itemization direction approved; exact rolls and costs open.
 
-## Owner direction
-- Gear progression inspired by Go Go Muffin and other idle RPGs. Stat-bearing gear does not require individual wearable models. Cosmetics control appearance and can be purchased or summoned, with earnable free cosmetic summon spins. Owner wants small cosmetic bonuses to give purchases value. Exact bonus structure open.
-- Class-relevant loot is picked up by the character along the adventure. Equipment sets grow stronger and more extensive with progression. Each existing equipment slot has a primary attribute; equipment may roll additional attributes within ranges, including smaller stats such as Block and Critical Chance and additional large/core stats.
-- Use current attribute names (ATK, MATK, Defense, Magical Defense, etc.). Do not reopen existing slot count or stat list. Relics deferred. Individual weapon models per stat item unnecessary; shared weapon-family visual/animation templates are recommended for visible combat weapons, appearance independent of stat gear.
+## Item identity
+Equipment does not require individual wearable models; cosmetics determine appearance. Shared weapon-family visuals recommended. Class-relevant loot picked up during adventure. Gear sets grow stronger and more varied with progression. Item level and rarity separate. Existing slots in [Combat](COMBAT-FOUNDATIONS.md).
+- Standard equipment has slot-specific primary attribute; accessories may roll any primary attribute.
+- Secondary attributes may be any stat at smaller relative scale, with slot-favored probabilities permitted, never mandatory restrictions. Primary/secondary overlap and repeated secondary types allowed. Each rarity adds exactly one secondary line.
+| Rarity | Secondary lines |
+| --- | ---: |
+| Common | 0 |
+| Uncommon | 1 |
+| Rare | 2 |
+| Epic | 3 |
+| Legendary | 4 |
+| Mythic | 5 |
+| Secret (dark purple, gravity/dark matter aesthetic) | 6 |
+Primary line separate. Exact rolls, rarity value ranges and drop odds open.
+Proposed slot primaries: weapon and hands ATK or MATK; head Magical Defense; chest Health; legs Defense; feet Defense or Magical Defense; accessories unrestricted. Exact mappings except accessory rule open.
 
-## Candidate item model
-Item level (progression strength), rarity (secondary roll quantity/quality potential), guaranteed slot primary stat, randomized secondary rolls (including core attributes), set identity, class/weapon compatibility. Distinguish rarity from item level. Approved rarity order: Common, Uncommon, Rare, Epic, Legendary, Mythic, Secret (dark purple). Later-region gear raises baseline values and introduces new set effects; avoid excessive simultaneous systems.
-Suggested primary attributes by existing slots: weapon ATK or MATK according to weapon/skill identity; head Magical Defense; chest Health; hands ATK or MATK; legs Defense; feet Defense or Magical Defense; accessories (including necklace and ring) may roll any primary attribute. These mappings are proposed, not approved. Existing secondary weapon slot follows weapon rules; relic deferred. Secondary rolls may include any attribute, including core stats and percentage chance/utility stats; slot-specific affinities weight probabilities without restricting eligibility. Illustrative examples only; no actual roll ranges approved.
-Class-relevant drop preferences should consider all equipped classes, with selectable loot focus for developing another class. Recommend shared wearable gear where possible, class/weapon-specific sets where useful, avoid requiring multiple full armor sets for in-combat swaps. Weapon eligibility follows WEAPONS.md. Exact restrictions, drop generation and pickup filters open.
+## Equipment development
+Slot enhancement carries investment across replacements. Item-specific attributes remain on individual item. Mixed set bonuses supported; proposed 2/4/6 thresholds where appropriate, early stat benefits and later mechanical synergy. No named sets/values finalized.
+Recommended ordinary drops, dungeon set rewards, targeted acquisition/crafting through dungeon materials, salvage, class-aware loot preference across equipped classes, shared wearable gear where possible. No offline equipment. Default auto-pickup and recommended equip; optional filters and opt-in automatic salvage, protect locked/saved items. No mandatory extra gem/socket systems established.
+Future Reforge: change all or selected attribute identities, reroll existing value to seek higher roll. Show current value and min/max ranges plus replacement pool before rolling; preview costs and probabilities, consider line locks and retain-old option. Exact rules deferred.
 
-## Recommended sets and upgrades
-- Set bonuses at 2/4/6 pieces for a six-piece set (or other thresholds according to actual set composition); allow mixing partial sets. Early bonuses simple stats; later bonuses can support distinctive playstyles (break, criticals, sustain, elemental effects) while preserving viability of general builds. No named sets or thresholds approved.
-- Slot-based enhancement investment survives replacement (Go Go Muffin reference). Ordinary enhancement paid with earned materials/gold, item-specific secondary rolls may be rerolled with materials; lock good rolls if feasible. Consider salvaging obsolete gear into materials and targeted boss/dungeon gear selection or crafting. No additional gem/socket/refinement layer required at launch unless useful. No final upgrade cap, rates, costs or exact mechanics.
-- Regular enemies yield ordinary gear; dungeon encounters and boss drops yield targeted sets; first clears may give guaranteed reward, targeted selection via earned materials is a candidate. Offline rewards do not drop gear. Dungeon continuously farmable; boss encounter alone respawns every ten minutes. No offline gear drops.
-- Default auto-pickup for eligible loot and simple recommended equip (respect locked items and active loadout, do not discard saved equipment); advanced filters, set preference and comparison optional. Automatic salvage opt-in only. Avoid expensive mandatory rerolls on every upgrade.
-
-## Cosmetic progression (recommendation)
-Purchasable and summonable cosmetics with free earned spins are owner direction. Recommend modest capped wardrobe/collection bonus shared across appearances (e.g. one global cap regardless of collection size), rather than stats tied to the outfit currently worn. Allow players to earn the full bonus without paid-exclusive cosmetics; no uncapped paid stacking or superior paid-only bonus. Alternative one equipped cosmetic bonus, but may force unwanted looks. Exact bonuses, cap, cosmetic slots, rarity, direct purchase and summon currency/odds, duplicate handling open. Paid random item eligibility and disclosure requirements apply as relevant; offer nonrandom alternatives. Cosmetic visual identity separate from equipment progression.
-## References
-- Go Go Muffin slot enhancement inheritance, item-specific recast substats: https://boarhat.gg/games/go-go-muffin/guide/beginner-guide/
-- Later gear sets and effects: https://boarhat.gg/games/go-go-muffin/guide/cc4-guide/ ; https://boarhat.gg/games/go-go-muffin/guide/cc2-guide/
-- AFK Dungeon auto equip, gear acquisition and set collection: https://afkdungeon.com/afk-dungeon-equipment-guide/
-
-## Owner-approved itemization refinements (2026-11-26)
-Owner approves overall itemization proposal with corrections. Secondary attributes can be any attribute, smaller in relative scale than primary rolls, with slot-based favored secondary attributes permitted. Overlapping primary/secondary attributes and repeated secondary attributes are allowed; no universal two/three-line limit. Secondary attribute count is fixed by rarity: Common 0, Uncommon 1, Rare 2, Epic 3, Legendary 4, Mythic 5, Secret 6. Exact roll budgets and distributions TBD. Accessories can roll any primary and any secondary attribute, superseding fixed necklace/ring primary suggestions. Rarity order Common, Uncommon, Rare, Epic, Legendary, Mythic, Secret; Secret is dark purple, evoking dark matter and gravity, above Mythic. Recommend contrast treatment in dark UI; no Secret-specific drop odds or guaranteed properties established.
-Future Reforge mechanic (deferred): change attributes generally or selected attributes, or reroll the magnitude of an existing attribute to seek a higher roll. Display applicable min/max roll ranges when inspecting and before rolling, including current value and applicable target pool; distinguish changing stat identity from rerolling value. Recommended preview costs, probabilities where relevant, lock selected lines and allow retaining current value where appropriate; exact mechanics, costs and timing TBD. Do not assume Reforge at launch.
-Owner likes prior overall itemization design including slot-based enhancement inheritance, mixed set bonuses and cosmetic collection direction; exact thresholds, values, stat mappings outside accessory correction, and economy remain implementation/tuning questions.
-
-## Rarity presentation and secondary count (owner confirmed, 2026-11-26)
-Secret uses dark purple evocative of dark matter/gravity, superseding black. Each successive rarity adds exactly one secondary attribute line: Common 0, Uncommon 1, Rare 2, Epic 3, Legendary 4, Mythic 5, Secret 6. Primary attribute is separate and not counted. Overlapping attribute types remain permitted; exact roll ranges and favored probabilities remain open.
+## Cosmetics
+Direct purchases and summons, earnable free spins, small statistical benefit. Recommended capped ownership/wardrobe bonus independent of currently worn outfit, attainable via free cosmetics as well. Avoid uncapped paid stacking and forcing specific appearance. Categories may include outfits, hair/accessories, weapon skins, auras, animations and companion skins. Bonus type/cap, acquisition odds, duplicates, slots and cosmetic catalog open.
