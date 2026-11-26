@@ -80,4 +80,6 @@ Owner rejects universal raw stat ceiling of 100% because debuffs exist, and spec
 
 
 ## Resistance and armor clarification (2026-11-26)
-Resistance is the general status resistance attribute, distinct from Magical Defense and Critical Resistance. Owner wants armor on elites/stronger enemies to confer heightened resistance while intact so statuses are harder to trigger and shorter until armor is broken; Break Power helps break armor faster, armor ties to defense. Exact application chance/duration formula and armor interaction with reactions/CC remain open. See COMBAT-FOUNDATIONS.md for current stat roster. Earlier separate resistance penetration and healing/shielding power candidates superseded by owner consolidation.
+Resistance is the general status resistance attribute, distinct from Magical Defense and Critical Resistance. Owner wants universal Armor for players and enemies, with progressively higher Armor on elites and bosses, to confer heightened resistance while intact so statuses are harder to trigger and shorter until armor is broken; Break Power helps break armor faster, armor ties to defense. Exact application chance/duration formula and armor interaction with reactions/CC remain open. See COMBAT-FOUNDATIONS.md for current stat roster. Earlier separate resistance penetration and healing/shielding power candidates superseded by owner consolidation.
+
+Owner correction: Armor is universal, not enemy-specific; elites and bosses have incrementally higher Armor. Exact scaling remains open.
