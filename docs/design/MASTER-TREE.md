@@ -14,6 +14,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Open: mechanical versus cosmetic individuality.
 
 ## III. Class and discipline systems
+- Owner direction: four foundational classes (Warrior and Mage confirmed; Rogue and Cleric tentative), individual advancement branches, multi-class progression unlocks for later hybrids, each class offers a distinct benefit, potential independently acquired special classes. Prioritize main branches before hybrids. See [class architecture and template](CLASSES.md).
 - Architecture: base, advanced, specialized, hybrid, hidden/unlockable classes; advancements/awakenings.
   - Class switching: restrictions, loadouts, progression retention, in-combat swaps, progression-gated swap capacity, cooldown ownership.
   - Multiclassing: primary/secondary disciplines, cross-class abilities, inherited passives, class combinations.
