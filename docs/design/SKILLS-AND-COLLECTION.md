@@ -37,3 +37,6 @@ Recommended structure (not finalized):
 
 ## Monetization closure proposal (2026-11-26)
 Keep owner direction paid acceleration with realistically attainable free power. Recommend identical gameplay ceilings, repeatable earned summon/upgrade materials, target guarantees and Stardust exchanges, no paid-only superior stats or mandatory payment gates, optional deterministic purchases and convenience, transparent costs/odds, no expiring pity for compatible banners, no auto premium spend or manipulative urgency. Exact free progression timelines, odds, prices and economy sinks deferred to economy tuning; avoid forced frequent logins. Paid random items must satisfy applicable Roblox policies and eligibility; validate at implementation. Await owner approval of recommendations.
+
+## Monetization refinement approved (2026-11-26)
+Owner approves closure recommendations: paid acceleration, realistically attainable free equivalents, guaranteed acquisition alternatives, transparent odds and costs, convenience purchases, investment protection and ordinary progression without payment. Actual pricing, odds, earning rates and caps deferred to economy design. Applicable paid-random-item safeguards remain required. Dungeon skip relates only to boss-room respawn, not access to the farmable dungeon.
