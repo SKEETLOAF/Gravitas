@@ -24,3 +24,5 @@ Owner requests closing previously explored/refinement topics before opening new 
 
 ## Refinement category closed (2026-11-26)
 Owner approved remaining proposals with corrections to boss-only ten-minute respawn, variable DoT stacking/decay, and reaction transformation/consumption. All six refinement subjects are conceptually complete; defer exact balance and implementation. Next open branch: equipment itemization (rarity, item level, affixes, upgrades, inheritance, acquisition and loot automation), then economy, then class design. Do not reopen equipment slot/stat lists.
+
+- Equipment itemization exploration underway in [ITEMIZATION.md](ITEMIZATION.md); owner distinguishes stat gear from cosmetic appearance and wants minor cosmetic bonuses with free summon access. Await feedback on proposed upgrade, set and cosmetic details before closure.
