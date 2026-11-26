@@ -44,3 +44,6 @@ Order is flexible; retain the existing 24-branch master index. No individual kit
 
 ## Elemental and supplemental development
 See [ELEMENTS.md](ELEMENTS.md) for the owner's element roster, original reaction direction, refined status and cosmic catalyst proposals, modular VFX approach, and relic/mount/pet decisions. Relics are confirmed as unique upgrades; their equip structure remains open. Mounts and pets are desired; exact mechanics remain open.
+
+## Owner decisions superseding resource/defense exploration
+Universal Energy for all skills/ultimates, no generic ultimate gauge; attack/fire rate and cooldown-driven attacks, stat-based chance block/evasion versus counters, Aggro as attribute; detailed choreography deferred. See [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md) for regeneration proposals, skill progression, pet/mount design and open decisions. Relic specifics deferred to a future update.
