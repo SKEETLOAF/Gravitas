@@ -4,6 +4,7 @@ Updated 2026-11-26. Owner decisions distinguished from exploratory design. No cl
 ## Owner direction
 - Begin with four foundational classes. Warrior and Mage are locked. Rogue and Cleric are the owner's tentative third and fourth picks, with Cleric as a support-oriented discipline.
 - Foundational classes branch into advanced disciplines; Warrior -> Berserker is the owner's example.
+- Class expansion is established: unlocking a descendant adds a distinct, independently developable and equippable discipline; no parent is replaced or consumed. Players can progress every accessible class, including sibling branches, and return to previous styles with their progression retained. Class lineage represents a common concept and unlock ancestry, not a mandatory power hierarchy. Every foundational, advanced, hybrid or special class must have a distinct combat identity and benefit, even relative to its parents or descendants. Combos, synergies and future hybrid unlock paths may originate from any class or branch, not only foundations; exact combinations, unlock requirements and equipment compatibility are still design work. This does not promise that every pair yields a bespoke hybrid.
 - Hybrid classes unlock through sufficient progression of multiple classes; Warrior + Cleric -> Paladin is the owner's example. Defer hybrid roster design until the main branches and class template are established.
 - Every class should offer its own benefit. Exact benefit structure and whether it persists on swap are open.
 - Special classes may exist independently of the core trees, unlocked via game passes, limited events/battle passes, or dungeons. These sources are possibilities, not finalized distribution or monetization rules.
@@ -41,7 +42,7 @@ Use the same template for foundations, advanced, hybrid and special classes. Fil
 7. **Automation:** default behavior, target and skill priorities, swap conditions, ability timing, active intervention opportunities, future manual compatibility.
 8. **Synergies:** same-class kit, weapon overlaps, non-overlapping functional combos, swap-in/out effects, cross-class resources/buffs/cooldowns.
 9. **Growth:** talents, mastery milestones, advanced branches, new techniques, horizontal options; later hybrid prerequisites.
-10. **Balance and experience:** strengths, weaknesses, solo viability, team contribution, farm/boss performance, comparisons, guardrails.
+10. **Balance and experience:** strengths, weaknesses, solo viability, team contribution, farm/boss performance, comparisons, guardrails. Explicitly identify what makes this class distinct from parents, siblings and hybrids, and what reason remains to use its parent after unlocking it.
 11. **Presentation and implementation:** silhouettes, animation, VFX/audio, UI indicators, required assets, dependencies, test cases.
 12. **Decision record:** established, exploratory, future, undecided, discarded; next questions.
 
@@ -49,7 +50,7 @@ Use the same template for foundations, advanced, hybrid and special classes. Fil
 Class benefits might be active identity traits, equipped-class passives, mastery unlocks, or effects intentionally retained across switching. Avoid automatically stacking all permanent bonuses from every learned class. Examples: Warrior posture pressure, Mage spell interactions, Rogue vulnerability exploitation, Cleric sustain. These are candidates, not confirmed stats or formulas.
 
 ## Advancement questions
-Does unlocking an advanced class create an independent swappable class, or transform a base-class slot into its specialization? Does it retain base techniques/benefits and mastery? Can a player learn multiple siblings? How is branch unlocking earned and what persists? Avoid defining deeper tiers, arbitrary levels, or hybrid prerequisites before these decisions.
+Resolved: class expansion, independent disciplines, retained progression and all accessible sibling branches. Open: whether descendants inherit any techniques or benefits, how prior mastery affects unlocking or initial development, exact branch requirements, and which combinations produce a hybrid. Do not assume inherited kits or automatic stat stacking. Avoid defining arbitrary levels and hybrid prerequisites before the core class structure is established.
  
 ## Special class guardrails (recommendations)
 Independent unlock paths should support discovery and distinctive gameplay. If paid or limited access is adopted, avoid making a paid class the only solution to campaign/co-op progression or strictly stronger than earnable alternatives. Decide exclusivity, reruns, acquisition, power parity, and hybrid eligibility separately. No paid class or pricing is confirmed.
