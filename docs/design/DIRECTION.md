@@ -60,3 +60,6 @@ Additional assistant-suggested references (not owner-confirmed requirements): Gr
 - Class/weapon ownership, switching model, progression requirements, cooldowns and swap limits.
 - World structure, stage topology, party size, matchmaking, progression credit, difficulty scaling and guild depth.
 - Offline gains, itemization, stats, balance formulas, economy, monetization and release scope.
+
+## Pending architecture alternative (2026-11-26)
+Owner is considering five core role lineages (Tank, Ranger, Mage, Melee DPS, Support) with sequential earned promotions inspired by Go Go Muffin, and independent special unlocks for unusual classes. This is an alternative to the previously established four-family branching model, not a confirmed replacement. Prior class expansion and hybrid eligibility decisions remain in force unless explicitly revised. See [class architecture](CLASSES.md#alternative-architecture-under-consideration-2026-11-26-promotion-lineages).
