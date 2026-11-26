@@ -19,3 +19,5 @@ This is a collaborative exploration framework, not a fixed GDD or implementation
 
 ## Current discussion priority (2026-11-26)
 Owner requests closing previously explored/refinement topics before opening new itemization/economy/class-kit discussions. Owner considers attributes/stat list and equipment slots covered; do not repeat them. Treat numerical formulas, scaling and slot implementation details as later tuning rather than blocking design. Current closure proposals: elemental/status interaction rules, idle/auto-adventure, monetization guardrails, class promotion requirements. Await feedback before marking proposals confirmed.
+
+- Latest refinement: owner clarified reaction order, cosmic stacking, no generic reaction cooldown, CC diminishing returns/recovery, reduced capped offline rewards without equipment, and repeat dungeon farming loop. Remaining conceptual closure: monetization and promotion requirements, plus any unresolved status stacking/consumption decisions if owner wants to settle now. Do not reopen attribute or equipment slot discussions.
