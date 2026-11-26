@@ -39,6 +39,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Principle: not every class needs every mechanic. AFK Dungeon-like real-time battlefield flow, not stationary or turn-based battles.
 
 ## V. Automation and player participation
+- Current idle progression design: [WORLD-AND-IDLE.md](WORLD-AND-IDLE.md).
 - Auto-combat: movement, targeting, combos, skills, defense, resource management, stage progression, recovery, looting.
 - Intelligence: target/skill priority, sequencing, conditions, defensive thresholds, resource conservation, enemy awareness, class-specific decisions, configurable tactics, presets, possible automated swap decisions.
 - Active participation: manual ability activation, targeting, repositioning, situational inputs, opportunities, temporary overrides, auto-resumption, performance advantages, possible manual swaps.
@@ -55,6 +56,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Open: separation of character, class, equipment and ability progression; avoid redundant leveling.
 
 ## VII. Ability and build systems
+- Owner direction on Energy, skill acquisition, upgrade/duplicate ranks, focused summons and Stardust: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
 - Acquisition: classes, drops, trainers, tomes, quests/trials, crafting/discovery.
 - Development: levels, proficiency, evolution, variants, modifiers, ability-specific talent branches.
 - Construction: active/passive slots, class talents, inheritance, equipment interactions, resources, synergies, trade-offs, multi-kit rotation.
@@ -69,6 +71,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Inventory: gear/material storage, sorting/filtering, locking, auto-selling/salvaging, comparison, transmog, loot protection.
 
 ## IX. World structure and adventure
+- Map-ending dungeon progression gate, ten-minute cooldown/Robux skip, and party progression rules: [WORLD-AND-IDLE.md](WORLD-AND-IDLE.md).
 - Architecture: personal worlds, public areas, hubs, instances, regions/biomes, maps, fast travel.
 - Progression: chapters, regions, stages/substages, difficulty tiers, unlocks, clear conditions, world scaling, co-op credit.
 - Exploration: points of interest, hidden areas, treasure, environmental puzzles, secret encounters, discoverable abilities/gear.
@@ -125,6 +128,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Open: avoid forcing one character to interrupt combat for chores.
 
 ## XVI. Supplemental character growth
+- Pet and mount collection/upgrade direction and first-promotion mount unlock; detailed relic design deferred: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
 - Owner confirms relics as unique upgrades, and mounts/pets as character enhancement directions. Specific mechanics, slots, acquisition and scope remain open; see [ELEMENTS.md](ELEMENTS.md).
 - Companions/familiars/pets: combat/gathering assistance, passive bonuses, development.
 - Mounts/transport; relic/collection systems; housing; personal training facilities; reputation/factions; titles/achievements; blessings/contracts; transformations/temporary states; account-wide benefits.
