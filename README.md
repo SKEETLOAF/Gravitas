@@ -5,7 +5,7 @@ Roblox semi-idle, single-character hack-and-slash RPG. This repository currently
 ## Design navigation
 - [Master design tree](docs/design/MASTER-TREE.md): all 24 branches and their nested exploration topics.
 - [Current direction and decision ledger](docs/design/DIRECTION.md): established decisions, references, proposals and open questions.
-- [Character and class progression](docs/design/PROGRESSION.md): proposed shared character growth, class mastery, promotions and optional complexity.
+- [Character and class progression](docs/design/PROGRESSION.md): approved shared character growth, class mastery, promotions, mastery catch-up and optional complexity.
 - [Skills and collection](docs/design/SKILLS-AND-COLLECTION.md): Energy, skills, summons, Stardust, pets, mounts and monetization.
 - [World and idle progression](docs/design/WORLD-AND-IDLE.md): party limits, map dungeons, shared progress and idle rewards.
 - [Elements and reactions](docs/design/ELEMENTS.md): ten-element proposal, reaction matrix, cosmic modifiers, VFX and progression additions.
