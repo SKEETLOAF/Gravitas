@@ -85,3 +85,7 @@ Resistance is the general status resistance attribute, distinct from Magical Def
 Owner correction: Armor is universal, not enemy-specific; elites and bosses have incrementally higher Armor. Exact scaling remains open.
 
 Latest owner correction: players probably will not have breakable Armor. Enemy Armor remains applicable with progressively higher elite/boss scaling; player access is tentative, not a default assumption. Ordinary player Resistance and Defense remain intact.
+
+
+## Latest defense terminology and shield clarification (2026-11-26)
+Physical Defense is now Defense; Magical Defense remains separate. Shield magnitude depends on creating skill, and shield-specific Block Chance increases may apply. Block overflow enables a stronger quarter-damage block after ordinary half-damage block; Ultra Crits deferred, only Critical and Super Crit tiers remain. Earlier references to Defense-only shield scaling or Ultra Crits are superseded. See COMBAT-FOUNDATIONS.md.
