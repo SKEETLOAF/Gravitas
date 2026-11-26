@@ -18,3 +18,5 @@ Roblox semi-idle, single-character hack-and-slash RPG. This repository currently
 Status labels: **Established** = explicitly decided by the owner; **Exploratory** = candidate, not canon; **Future** = intended later; **Undecided** = unresolved. Do not equate a listed feature with a commitment or launch scope.
 
 Repository name is used as the project label; final public-facing game title is not established.
+
+- [Equipment and itemization](docs/design/ITEMIZATION.md): slot-based stats, gear sets, enhancement and cosmetic progression.
