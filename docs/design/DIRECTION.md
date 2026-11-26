@@ -69,3 +69,6 @@ Owner's planned full-game weapons: Sword, Greatsword, Polearm, Dagger, Mace, Gau
 
 ## Shared foundations discussion priority (2026-11-26)
 Owner wants general RPG mechanics (DPS, tank, sustain, burst, DoT, buffs/debuffs, healing, CC, status effects and equipment slots) explored before individual class design. See [COMBAT-FOUNDATIONS.md](COMBAT-FOUNDATIONS.md); candidate mechanics are not accepted automatically.
+
+## Elemental and supplemental growth direction (2026-11-26)
+Owner wants Fire, Water, Earth, Resonance (Wind/Sound), Cold, Lightning, Necrotic, Force (Gravity), Light and Dark explored; supplied nine-element alternative and reaction matrix for refinement. Light/Dark apply universal Radiance/Corruption; Force a neutral cosmic median with universal modification. VFX should reuse combinations/gradients. Recommended separation of Resonance and Force, Necrotic and Dark, individual statuses and reaction behaviors are documented in [ELEMENTS.md](ELEMENTS.md), pending approval. Owner confirms relics as unique upgrades and wants mounts and pets enhancing the player; details remain open.
