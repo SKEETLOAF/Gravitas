@@ -15,3 +15,7 @@ This is a collaborative exploration framework, not a fixed GDD or implementation
 - Latest owner priority: explore [shared combat and equipment foundations](COMBAT-FOUNDATIONS.md) before fleshing out individual class kits; return to class architecture afterwards.
 
 - Owner accessibility principle: preserve depth without requiring players to understand every subsystem. Detailed UX/onboarding later. Overall progression direction in [PROGRESSION.md](PROGRESSION.md) approved; detailed implementation and tuning remain open.
+
+
+## Current discussion priority (2026-11-26)
+Owner requests closing previously explored/refinement topics before opening new itemization/economy/class-kit discussions. Owner considers attributes/stat list and equipment slots covered; do not repeat them. Treat numerical formulas, scaling and slot implementation details as later tuning rather than blocking design. Current closure proposals: elemental/status interaction rules, idle/auto-adventure, monetization guardrails, class promotion requirements. Await feedback before marking proposals confirmed.
