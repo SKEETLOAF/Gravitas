@@ -4,13 +4,9 @@ Started 2026-11-25; updated 2026-11-26 | Class-linked weapons confirmed; switchi
 ## Owner intent
 Make automated hack-and-slash combat more lively and dynamic by enabling in-combat class and/or weapon swaps. Swapping extends combos and gives access to available skills in the incoming kit instead of all classes/weapons being held by the outgoing kit's cooldowns. Players grind to unlock more swap options. Tentative caps: 3 classes and 2 weapons. The owner has not decided whether switching is class-based, weapon-based, or both.
 
-## Eligible disciplines (confirmed 2026-11-26)
-Class expansion is established: unlocking a descendant adds a distinct, independently developable and equippable discipline; no parent is replaced or consumed. Players can progress every accessible class, including sibling branches, and return to previous styles with their progression retained. Class lineage represents a common concept and unlock ancestry, not a mandatory power hierarchy. Every foundational, advanced, hybrid or special class must have a distinct combat identity and benefit, even relative to its parents or descendants. Combos, synergies and future hybrid unlock paths may originate from any class or branch, not only foundations; exact combinations, unlock requirements and equipment compatibility are still design work. This does not promise that every pair yields a bespoke hybrid.
-
-## Class-linked weapons and asymmetric compatibility
-Owner confirmed classes have linked weapons. Proposed: a weapon that is a secondary alternative for one class can be the primary weapon of another. Illustrative example, explicitly clarified by owner: Warrior primary sword, secondary gauntlets; Monk primary gauntlets. Monk's other weapons are unspecified. Class names are examples, not roster commitments.
-
-Possible implementation: each class has a primary weapon type and limited compatible alternatives. Shared weapon compatibility enables Warrior/sword -> Warrior/gauntlets -> Monk/gauntlets, or a direct Warrior/sword -> Monk/gauntlets transition. A shared weapon could retain base moveset and weapon mastery while each class supplies distinct skills or modifiers. These are proposals, not confirmed rules. Whether primary weapons grant exclusive skills, whether secondary weapons require mastery, and whether swaps can occur independently remain open. Shared weapon abilities could retain their cooldown across class swaps, while distinct class abilities retain independent cooldowns; recommended, not confirmed. If two weapon slots are global, three equipped classes would need compatible coverage; whether the cap is global or per class remains open.
+## Compatibility
+Class expansion and retained progression are established in [CLASSES.md](CLASSES.md). Current primary/secondary weapon assignments in [WEAPONS.md](WEAPONS.md) are canonical.
+Shared weapons may support common base movesets while classes supply distinct skills/modifiers. For example, Warrior and Rogue share Sword, while Rogue and Ranger share Dagger. A class swap may change weapon if necessary, or use an already compatible weapon; whether both swaps are independent remains open. Shared weapon skills should retain cooldowns, distinct class skills have independent cooldowns (recommended). If two weapon slots are global, three equipped classes need compatible coverage; scope remains open.
 
 ## Models to evaluate (constrained by class-linked compatibility)
 | Model | Description | Key tradeoff |
@@ -26,7 +22,7 @@ Do not assume six separate cooldown banks from 3 classes x 2 weapons. Do not ass
 - Each distinct ability/kit owns its cooldown; leaving a kit does not impose that cooldown on unrelated incoming skills.
 - Outgoing timers continue to tick while inactive; returning does not inherently reset them.
 - Incoming kit may feel refreshed because its own abilities are available, not because swapping magically erases cooldowns.
-- Shared abilities, resources, ultimates, swap lockouts and special reset effects need explicit policies.
+- Energy is the universal skill resource; shared pool across swaps recommended. Shared abilities, swap lockouts and special reset effects need explicit policies.
 - Distinguish a global skill cooldown pool from a short action recovery or swap lockout. The owner rejects the former for the desired swap behavior; the latter is undecided.
 - Persistent server-authoritative timers and stable ability IDs are technical recommendations, not implementation.
 
@@ -53,6 +49,3 @@ Warrior opens with a dash and launch; uses its available skills. Switch to an il
 
 ## Suggested prototype validation
 Compare one kit vs two kits with the same enemy encounter; measure damage uptime, idle gaps, transition readability, cooldown accuracy, AI swap churn, manual override behavior and co-op/network stability. Add a third class and two weapons only after the fundamental relationship is understood. These are suggested tests, not an approved launch scope.
-
-## Current foundational compatibility (2026-11-26)
-See [WEAPONS.md](WEAPONS.md) for the proposed five-role loadout mapping. Warrior sword/gauntlets and Monk gauntlets remain historical illustrative examples, not the current Warrior foundation assignment. Owner now specifies Warrior Sword primary and Shield secondary. Two-weapon cap, shield/off-hand behavior, cooldown ownership and class transitions remain open.
