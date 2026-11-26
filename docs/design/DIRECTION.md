@@ -84,3 +84,6 @@ Owner approved the overall character/class progression system and explicitly end
 
 ## Companion generation refinement (2026-11-26)
 See [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md) for owner direction and proposed deterministic pet ascension. Early pets may become obsolete; retaining a favorite through investment is an optional route. Mounts do not require the same generational progression.
+
+## Elemental and idle refinement (2026-11-26)
+Owner specifies primer-first order for primer-dependent reactions, either order for reactor+reactor, cosmic effects stack in any order. No universal repeat-reaction cooldown; control effects instead diminish or have a recovery interval before rebuilding full effect. Offline rewards reduced, time capped, no equipment drops. Repeat dungeon automation farms preceding stage until dungeon respawns. Monetization and promotion closure proposals remain awaiting feedback; see ELEMENTS.md and WORLD-AND-IDLE.md.
