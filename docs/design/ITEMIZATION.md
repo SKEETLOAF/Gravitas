@@ -1,0 +1,25 @@
+# Equipment and itemization
+2026-11-26 | Owner direction and candidate design, not numerical specification.
+
+## Owner direction
+- Gear progression inspired by Go Go Muffin and other idle RPGs. Stat-bearing gear does not require individual wearable models. Cosmetics control appearance and can be purchased or summoned, with earnable free cosmetic summon spins. Owner wants small cosmetic bonuses to give purchases value. Exact bonus structure open.
+- Class-relevant loot is picked up by the character along the adventure. Equipment sets grow stronger and more extensive with progression. Each existing equipment slot has a primary attribute; equipment may roll additional attributes within ranges, including smaller stats such as Block and Critical Chance and additional large/core stats.
+- Use current attribute names (ATK, MATK, Defense, Magical Defense, etc.). Do not reopen existing slot count or stat list. Relics deferred. Individual weapon models per stat item unnecessary; shared weapon-family visual/animation templates are recommended for visible combat weapons, appearance independent of stat gear.
+
+## Candidate item model
+Item level (progression strength), rarity (secondary roll quantity/quality potential), guaranteed slot primary stat, randomized secondary rolls (including core attributes), set identity, class/weapon compatibility. Distinguish rarity from item level. Suggested rarity Common, Uncommon, Rare, Epic, Legendary, Mythic (tiers not finalized). Later-region gear raises baseline values and introduces new set effects; avoid excessive simultaneous systems.
+Suggested primary attributes by existing slots: weapon ATK or MATK according to weapon/skill identity; head Magical Defense; chest Health; hands ATK or MATK; legs Defense; feet Defense or Magical Defense; necklace Energy; ring ATK or MATK. These mappings are proposed, not approved. Existing secondary weapon slot follows weapon rules; relic deferred. Secondary rolls may include core stats and percentage chance/utility stats. Illustrative examples only; no actual roll ranges approved.
+Class-relevant drop preferences should consider all equipped classes, with selectable loot focus for developing another class. Recommend shared wearable gear where possible, class/weapon-specific sets where useful, avoid requiring multiple full armor sets for in-combat swaps. Weapon eligibility follows WEAPONS.md. Exact restrictions, drop generation and pickup filters open.
+
+## Recommended sets and upgrades
+- Set bonuses at 2/4/6 pieces for a six-piece set (or other thresholds according to actual set composition); allow mixing partial sets. Early bonuses simple stats; later bonuses can support distinctive playstyles (break, criticals, sustain, elemental effects) while preserving viability of general builds. No named sets or thresholds approved.
+- Slot-based enhancement investment survives replacement (Go Go Muffin reference). Ordinary enhancement paid with earned materials/gold, item-specific secondary rolls may be rerolled with materials; lock good rolls if feasible. Consider salvaging obsolete gear into materials and targeted boss/dungeon gear selection or crafting. No additional gem/socket/refinement layer required at launch unless useful. No final upgrade cap, rates, costs or exact mechanics.
+- Regular enemies yield ordinary gear; dungeon encounters and boss drops yield targeted sets; first clears may give guaranteed reward, targeted selection via earned materials is a candidate. Offline rewards do not drop gear. Dungeon continuously farmable; boss encounter alone respawns every ten minutes. No offline gear drops.
+- Default auto-pickup for eligible loot and simple recommended equip (respect locked items and active loadout, do not discard saved equipment); advanced filters, set preference and comparison optional. Automatic salvage opt-in only. Avoid expensive mandatory rerolls on every upgrade.
+
+## Cosmetic progression (recommendation)
+Purchasable and summonable cosmetics with free earned spins are owner direction. Recommend modest capped wardrobe/collection bonus shared across appearances (e.g. one global cap regardless of collection size), rather than stats tied to the outfit currently worn. Allow players to earn the full bonus without paid-exclusive cosmetics; no uncapped paid stacking or superior paid-only bonus. Alternative one equipped cosmetic bonus, but may force unwanted looks. Exact bonuses, cap, cosmetic slots, rarity, direct purchase and summon currency/odds, duplicate handling open. Paid random item eligibility and disclosure requirements apply as relevant; offer nonrandom alternatives. Cosmetic visual identity separate from equipment progression.
+## References
+- Go Go Muffin slot enhancement inheritance, item-specific recast substats: https://boarhat.gg/games/go-go-muffin/guide/beginner-guide/
+- Later gear sets and effects: https://boarhat.gg/games/go-go-muffin/guide/cc4-guide/ ; https://boarhat.gg/games/go-go-muffin/guide/cc2-guide/
+- AFK Dungeon auto equip, gear acquisition and set collection: https://afkdungeon.com/afk-dungeon-equipment-guide/
