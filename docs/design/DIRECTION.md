@@ -102,3 +102,7 @@ Owner favors baseline-relative cap instead of twice strongest effect, asks wheth
 
 ## Raw stat overflow and critical hits (2026-11-26)
 Owner confirms stats can exceed 100%, including to withstand debuffs; Critical Chance above 100% introduces Super Crits, above 200% Ultra Crits. Candidate tier probabilities and scaling in COMBAT-FOUNDATIONS.md; exact multipliers, defensive probability rules and handling above 300% remain open. Distinguish raw stats from temporary buff ceilings and skill coefficients.
+
+
+## Critical damage baseline clarification (2026-11-26)
+Owner confirms other stat overflow counters clashing stats. Base Critical Damage default recommendation 200% (double damage), with proposed linear critical tiers 2x/3x/4x at baseline; exact tier multipliers remain open.
