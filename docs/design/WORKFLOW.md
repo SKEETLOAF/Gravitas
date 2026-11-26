@@ -9,5 +9,5 @@ This is a collaborative exploration framework, not a fixed GDD or implementation
 - When the owner changes a decision, update the ledger and affected branch docs; record date and implications. Preserve unresolved alternatives rather than prematurely narrowing.
 - Discussion order is flexible; the master tree has six suggested phases, not a release schedule.
 - Keep separate project design from any other Roblox project; no imported assumptions from ORBIT!, OMDB or other concepts.
-- Current suggested next discussion: Branch I, identity and core gameplay loops (first ten minutes, first hour, first week, hundredth hour). The owner may instead explore combat/class swapping first.
+- Current owner-prioritized discussion: Branch III, four foundational classes, reusable class template, and individual advancement trees before hybrid branches. See [class architecture](CLASSES.md). Return to Branch I and other dependencies as needed.
 - No gameplay code or implementation has been approved by this notebook.
