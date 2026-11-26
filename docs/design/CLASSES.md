@@ -19,6 +19,16 @@ Five proposed role lineages, inspired by Go Go Muffin. This is the current desig
 | Cleric | Support | Tome | Shield (recommended) |
 Exact weapon confirmation status in WEAPONS.md. Whether promotions are sequential or branch, promotion counts/names, inheritance and special/hybrid acquisition remain open. All classes should be solo-capable (recommended); roles are specialties, not restrictions.
 
+## Proposed common class anatomy
+- Class Trait: inherent identity mechanic, not summoned or occupying passive slots. Recommended active-class-only eligibility; explicitly persistent effects may survive swaps. No passive stacking across all learned classes. Candidate identities, not approved kits: Warrior blocking/retaliation under enemy pressure; Ranger ranged precision; Mage spell sequencing and elemental interactions; Rogue evasion and rapid attacks; Cleric healing/protection/support.
+- Basic attacks depend on active class and weapon. Shared weapon animation/action templates may have class-specific variations.
+- Proposed per-class loadout: four equippable active skills, one ultimate, two selectable passive skills, plus inherent Class Trait and basic attacks. Start with functional base kit; alternate skills through existing acquisition routes. Show only active class abilities on main HUD. Counts are reviewable, not confirmed.
+- Active skills/ultimates use shared Energy system; individual cooldowns persist across swaps. Ultimate is a skill category, not a separate resource.
+- Proposed passives are selectable build modifiers, distinct from inherent Class Trait and mastery talents. Prefer active-class eligibility unless a skill explicitly grants persistent effects. Acquisition and upgrade rules open; avoid adding new currency families.
+- Talents: mastery-linked earned points, optional build specialization through a compact class-specific tree; recommended respec with ordinary currency or free presets, no summon dependency. Talent categories may affect offense, defense, utility and signature mechanics. Exact points, tree size, unlock thresholds and respec open.
+- Weapon-linked basic attacks and compatible weapon techniques; class skills may be universally usable with that class's compatible weapons or require a particular family. Recommend weapon techniques occupy ordinary active slots rather than creating mandatory extra ability bars. Distinguish shared weapon skill identity from class skill identity for cooldowns.
+- Class switching remains open in COMBAT-SWITCHING.md. Recommend active class kit swaps with an eligible equipped weapon, shared character attributes/Health/Energy, independent ability timers continuing while inactive, persistent applied statuses and explicitly persistent effects. Tentative 3 equipped classes/2 equipped weapons; exact global/per-class scope, independent weapon swaps and automated/manual controls not approved.
+
 ## Reusable class design template (proposal)
 Use the same template for foundations, advanced, hybrid and special classes. Fill only established details; mark others TBD. Do not impose universal skill counts, resources or unique mechanics until the foundations are tested.
 
@@ -37,6 +47,6 @@ Use the same template for foundations, advanced, hybrid and special classes. Fil
 
 ## Open class architecture
 - Inherent benefit activation: active-only, equipped, mastery reward or intentionally retained effect; no automatic stacking of every learned discipline.
-- Skill slots, passives, talents, class/weapon ability ownership, swapping and cooldowns. See [COMBAT-SWITCHING.md](COMBAT-SWITCHING.md).
+- Review proposed loadout counts, passive/talent acquisition, class/weapon ability ownership, swapping and cooldowns. See [COMBAT-SWITCHING.md](COMBAT-SWITCHING.md).
 - Distinct benefits and viability of earlier classes after promotions, skill inheritance, class-specific mechanics, automation and active options.
 - Exact foundation and promotion kits, hybrid roster, special acquisition rules. No actual class skills or named promotion roster established.
