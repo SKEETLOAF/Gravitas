@@ -23,11 +23,11 @@ Five-role promotion architecture is under consideration. Owner requests primary 
 | --- | --- | --- | --- |
 | Warrior | Sword | Shield | Owner specified |
 | Ranger | Bow | Dagger | Bow carried forward from earlier proposed mapping; Dagger owner specified |
-| Mage | Magic Staff | Dagger | Staff owner specified; Dagger recommended from owner's Dagger or Tome alternatives |
+| Mage | Magic Staff | Tome | Owner specified |
 | Rogue | Dagger | Sword | Dagger carried forward from earlier proposed mapping; Sword owner specified |
-| Cleric | Mace | Shield | Recommended arrangement using owner's Shield/Mace options; pending confirmation |
+| Cleric | Tome | Shield | Tome owner specified; Shield retained as recommendation from prior options |
 
-Early compatibility: Sword connects Warrior/Rogue; Dagger connects Rogue/Ranger/Mage; Shield connects Warrior/Cleric. All five belong to a connected compatibility network, but not every pair shares a weapon. Shared weapons should encourage synergy rather than dictate class pair eligibility (recommended principle). Mage could instead use Tome if desired; proposed defer Tome to a future class/promotion, not an exclusive assignment. Shield is listed independently; whether it functions as an active weapon, off-hand, or both is unresolved. Gauntlet/Monk and Warrior/gauntlet examples from earlier discussion are illustrative and not part of the current proposed foundational loadout.
+Early compatibility: Sword connects Warrior/Rogue; Dagger connects Rogue/Ranger; Shield connects Warrior/Cleric; Tome connects Cleric/Mage. All five belong to a connected compatibility network, but not every pair shares a weapon. Shared weapons should encourage synergy rather than dictate class pair eligibility (recommended principle). Mage's earlier Dagger alternative and Cleric's Mace primary recommendation are superseded. Mace is retained in the full-game roster, currently unassigned to a foundation. Shield is listed independently; whether it functions as an active weapon, off-hand, or both is unresolved. Gauntlet/Monk and Warrior/gauntlet examples from earlier discussion are illustrative and not part of the current proposed foundational loadout.
 
 ## Open design questions
 - Whether secondary means alternative equipped weapon, separate off-hand, or both; two-weapon cap scope and interaction with three classes.
