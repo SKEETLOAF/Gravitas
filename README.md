@@ -5,6 +5,7 @@ Roblox semi-idle, single-character hack-and-slash RPG. This repository currently
 ## Design navigation
 - [Master design tree](docs/design/MASTER-TREE.md): all 24 branches and their nested exploration topics.
 - [Current direction and decision ledger](docs/design/DIRECTION.md): established decisions, references, proposals and open questions.
+- [Shared combat and equipment foundations](docs/design/COMBAT-FOUNDATIONS.md): roles, specialties, status effects, attributes and equipment exploration.
 - [Weapon roster and compatibility](docs/design/WEAPONS.md): planned full-game weapons and proposed starting class pairings.
 - [Class architecture and reusable template](docs/design/CLASSES.md): foundational classes, advancement candidates and future hybrid/special classes.
 - [Combat switching proposal](docs/design/COMBAT-SWITCHING.md): possible class/weapon switching, independent cooldowns, extended combos and progression.
