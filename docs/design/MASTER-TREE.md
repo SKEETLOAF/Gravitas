@@ -24,6 +24,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Identity: unique mechanics/resources/movement/automation; weapon proficiency; strengths/weaknesses; solo/co-op roles; fantasy/visual identity.
 
 ## IV. Combat systems
+- Current exploration: establish shared roles, combat specialties, damage rules, statuses and equipment foundations before individual class kits. See [COMBAT-FOUNDATIONS.md](COMBAT-FOUNDATIONS.md).
 - Offense:
   - Basic attacks: attack chains, branching combos, attack speed, recovery, hit reactions.
   - Heavy attacks: charges, guard breaks, launchers, finishers.
