@@ -59,3 +59,7 @@ Owner confirms non-critical stat overflow is for countering clashing stats and d
 
 ## Additive critical damage (2026-11-26)
 Owner sets base critical bonus to +50% (150% total damage), superseding earlier double-damage recommendation. Critical Damage attribute adds directly in percentage points to this base bonus. Recommended retained linear tier scaling: total multiplier = 1 + tier * (0.5 + additive Crit Damage attribute expressed as decimal), tier 0 normal, 1 critical, 2 super, 3 ultra. At zero attribute: 1.5x/2x/2.5x; +50% attribute: 2x/3x/4x. Base and additive attribute confirmed; exact higher-tier formula remains recommendation pending confirmation.
+
+
+## Critical Resistance (2026-11-26)
+Owner confirms Critical Resistance as a defensive counter-stat to Critical Chance. Recommended resolution: subtract defender's effective Critical Resistance in percentage points from attacker's effective Critical Chance before selecting normal/Critical/Super/Ultra tier; floor final chance at zero, do not cap raw stats at 100%. Critical Resistance affects probability/tier, not Critical Damage magnitude. Exact resolution formula pending confirmation; no separate critical damage resistance established.
