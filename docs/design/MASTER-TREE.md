@@ -24,6 +24,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Identity: unique mechanics/resources/movement/automation; weapon proficiency; strengths/weaknesses; solo/co-op roles; fantasy/visual identity.
 
 ## IV. Combat systems
+- Elemental architecture and reaction exploration: [ELEMENTS.md](ELEMENTS.md).
 - Current exploration: establish shared roles, combat specialties, damage rules, statuses and equipment foundations before individual class kits. See [COMBAT-FOUNDATIONS.md](COMBAT-FOUNDATIONS.md).
 - Offense:
   - Basic attacks: attack chains, branching combos, attack speed, recovery, hit reactions.
@@ -124,6 +125,7 @@ Status: exploratory index except where the [direction ledger](DIRECTION.md) expl
 - Open: avoid forcing one character to interrupt combat for chores.
 
 ## XVI. Supplemental character growth
+- Owner confirms relics as unique upgrades, and mounts/pets as character enhancement directions. Specific mechanics, slots, acquisition and scope remain open; see [ELEMENTS.md](ELEMENTS.md).
 - Companions/familiars/pets: combat/gathering assistance, passive bonuses, development.
 - Mounts/transport; relic/collection systems; housing; personal training facilities; reputation/factions; titles/achievements; blessings/contracts; transformations/temporary states; account-wide benefits.
 - Guardrails: each needs purpose beyond another damage multiplier; no mandatory hero roster.
