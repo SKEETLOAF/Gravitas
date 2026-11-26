@@ -77,3 +77,7 @@ Owner proposes replacing twice-strongest temporary buff ceiling with +100% or +5
 
 ## Raw stat overflow correction (2026-11-26)
 Owner rejects universal raw stat ceiling of 100% because debuffs exist, and specifies Critical Chance over 100% enables Super Crits, over 200% Ultra Crits. See COMBAT-FOUNDATIONS.md for proposed tier resolution. Earlier 100% effective Critical Chance cap recommendation superseded. Raw stat ceiling is distinct from temporary buff/debuff limits; +100% passive-baseline ordinary buff cap and -50% enemy reduction cap remain proposed unless separately confirmed. Effective chance, counter application, special defensive constraints and beyond-Ultra behavior remain open.
+
+
+## Resistance and armor clarification (2026-11-26)
+Resistance is the general status resistance attribute, distinct from Magical Defense and Critical Resistance. Owner wants armor on elites/stronger enemies to confer heightened resistance while intact so statuses are harder to trigger and shorter until armor is broken; Break Power helps break armor faster, armor ties to defense. Exact application chance/duration formula and armor interaction with reactions/CC remain open. See COMBAT-FOUNDATIONS.md for current stat roster. Earlier separate resistance penetration and healing/shielding power candidates superseded by owner consolidation.
