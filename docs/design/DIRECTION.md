@@ -121,3 +121,6 @@ Owner specifies unified Penetration, distinct Critical Defense (critical damage)
 
 ## Universal Armor and attack terminology (2026-11-26)
 Owner confirms Armor is available to players and enemies, not enemy-specific, with progressively higher Armor on elites and bosses. Rename Physical Power to Physical Attack and Magical Power to Magic Attack (PATK/MATK abbreviations suggested). Exact scaling and recovery remain open.
+
+## Attack and player Armor correction (2026-11-26)
+Owner renames Physical Attack to Attack (ATK); Magic Attack remains MATK. Owner leans against player breakable Armor, superseding prior universal-player-Armor direction. Default design uses enemy Armor with higher elite/boss scaling; player exclusion tentative. Defensive stats and shields remain.
