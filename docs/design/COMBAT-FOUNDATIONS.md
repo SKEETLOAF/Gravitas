@@ -1,97 +1,47 @@
-# Shared RPG combat and equipment foundations
-2026-11-26 | Exploration framework; not a finalized mechanic specification.
+# Combat foundations
+Updated 2026-11-26. Current rules; numerical tuning open.
 
-## Owner discussion priority
-Establish general RPG mechanics before individual class kits: DPS, tanking, sustain, burst, damage over time, buffs/debuffs, healing, crowd control, status effects, equipment slots and related systems. These are discussion subjects, not all confirmed mechanics. Preserve the established fast-paced automated hack-and-slash direction and optional active intervention, class expansion, weapon compatibility, and future manual controls.
+## Combat vocabulary
+Roles: tank, damage dealer, healer, support, controller. Specialties: sustained DPS, burst, DoT, AoE, single-target, sustain, healing, mitigation, shielding, buffs/debuffs, CC, break, counters, execution, mobility, summoning, resource support. Classes can combine specialties. Damage classification separates physical/magical (possible true damage), delivery, source, target pattern, range, crit and element. See [Elements](ELEMENTS.md).
 
-## 1. Combat vocabulary
-Roles describe contribution: tank, damage dealer, healer, support, controller.
-Specialties describe delivery or approach: sustained DPS, burst, DoT, area effects, single-target, sustain, healing, mitigation, shielding, buffs, debuffs, CC, break, counter, execution, mobility, summoning, resource support. Roles are not exclusive restrictions. Distinguish damage throughput (DPS), delivery pattern (burst/DoT), target pattern (single/area/cleave/chain), and utility (healing/buff/control). Classes may combine specialties; none are assigned here.
+## Current attribute roster (29)
+| Category | Attributes |
+| --- | --- |
+| Fundamental | Health, Energy |
+| Offense | Attack (ATK, physical), Magic Attack (MATK), Critical Chance, Critical Damage, Accuracy, Penetration, Break Power |
+| Defense | Defense (DEF, physical), Magical Defense, Critical Defense, Critical Resistance, Block Chance, Evasion, Resistance |
+| Speed/efficiency | Attack Speed, Movement Speed, Cooldown Reduction, Energy Recovery, Energy Efficiency |
+| Sustain/utility | Health Regeneration, Lifesteal, Aggro |
+| Status | Effect Potency, Effect Duration |
+| Farming | Drop Rate, Experience Gain, Currency Gain |
+The consolidated list is covered for conceptual design; exact formulas and some earlier candidate stats' implementation remain open. No general AP, separate penetration stats, generic Damage Reduction, Healing Power or Shielding Power. A descriptive Combat Power rating is optional, not a damage stat.
 
-## 2. Shared combat rules to explore
-- Health, damage, defeat, recovery, revives; posture or stagger as a possible separate system.
-- Offensive and defensive attributes, derived statistics, scaling and caps; no fixed stat names or formulas.
-- Damage categories (physical/magical/possible true), optional elemental affinities, delivery tags (basic/skill, direct/periodic, melee/ranged, single/area); these are orthogonal and not finalized.
-- Critical hits, penetration/resistance, shields, healing, threat/aggro, targeting, defensive actions, movement and interruption.
-- Combat resources: shared or class-specific gauges, costs, regeneration, swap behavior.
-- Ability tags, targeting, cooldown ownership, status application and action/event ordering; automated and manual use share rules.
-- Balance solo and party roles; avoid mandatory manual checks or making support unable to progress alone.
+## Clashing attributes
+| Offensive | Defensive |
+| --- | --- |
+| Accuracy | Evasion and Block Chance |
+| Penetration | Defense and Magical Defense |
+| Critical Chance | Critical Resistance |
+| Critical Damage | Critical Defense |
+| Effect Potency | Resistance |
+| Break Power | Armor |
+Raw stats may exceed 100%; excess counters opposing stats/debuffs, except explicit Crit and Block tiers. Suggested direct percentage-point subtraction for opposing chance stats; exact formulas open. Resistance influences harmful status application/duration. Healing scales with MATK. Shields scale according to creating skill and can increase recipient Block Chance.
 
-## 3. Status system candidate catalog
-Periodic damage: Bleed (physical wound), Burn (fire damage), Poison (lingering damage).
-Soft control: Slow (movement), Weaken (offensive power), Vulnerable (damage taken), Sunder (defense).
-Hard control: Stun (action interruption/disable), Root (movement restriction), Silence (skill restriction), Freeze (temporary disable), Knockdown/Launch (physical reactions; may be separate action states rather than timed statuses).
-Positive effects: Haste, Fortify, Regeneration, Barrier, Empower, Cleanse (instant removal rather than persistent status), Immunity/resistance.
-Potential other effects: marks, curses, taunt/threat changes, anti-heal, dispel. None are confirmed. Keep damage types separate from statuses; fire damage need not always burn. Avoid duplicating statuses with indistinguishable purposes.
-For each accepted status define application, magnitude, duration, tick frequency, stacking/refresh/overwrite rules, source and scaling, targets, cleanse/dispel, immunity/resistance, boss behavior, swap persistence, indicators and automation response. Decide CC resistance/diminishing returns and boss break rules before tuning permanent lockdown. Cross-class effects may persist after a swap if intentionally designed; no general policy yet.
+## Critical and Block
+- Established: base crit bonus +50% (1.5x total), Critical Damage attribute adds percentage points to it. Above 100% effective Critical Chance enables Super Crit; no Ultra Crit for now. Critical Resistance counters chance/tier; Critical Defense counters crit damage.
+- Established: ordinary Block leaves 50% damage, above 100% effective Block Chance enables a stronger block leaving 25%.
+- Recommended tier resolution for both: 0–100% chance of ordinary success; 100–200% guarantees ordinary success with excess chance of stronger tier; 200% guarantees stronger tier. Excess above 200% counters reductions, not additional tiers. Resolve counters before tier roll.
+- Recommended Super Crit damage: 1 + 2 * (0.5 + Critical Damage attribute as decimal), normal crit 1 + (0.5 + attribute). Critical Defense reduces bonus portion without making crit weaker than normal. Exact formulas pending.
+- Evasion is the specialty of agile/dexterous builds; Block favors tanks/high-Aggro builds. No class exclusivity or automatic Aggro-to-Block conversion. Suggested resolution: evasion, then block, then relevant mitigation; final order open.
 
-## 4. Equipment slot architecture (candidate starting layout)
-- Weapon loadout: primary and secondary; two total equip slots tentative, exact global/per-class rule and shield/off-hand meaning unresolved. Do not create a third off-hand slot by accident.
-- Armor: head, chest, legs, hands, feet as possible distinct slots; compact alternative combines armor pieces.
-- Accessories: necklace, ring slots, optional relic or trinket.
-- Cosmetic appearance separate from stat-bearing equipment; no pets/relics/multiple accessory layers required yet.
-- Gear questions: class-neutral vs restricted pieces, stat requirements, scaling, item level/rarity, affixes, sets, unique effects, sockets, upgrade paths, loadouts, inventory, loot filtering, gear behavior on class swap.
-- For a single multiclass character, shared armor/accessories are a recommended starting point; per-class gear sets are an alternative and not decided. Weapon compatibility remains in WEAPONS.md. No slot count or item model is confirmed.
+## Armor and Break
+Enemy breakable Armor is derived from defense, incrementally stronger on elites/bosses. While intact it increases Resistance, making statuses harder to trigger and shorter. Break Power accelerates armor depletion. Players probably will not have breakable Armor by default; ordinary equipment armor, shields and Defense remain. Recommended separate integrity gauge; armor recovery, break stagger, HP mitigation, exact formulas and player exceptions open.
 
-## 5. Next exploration order (recommendation)
-1. Combat roles and specialties, including overlap and meaningful distinctions.
-2. Core combat rules, damage categories, defensive and recovery systems.
-3. Status effects and interaction rules.
-4. Character attributes and resource/stat architecture.
-5. Equipment slots, item stats and gear progression.
-6. Universal class/weapon kit anatomy and promotion progression, then individual foundations.
-Order is flexible; retain the existing 24-branch master index. No individual kits, formulas, exact status values, equipment counts or final class assignments established here.
+## Energy and automated combat
+All skills including ultimates consume Energy; no universal ultimate gauge. Specific skills may introduce stacks, gauges or charges. Attacks occur as fast as weapon attack/fire rate and cooldowns allow. Stat-based automatic defensive actions; optional active input; full manual mode and detailed choreography deferred. Suggested shared Energy across swaps, free basic attacks and passive plus normalized on-hit recovery. See [Skills](SKILLS-AND-COLLECTION.md) and [Switching](COMBAT-SWITCHING.md).
 
-## Elemental and supplemental development
-See [ELEMENTS.md](ELEMENTS.md) for the owner's element roster, original reaction direction, refined status and cosmic catalyst proposals, modular VFX approach, and relic/mount/pet decisions. Relics are confirmed as unique upgrades; their equip structure remains open. Mounts and pets are desired; exact mechanics remain open.
+## Equipment slots
+Conceptually covered: primary/secondary weapon, head, chest, hands, legs, feet, necklace, ring; relic deferred. Exact ring count, global/per-class weapon slot scope and shield/off-hand handling open. Shared armor/accessories recommended for multiclass builds. Itemization in [ITEMIZATION.md](ITEMIZATION.md).
 
-## Owner decisions superseding resource/defense exploration
-Universal Energy for all skills/ultimates, no generic ultimate gauge; attack/fire rate and cooldown-driven attacks, stat-based chance block/evasion versus counters, Aggro as attribute; detailed choreography deferred. See [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md) for regeneration proposals, skill progression, pet/mount design and open decisions. Relic specifics deferred to a future update.
-
-
-## Raw stat overflow and critical tiers (2026-11-26)
-Owner specifies stats should be able to exceed 100% because debuffs and counter stats exist; Critical Chance above 100% introduces Super Crits and above 200% Ultra Crits. Do not impose a universal raw 100% cap on stats. Separate permanent/passive stat values, temporary modifier caps, counter-stat resolution and effective probability. Recommended critical overflow: after applicable buffs/debuffs/counters, effective crit chance C between 0 and 100 gives C% chance normal critical; 100 to 200 guarantees critical with (C-100)% chance super; 200 to 300 guarantees super with (C-200)% chance ultra; 300 guarantees ultra. One tier resolved per hit; do not multiply separate independent crit rolls. Values beyond 300 remain available as a buffer against reductions; additional reward tiers or overflow conversion not confirmed. Recommended crit tier multipliers scale the bonus portion of Critical Damage (normal 1x bonus, super 2x bonus, ultra 3x bonus) rather than exponentiating full multipliers; exact tier scaling pending. Distinguish percentage-point reductions from multiplicative reductions, and resolve before tier selection. Evasion/block may retain raw overflow against counters without implying guaranteed defense or new tiers; effective chance rules remain open. Skill coefficients remain outside temporary stat buff limits.
-
-
-## Critical damage baseline clarification (2026-11-26)
-Owner confirms non-critical stat overflow is for countering clashing stats and debuffs, not separate overflow reward tiers. Owner expects double base critical damage; recommended default 200% total (100% bonus). Proposed linear bonus scaling yields 2x/3x/4x normal/super/ultra at base, pending confirmation of tier multipliers.
-
-
-## Additive critical damage (2026-11-26)
-Owner sets base critical bonus to +50% (150% total damage), superseding earlier double-damage recommendation. Critical Damage attribute adds directly in percentage points to this base bonus. Recommended retained linear tier scaling: total multiplier = 1 + tier * (0.5 + additive Crit Damage attribute expressed as decimal), tier 0 normal, 1 critical, 2 super, 3 ultra. At zero attribute: 1.5x/2x/2.5x; +50% attribute: 2x/3x/4x. Base and additive attribute confirmed; exact higher-tier formula remains recommendation pending confirmation.
-
-
-## Critical Resistance (2026-11-26)
-Owner confirms Critical Resistance as a defensive counter-stat to Critical Chance. Recommended resolution: subtract defender's effective Critical Resistance in percentage points from attacker's effective Critical Chance before selecting normal/Critical/Super/Ultra tier; floor final chance at zero, do not cap raw stats at 100%. Critical Resistance affects probability/tier, not Critical Damage magnitude. Exact resolution formula pending confirmation; no separate critical damage resistance established.
-
-
-## Current attribute roster and armor mechanics (owner revision, 2026-11-26)
-This roster supersedes previous candidate stat lists, including separate armor/resistance/block penetration, general Attack Power, general Defense/Damage Reduction, Magical Resistance as damage defense, Healing Power and Shielding Power.
-- Fundamental: Health, Energy.
-- Offensive: Attack (ATK), Magic Attack (MATK), Critical Chance, Critical Damage, Accuracy, Penetration, Break Power.
-- Defensive: Physical Defense, Magical Defense, Critical Defense, Critical Resistance, Block Chance, Evasion, Resistance.
-- Speed/efficiency: Attack Speed, Movement Speed, Cooldown Reduction, Energy Recovery, Energy Efficiency.
-- Sustain/utility: Health Regeneration, Lifesteal, Aggro.
-- Status: Effect Potency, Effect Duration.
-- Farming: Drop Rate, Experience Gain, Currency Gain.
-29 unique general attributes in the current consolidated roster, with unaffected earlier candidates carried forward. Armor is a universal combat property for players and enemies, separate from the 29 general attributes. Armor scales progressively higher for elites and bosses. Exact scaling and recovery remain open.
-Owner-confirmed changes: one Penetration stat; Critical Defense resists critical damage, Critical Resistance resists critical chance; ATK/MATK replace general AP; Resistance concerns status application and/or duration, not magic damage; Physical/Magical Defense handle ordinary damage reduction; healing scales with MATK and shields with Defense rather than separate Healing/Shielding Power. Exact shield defense scaling (physical/magical/both) is open. A general Combat Power rating may summarize strength but is a proposal, not a combat scaling stat. Penetration counters relevant damage defense; whether it also counters Block Chance is unresolved after removal of Block Penetration. Do not silently introduce a new counter stat.
-Armor derives from defense and grants elevated status Resistance while intact, making statuses harder to trigger and shorter. Break Power helps weaken/break armor faster under attacks. Recommended interpretation: armor has separate durability or integrity derived from relevant defense, Break Power increases damage to armor, intact armor grants additional resistance, breaking removes that armor-granted resistance. Whether armor also mitigates HP damage, how it restores, whether breaking staggers the enemy, exact player armor scaling and exact math remain open. Do not conflate equipment armor with this enemy combat property. Critical Defense recommended to reduce critical bonus only (floor bonus at zero), not the underlying normal damage; exact formula open. Raw stat overflow and additive critical bonus rules remain as previously confirmed.
-
-## Owner correction: universal Armor and attack naming (2026-11-26)
-Armor is not enemy-specific; players and regular enemies also have access to Armor. Elites and bosses have incrementally higher Armor. Rename Physical Power and Magical Power to Attack (ATK) and Magic Attack (MATK). Healing scales with MATK; shield scaling remains Defense-based. Armor is a defense-derived combat property, not an extra independent general attribute; exact durability, scaling, recovery and whether all entities necessarily start with positive Armor remain open. Raid boss multiple break windows are an optional suggestion, not confirmed.
-
-## Latest owner correction: Attack and player Armor (2026-11-26)
-Rename Physical Attack to Attack (ATK), retaining its physical damage scaling; Magic Attack (MATK) remains separate. Owner now leans against players having the breakable Armor property. Treat enemy Armor as the default design, including regular enemies where appropriate and incrementally higher Armor for elites and bosses. Player Armor is not planned by default, but final exclusion is tentative. Players retain Physical Defense, Magical Defense, Resistance and shield mechanics; equipment armor is unaffected. This supersedes the preceding universal-player-Armor direction.
-
-
-## Latest owner revision: shields, Defense, Block and critical tiers (2026-11-26)
-Shield strength scales according to the skill that creates it, rather than necessarily using Defense; the shield may also increase the recipient's Block Chance according to its properties. Exact absorption, duration, scaling and interaction with mitigation are skill-specific/open. Rename Physical Defense to Defense (DEF), retaining physical damage mitigation; Magical Defense remains separate. Block uses overflow tiers similar to critical chance: ordinary successful Block halves incoming damage (50% remains), and Block Chance above 100% introduces a stronger block that quarters damage (25% remains). Recommended probability resolution: after applicable counters, 0–100% grants that chance of ordinary block; 100–200% guarantees ordinary block with the excess percentage chance of stronger block; 200% guarantees stronger block. Raw overflow beyond 200% can counter reductions, not add new tiers by default. Strong-block name, penetration interaction and damage resolution order remain open. Remove Ultra Crits for now: only normal hits, Critical and Super Crit remain; effective Critical Chance over 200% provides no additional tier, raw overflow may counter resistance. Base crit bonus +50% and additive Critical Damage unchanged; higher-tier damage scaling remains as previously proposed. This supersedes previous shield Defense-only scaling, Physical Defense naming and Ultra Crit proposals.
-
-
-## Accuracy and Block counter (2026-11-26)
-Owner confirms Accuracy counters both Evasion and Block Chance. Unified Penetration counters Defense and Magical Defense, not Block Chance. No separate Block Penetration attribute. Recommended (not approved) subtract effective Accuracy in percentage points from each opposing chance before resolving evasion/block tier; exact calculation and resolution order remain open.
-
-
-## Defensive build identities (2026-11-26)
-Evasion is the defensive specialty of dexterous/agile builds; Block is the defensive specialty of tanks and high-Aggro builds. Both remain general attributes, countered by Accuracy. No hard class restrictions or Dexterity primary attribute introduced. Aggro does not automatically increase Block unless an explicit mechanic specifies it.
+## Open calculation work
+Damage/defense formulas, counter resolution, crit bonus mitigation, armor durability/regen, Energy rates, threat, skill coefficients, chance limits and buff/debuff ceilings (see ELEMENTS.md). No extra attribute or mechanic inferred from an example.
