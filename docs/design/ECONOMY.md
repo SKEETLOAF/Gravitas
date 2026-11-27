@@ -16,7 +16,7 @@ Keep resource families general and reusable rather than creating a separate mate
 | --- | --- |
 | Skill XP | Ordinary skill development |
 | Pet XP | Ordinary pet development |
-| Ascension items | Pet generation advancement and other compatible ascension uses if designed |
+| Ascension items | Class Trait upgrades, pet generation advancement and other compatible ascension uses if designed |
 | Shards | Star-rank upgrades alongside duplicates |
 | Reforge material | Future attribute/value rerolls |
 | Equipment enhancement material | Candidate shared resource for slot enhancement/crafting |
