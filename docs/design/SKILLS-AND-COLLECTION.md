@@ -11,7 +11,7 @@ Selectable summon focus, multiple pity levels, guaranteed acquisition alternativ
 ## Pets
 Available from start. Visible mini partners, own basic attacks and one usable skill. Cool appearances, rarities, degrees of aid, Pet XP development, summons and duplicate/star-rank upgrades. New generations/variants unlocked by class progression plus high character level. Earlier pets can become obsolete naturally.
 Proposed Pet Ascension: consume eligible newer-generation donor plus Gold/ascension items to raise a favorite pet's generation/scaling ceiling. Deterministic, retain identity and existing attacks/skill/investment; no automatic donor skill inheritance. Preview, lock protection and explicit confirmation recommended. Exact donor requirements, rank conversion, costs, generation count and thresholds open.
-Recommended one equipped pet; generation, rarity and star rank separate. New generation access permanently character-wide once requirements met recommended.
+Recommended one equipped pet; generation, rarity and star rank separate. New generation access permanently character-wide once requirements met recommended; Class Change stage resets should not revoke earned access. Exact high-level and class-change milestone mapping open (PROGRESSION.md).
 
 ## Mounts
 Available from start, general-purpose across classes, one usable skill, modest player enhancement, rarity and duplicate upgrades, cool appearance. Not an independent fighter; no mandatory pet-like generation ladder. Recommend one equipped mount. Skill activation while mounted/unmounted, slots, travel, bonus ranges and acquisition details open.
