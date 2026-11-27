@@ -16,6 +16,8 @@ References are study targets, not imported requirements. Specific mechanics and 
 | The War of Genesis | Incremental growth and spectacular skills; exact installment open |
 | Wuthering Waves | Fluid action, expressive animations and impact |
 | Phantom Blade Zero | Aggressive choreography, weapon identity and combat transitions |
+| Dragon Ball: Sparking! ZERO | Pursuit, ranged tracking and mixed basic/skill combo flow |
+| Dragon Ball FighterZ | Sparking-style combo extension and cancel feel |
 
 ## Optional study targets
 Diablo IV (loot and encounters), Granblue Fantasy: Relink (co-op action), Dragon's Dogma 2 (vocations), Nioh 2 (weapon identities), Black Desert Online (class awakening and PvE). These are suggestions, not additional scope.
