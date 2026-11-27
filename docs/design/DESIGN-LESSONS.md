@@ -22,6 +22,16 @@ Working design principles from Warrior iteration:
 ### Review future kits through these questions
 Does the class have a distinct loop? Do passives enable different builds and interact with real combat mechanics? Is an inherited skill useful outside its original class? Does auto-combat handle its conditions reliably? Are there sensible boss, single-target, multi-target and unarmored use cases? Are stronger rarity skills rewarding? What happens at extreme stat values and when effects overlap? These are review prompts, not mandatory new mechanics.
 
+### Lessons from designing the remaining foundation kits
+Assistant-derived working design hypotheses, not playtest conclusions (2026-11-27):
+- Separate a class's loop from its descendants' specialties: Ranger direct precision vs Hunter prey/traps; Mage spell cadence vs Elementalist reaction manipulation; Assassin burst openings vs Shinobi deception and Blade Dancer sustained combos; Cleric immediate restoration vs Oracle conditional blessings and Sage amplification.
+- Two Core skills should change attack rhythm and payoff while reusing weapon-family animation foundations. Don't imply new range, weapon compatibility or elemental tags solely from skill names/VFX.
+- Build skill transformations with explicit trade-offs (area versus focus, upfront versus delayed damage, shield size versus Critical Resistance). Let baseline skills operate without required passive combinations.
+- Design valid fallback targets and baseline effects for solo/party, armored/unarmored, resistant, short-lived and single-target enemies. A heal needs a valid recipient, an evasive build needs some opportunity even while a tank holds Aggro, and chained attacks cannot self-bounce indefinitely.
+- Keep effect ownership explicit: direct hits versus secondary/proc hits, actual damage versus overkill, actual healing versus overheal, cooldown/charge ownership, bounded conversions and per-action normalization. No recursive mark, echo, healing or Energy loops.
+- Treat unconfirmed status implementations (e.g., Bleed) as dependencies; do not promote them into established universal rules by drafting a skill.
+- All five foundations now have complete candidate pools and example builds. Review intersections before numerical tuning: active/inactive passive scope, duplicate skills, slot levels across presets, cross-class weapon compatibility and lineage inheritance, then talent interactions. No new system or resource required merely to establish identity.
+
 ## Reference leads for further verification
 Prior design discussions identified Go Go Muffin's Swordbearer skill transformations and retaliation, Sword x Staff's Charms and trigger-dependent effects, Last Epoch's skill-specific trade-offs, Torchlight: Infinite's skill support interactions and Diablo IV's weapon-switch incentives. Use these as research leads, not proof of exact named effects or values; verify current primary/community documentation before relying on specific mechanics. Adapt principles to Gravitas, not exact kits. See REFERENCES.md for the wider reference index.
 
