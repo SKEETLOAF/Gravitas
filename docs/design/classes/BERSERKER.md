@@ -31,7 +31,7 @@ Offensive bruiser; sustained aggression, committed heavy impacts and self-sustai
 | Rare | Unchained | Either | Limited interruption resistance and accelerated Bloodlust outside Frenzy; during Frenzy grants brief capped additional mitigation instead (proposed refinement). |
 | Rare | Savage Reprisal | Either | Heavy retaliatory blow, capped bonus based on recent actual Health lost from hostile damage; not prevented damage, no self-damage exploit; baseline when unhurt. |
 | Legendary | Rampage | Either | Advancing heavy sequence; during Frenzy adds finisher, stronger when wounded; respect zone and recovery. |
-| Legendary | Cataclysm | Greatsword | Committed overhead strike and area shockwave; missing Health boosts primary impact, Frenzy concentrates existing shockwave force toward primary target. |
+| Legendary | Cataclysm | Either | Committed overhead strike and area shockwave; missing Health boosts primary impact, Frenzy concentrates existing shockwave force toward primary target. |
 All skills use normal Energy/cooldown/Impulse rules. No new status or mandatory gauge beyond Trait readiness. Skills should remain useful at full Health. Snapshot missing-Health offensive modifiers at activation to prevent healing during a skill from unpredictably weakening it.
 
 ## Collectible passive skills (5)
@@ -43,7 +43,7 @@ All skills use normal Energy/cooldown/Impulse rules. No new status or mandatory 
 Shared Warrior-lineage starter skills are not duplicated; compatible inheritance as established. Passive scope and inheritance rules remain open.
 
 ## Example builds
-- Destroyer: Ravager / Heavy Cleaver, Earthshaker, Cataclysm / Juggernaut / Warfare, Opportunity. Greatsword required for two actives.
+- Destroyer: Ravager / Heavy Cleaver, Earthshaker, Cataclysm / Juggernaut / Warfare, Opportunity. Greatsword required only for Earthshaker; Cataclysm works with Sword or Greatsword.
 - Ravager: Bloodrush / War Cry, Whirlwind, Rampage / Ravenous / Tempo, Endurance.
 - Unstoppable: Ravager / Unchained, Savage Reprisal, Rampage / Juggernaut / Flow, Endurance.
 - Mixed Warrior/Berserker can use shared Sword; Warrior remains the stronger protection/Block specialist. Class-exclusive Trait interactions do not carry over.
@@ -76,5 +76,8 @@ Innate bonus: ATK and Lifesteal. Two independent forks, no route locking across 
 ## Design review / test priorities
 - Reference: Riot's Olaf (missing-Health Attack Speed/Lifesteal) https://www.leagueoflegends.com/en-au/champions/olaf/ and Last Epoch Cornered Beast (low-Health mitigation/melee damage) https://support.lastepoch.com/hc/en-us/articles/46363313327387-Primalist-Passive-Tree . Adapt principles, not exact tuning. Black Desert's physical combat presentation and GGM accessibility remain references.
 - Main risk: simultaneously multiplying low-Health offense, Frenzy speed, mitigation and Lifesteal can create an immortal DPS or make healing undesirable. Compare effective time-to-kill and survival at high/low Health, sustained and burst damage, solo/party healing, gear scaling and class swap. Preserve Warrior tank advantage and alternate healthy builds. No self-harm requirement.
-- Compare sword-only vs greatsword routes; ensure major talents have useful compatible alternatives before finalizing (e.g. Sword fallback for Earthshaker/Cataclysm-only investment). Explicitly define damage distribution, animation recovery floors, effect snapshots and skill eligibility. Frenzy should alter skill behavior and feedback rather than be a generic red aura.
+- Compare sword-only vs greatsword routes; ensure major talents have useful compatible alternatives before finalizing (e.g. Sword-compatible Cataclysm as an alternative to Earthshaker). Explicitly define damage distribution, animation recovery floors, effect snapshots and skill eligibility. Frenzy should alter skill behavior and feedback rather than be a generic red aura.
 - Test all four routes in each section for opportunity cost, uptime and proc loops. Avoid double counting the same actual damage in multiple conversions. No numerical simulation or gameplay validation yet. 8 static route-cost checks passed.
+
+## Legendary weapon compatibility (owner direction)
+Both Legendary Core choices and both native Legendary ordinary actives work with either class-compatible weapon. Use appropriate weapon or spell choreography without changing the skill's essential role, cooldown identity or creating a hidden equipment requirement. Skill range follows its authored behavior and valid combat geometry. Separate dedicated weapon skills remain weapon-specific; lower starting rarity ordinary skills retain existing restrictions pending further direction. No change to normal class/skill acquisition or inheritance eligibility. Numerical and animation parity still require testing.
