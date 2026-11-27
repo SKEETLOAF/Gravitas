@@ -48,7 +48,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Open: exact macro editor/executor rules, launch inputs and optional advanced conditions; offline progression is distinct from online automation.
 
 ## VI. Character power and progression
-- Approved three-layer direction (global character level, independent class mastery, promotion milestones, mastery catch-up) and optional depth principle: [PROGRESSION.md](PROGRESSION.md).
+- Progression direction (global character-level concept, independent class mastery, independent lineage prestige levels with lossless stage resets and rising caps, catch-up; exact level-track relationship open) and optional depth principle: [PROGRESSION.md](PROGRESSION.md).
 - Fundamental: character level/XP, ranks, milestones, ascension/rebirth, vertical/horizontal growth.
 - Attributes: primary, secondary, derived stats, allocation/scaling, caps/diminishing returns, interactions.
 - Masteries: weapons, combat, class, abilities, professions.
