@@ -14,7 +14,7 @@ Roles: tank, damage dealer, healer, support, controller. Specialties: sustained 
 | Sustain/utility | Health Regeneration, Lifesteal, Aggro |
 | Status | Effect Potency, Effect Duration |
 | Farming | Drop Rate, Experience Gain, Currency Gain |
-The consolidated list is covered for conceptual design; exact formulas and some earlier candidate stats' implementation remain open. No general AP, separate penetration stats, generic Damage Reduction, Healing Power or Shielding Power. A descriptive Combat Power rating is optional, not a damage stat.
+Proposed grouping for class growth (no new attributes): six main attributes (Health, Energy, ATK, MATK, DEF, Magical Defense) and 23 soft attributes (all remaining listed attributes). Main attributes receive substantial level-based growth; selected soft attributes may gain modest class-specific growth rather than all rising automatically. Exact classification and curves are for owner review. The consolidated list is covered for conceptual design; exact formulas and some earlier candidate stats' implementation remain open. No general AP, separate penetration stats, generic Damage Reduction, Healing Power or Shielding Power. A descriptive Combat Power rating is optional, not a damage stat.
 
 ## Clashing attributes
 | Offensive | Defensive |
