@@ -1,11 +1,20 @@
 # Shared lineage talent trees
 
-Status: starter tree structure and node designs are assistant proposals for owner review. Existing approved principles remain canonical in CLASSES.md and PROGRESSION.md until this draft is approved. No exact stat coefficients or playtest results.
+Status: owner replaces multi-rank talents with single-purchase nodes and more distinct nodes. Universal talent pool plus two paths per class pool is proposed for review; all prior three-path/multi-rank layouts below are superseded reference drafts, not implementation specs. No exact coefficients or playtest results.
+
+## Revised direction
+- One purchase per talent node; native cost 1 TP, existing cross-tree costs 2/3 TP per node remain the working rules. No 3–5 repeated upgrades. More nodes, meaningful incremental progression; preserve Attribute, Conditional, Transformative categories.
+- Proposal: universal talent pool accessible to all classes, and five class/lineage pools with two nonexclusive thematic paths each; later promotions expand their class pool. Candidate universal nodes cover broadly applicable stats, Energy, Core attacks, skill/class switching and farming. Candidate class paths Warrior Fortitude/Martial Mastery; Ranger Precision/Skirmishing; Mage Sorcery/Spellcraft; Assassin Lethality/Elusiveness; Cleric Restoration/Benediction. Exact names/topology open; whether universal pool uses one shared account allocation or each class's existing TP budget needs confirmation. Recommend existing per-track allocation and 1 TP universal cost, no extra currency, universal spending does not satisfy native 40-point gate.
+- Binary ownership requires reinterpretation of earlier 100%/50%/150% effective rank scaling. Recommend scaling numerical node effects instead, with no minimum-one rank (would make secondary nodes full strength); explicitly define qualitative transforms and overlapping nodes. Not yet approved. No duplicate universal account-wide bonus by default.
+- Recompute hybrid starting budget after new class node counts and universal allocation are decided. Previous 200 preallocated + 30 unspent example remains illustrative only.
+
+## Superseded multi-rank reference layout
+The following retained proposal is for extracting useful node concepts and comparing costs, not current topology.
 
 ## Established rules
 - Five shared native lineage trees; descendants retain access. All five eventually accessible. Ordinary native rank costs 1 TP, other tree ranks 2 TP after 40 invested native TP. Hybrid parents immediately accessible at 1 TP/rank; non-parent ranks 3 TP after 40 combined invested parent TP.
 - One TP per eligible lineage level gained after talent unlock, preserved across prestige; no point on resetting to level 1. Independent track budgets; hybrids have tier-equivalent one-time starting allotment plus normal level earning.
-- Attribute, Conditional and Transformative nodes, 3–5 investable ranks, modest linear effective-rank increments. No ordinary skill acquisition through talents. Primary effective ranks 100%, secondary 50% (minimum 1 for invested node), specialization 150% of single primary allocation; overlapping nodes add effective ranks. No arbitrary investment-cap clamp on effective ranks; explicit effect safety caps separate.
+- Previous layout: Attribute, Conditional and Transformative nodes, 3–5 investable ranks, modest linear effective-rank increments (multi-rank structure superseded; categories retained). No ordinary skill acquisition through talents. Primary effective ranks 100%, secondary 50% (minimum 1 for invested node), specialization 150% of single primary allocation; overlapping nodes add effective ranks. No arbitrary investment-cap clamp on effective ranks; explicit effect safety caps separate.
 - Class Trait, selectable class passives and collectible passive skills retain separate identities. No changes to skill eligibility, skill-slot levels, stars or tiers.
 
 ## Proposed structure
