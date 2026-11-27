@@ -103,6 +103,8 @@ Distinct individual class trees with two independent reconverging forks, linear 
 
 - [Hunter](classes/HUNTER.md): tactical prey/setup-payoff kit and two Hunting Grounds talent sections drafted; specific mechanics and weapons proposed.
 
+- [Elementalist](classes/ELEMENTALIST.md): Catalysis reaction sequencing, complete proposed kit and two Elemental Dominion sections; Trace exception and affinity selection pending owner review.
+
 ## Foundation kit documents
 All five foundations now have complete working skill pools; Warrior's revised passive direction is owner-approved and the remaining four kits were delegated to the assistant for draft design. Not a finalized numerical balance or launch commitment.
 - [Warrior](classes/WARRIOR.md)
