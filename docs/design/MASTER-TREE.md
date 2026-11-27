@@ -54,7 +54,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Masteries: weapons, combat, class, abilities, professions.
 - Permanent development: bonuses, character-wide unlocks, milestone abilities, achievement benefits, training, collections, potential swap-slot unlocks.
 - Management: respec, catch-up, compression, pacing, soft/hard walls, newcomer/veteran growth.
-- Established separate permanent account Character Level, Class Mastery, lineage levels/prestige, skill and equipment development; exact scaling and XP attribution open. Most major foundational systems unlock during Prestige 0; future prestige/stage clears may introduce more. Avoid redundant leveling.
+- Established separate permanent account Character Level, Class Mastery, lineage levels/prestige, skill and equipment development; exact scaling and XP attribution open. Most major foundational systems unlock during Prestige 0, including Reforge/Recast and customizable pet moves; mounts very early I, relics and evolved-pet Mythic Moves II, Pet Ascension tentatively II, hybrids tentatively II–III, mount equipment III, Stellar Path-like concept distant III+. Future prestige/stage clears may introduce more. Avoid redundant leveling.
 
 ## VII. Ability and build systems
 - Owner direction on Energy, skill acquisition, upgrade/duplicate ranks, focused summons and Stardust: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
@@ -130,7 +130,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Open: avoid forcing one character to interrupt combat for chores.
 
 ## XVI. Supplemental character growth
-- Pet and mount collection/upgrade direction: pets available from start, mounts very early Prestige I, each one skill, pets also basic attacks; pet generations improve with class progression plus character level; mounts more universal; potential donor-sacrifice ascension for earlier pets. Detailed relic design deferred: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
+- Pet and mount collection/upgrade direction: pets available from start with basic attacks and customizable equippable moves (not a single fixed skill), evolved-pet Mythic Moves at II; mounts very early Prestige I with one skill and equipment at III; pet generations improve with class progression plus character level; mounts more universal; potential donor-sacrifice ascension for earlier pets tentatively at II. Relics unlock II, detailed design deferred: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
 - Owner confirms relics as unique upgrades, and mounts/pets as character enhancement directions. Specific mechanics, slots, acquisition and scope remain open; see [ELEMENTS.md](ELEMENTS.md).
 - Companions/familiars/pets: combat/gathering assistance, passive bonuses, development.
 - Mounts/transport; relic/collection systems; housing; personal training facilities; reputation/factions; titles/achievements; blessings/contracts; transformations/temporary states; account-wide benefits.
