@@ -1,5 +1,5 @@
 # Class architecture and design template
-Updated 2026-11-26. Overall class expansion established; exact lineage structure and kits open.
+Updated 2026-11-26. Class expansion established; initial planning scope is two promotions per foundation. Roster names, unlock topology and kits remain open.
 
 ## Established direction
 - One character can learn, independently develop and equip multiple distinct disciplines. Promotions unlock new disciplines without replacing prior classes or losing mastery. Sibling branches can remain accessible. Every class must have a distinct benefit, even relative to its ancestors.
@@ -9,7 +9,7 @@ Updated 2026-11-26. Overall class expansion established; exact lineage structure
 - Character/class progression and promotion requirements are established in [PROGRESSION.md](PROGRESSION.md). Energy and shared combat rules are in [COMBAT-FOUNDATIONS.md](COMBAT-FOUNDATIONS.md).
 
 ## Working foundation model
-Five proposed role lineages, inspired by Go Go Muffin. This is the current design basis, not final promotion structure.
+Five foundational role lineages, inspired by Go Go Muffin. Initial planning scope: two promoted disciplines per foundation, 15 total ordinary classes including foundations, excluding future hybrids/special classes. This is a design scope, not an approved release schedule.
 | Foundation | Role | Primary | Secondary |
 | --- | --- | --- | --- |
 | Warrior | Tank | Sword | Shield |
@@ -17,7 +17,18 @@ Five proposed role lineages, inspired by Go Go Muffin. This is the current desig
 | Mage | Magical DPS | Magic Staff | Tome |
 | Rogue | Melee DPS | Dagger | Sword |
 | Cleric | Support | Tome | Shield (recommended) |
-Exact weapon confirmation status in WEAPONS.md. Whether promotions are sequential or branch, promotion counts/names, inheritance and special/hybrid acquisition remain open. All classes should be solo-capable (recommended); roles are specialties, not restrictions.
+Exact weapon confirmation status in WEAPONS.md. Sequential versus branching promotion unlocks, exact names, inheritance and special/hybrid acquisition remain open. All classes should be solo-capable (recommended); roles are specialties, not restrictions.
+
+## Initial promotion roster (proposed)
+Recommend two sequential unlock stages for each foundation initially, with distinct horizontal combat identities and room for later branches. Every ancestor remains playable; progression does not replace the earlier class. The two-promotions-per-lineage scope is owner-directed; sequential topology and all promoted names/identities below are candidates, not approved.
+| Foundation | Promotion I | Promotion II |
+| --- | --- | --- |
+| Warrior: adaptable frontline tank | Knight: ally protection, shielding and interception | Warlord: frontline command, group pressure, Armor breaking |
+| Ranger: versatile ranged damage | Hunter: sustained pursuit, marks and area control | Deadeye: precise high-impact ranged attacks and weak-point exploitation |
+| Mage: general spellcasting and elemental reactions | Sorcerer: focused elemental offense and reaction chains | Arcanist: spell manipulation, area control and Energy interactions |
+| Rogue: fast melee attacks and Evasion | Assassin: single-target burst and execution | Shadowblade: mobility, evasive counters and chained attacks |
+| Cleric: general healing and support | Priest: sustained healing, cleansing and protection | Oracle: proactive party enhancement and timed intervention |
+Earlier owner examples (Berserker, Paladin) remain candidate future branch/hybrid names, not removed from consideration. Assign weapons and design individual kits only after review of the roster. Names are working labels; no exact abilities, elements or values approved.
 
 ## Common class anatomy
 - Class Trait: exactly one inherent passive trait per class, unlocked and upgraded through Class Mastery and shared Ascension items. Not summoned or equipped in a selectable passive slot. Same-class specialization does not duplicate the trait. Class Trait is active only while its associated class is active; explicitly applied effects may finish their intended duration. Exact mastery thresholds, level caps, costs and effects open. Candidate identities (not approved kits): Warrior retaliation, Ranger precision, Mage spell sequencing, Rogue exploiting openings, Cleric divine favor.
@@ -55,8 +66,8 @@ Use the same template for foundations, advanced, hybrid and special classes. Fil
 12. **Decision record:** established, exploratory, future, undecided, discarded; next questions.
 
 ## Open class architecture
-The shared architecture is ready for initial kit design. Primary/secondary talent and weapon scaling, active-class Trait and class-associated passive rules are established. Starting talent and weapon multipliers approved (50% secondary, 125% specialized talents); point sources, rank calculation order, overlapping same-lineage nodes, and weapon wielding transitions remain open. No final class kit or promotion roster approved.
+The shared architecture is ready for initial kit design. Primary/secondary talent and weapon scaling, active-class Trait and class-associated passive rules are established. Starting talent and weapon multipliers approved (50% secondary, 125% specialized talents); point sources, rank calculation order, overlapping same-lineage nodes, and weapon wielding transitions remain open. Initial promotion count established; specific promotion names and kits remain proposals.
 - Trait level thresholds, ascension costs and upgrade effects; no automatic stacking of all learned disciplines.
 - Passive trigger design/acquisition and talent details, detailed weapon activation and swap execution/cooldowns. See [COMBAT-SWITCHING.md](COMBAT-SWITCHING.md).
 - Distinct benefits and viability of earlier classes after promotions, skill inheritance, class-specific mechanics, automation and active options.
-- Exact foundation and promotion kits, hybrid roster, special acquisition rules. No actual class skills or named promotion roster established.
+- Exact foundation and promotion kits, hybrid roster, special acquisition rules. No actual class skills or finalized named promotion roster established.
