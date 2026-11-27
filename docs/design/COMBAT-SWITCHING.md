@@ -1,4 +1,4 @@
-# Combat switching and shared loadout
+# Combat flow, switching and shared loadout
 Updated 2026-11-26. Owner-confirmed loadout architecture; detailed execution and balance open.
 
 ## Established
@@ -9,15 +9,20 @@ Updated 2026-11-26. Owner-confirmed loadout architecture; detailed execution and
 - Swapping accesses the incoming class's selected skills. Recommend individual ability cooldowns continue during inactivity and never reset simply due to swaps; shared weapon skills retain their cooldowns across class swaps. Shared Health/Energy and persistent applied statuses/effects recommended, subject to explicit skill rules.
 
 ## Automatic combat and combo extension (owner-confirmed)
+Combat should interweave basic strings, skills and class swaps into fluid extended sequences, with Dragon Ball: Sparking! ZERO pursuit/combos and Dragon Ball FighterZ Sparking-style extensions as feel references, not copied mechanics. It should not devolve into repeated skill-only casts or basic string -> swap -> basic string as the only optimal pattern.
 - Auto switching uses available skills in the active class then switches to the other class's skills, or finishes a full basic-attack combo and switches to extend it. No elaborate tactical AI required for baseline behavior.
 - A completed basic-attack chain has a brief recovery period during which another ordinary basic chain cannot immediately begin. A finisher may knock the target away; exact chain length, recovery duration and displacement vary by kit and remain open.
 - Class switching strings into the completed combo and rushes the knocked-back target to continue the incoming class's combo rather than waiting through ordinary basic-chain recovery. The 0.5-second class swap cooldown still applies. Recommend a class-compatible pursuit transition (ranged styles may close to effective range), preserve valid target, and avoid rushing dead/invalid targets. For knockback-resistant bosses, a non-displacing continuation is recommended, not finalized.
-- Exact priority between skill rotation and combo extension, Energy/readiness conditions, pursuit distance, recovery/cancel windows and same-class recovery behavior remain open. No automatic cooldown reset or free invulnerability implied.
+- Eligible skills, including supportive skills, emit a brief hit-stun pulse on activation against enemies within their individual effect area/range. The pulse creates combo continuity and animation-cancel opportunities; it need not deal HP damage. Intact enemy Armor prevents pulse-induced stagger/knockback even though the pulse occurs. Ordinary break/CC rules apply.
+- A skill used during a basic string can reset/extend the string, cancel eligible recovery and lead into another basic string or skill. If used following a completed basic string, the pulse knocks back eligible enemies; pursue to continue. This is a combo-state reset, not a skill cooldown reset.
+- Skill-to-skill and skill-to-basic transitions may rush/chase displaced targets, close to a skill's effective range, or use appropriate ranged projectile homing. Preserve class/weapon identity and avoid teleporting or rushing invalid targets. Exact movement, tracking and range rules are open.
+- Baseline auto-combat should intermix basic strings, eligible skill extensions and swaps, not exhaust every skill consecutively by default. Exact sequencing, readiness/Energy gates, cancel windows, pursuit distances, recovery rules and anti-lockdown tuning open; no fixed forced alternation or combo limit established. No automatic cooldown reset or free invulnerability implied.
 
 ## Compatibility and execution
 See [Weapons](WEAPONS.md) for class-linked weapon families. The two equipped weapons remain the same throughout class swaps; no per-class gear replacement. Recommend validating that each distinct selected class can use at least one equipped weapon. Whether swaps automatically select a compatible weapon, or require separate weapon selection, is open. Do not require both classes to share a weapon. Each weapon supplies one skill, not an additional class kit.
 
 ## Open
+- Skill pulse eligibility, hit registration vs actual damage, pulse range/timing, combo-state resets, Armor immunity and CC recovery interaction, ranged tracking and multi-target behavior. Prototype mixed strings against both ordinary and armored enemies.
 - Manual swap triggers, detailed auto sequencing, independent weapon swap rules, cooldown scope for weapon switching, cancel/recovery windows, target validity and animations.
 - Passive/trait activation scope, talent preset switching restrictions, persistent effects, specialization buff and potential cooldown reduction.
 - Shared weapon attribute contribution (both equipped vs currently wielded), weapon skill activation/slot presentation, duplicate weapon eligibility.
