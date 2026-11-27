@@ -59,6 +59,17 @@ Five starter passive skills, shared by Warrior descendants and compatible hybrid
 - Resolve: increase Resistance.
 Exact effects, rank curves, acquisition and class/passive inheritance open.
 
+## Passive skill revision candidates (research-informed, pending owner review)
+References checked: Go Go Muffin Swordbearer guide https://gamestratwiki.com/go-go-muffin-swordbearer-build/ (Berserker transforms War Cry, Rising Morale, Vengeful Shield, Blade Armor); Sword x Staff Warrior guide https://www.prydwen.gg/sword-x-staff/guides/build-guide-warrior and community skill database https://mystonats.github.io/sxs_skills/ (Counter Blade, Blade Tempest, Block Awareness, Blade of Lament); official Last Epoch Sentinel passive and skill trees https://support.lastepoch.com/hc/en-us/articles/46363384093595-Sentinel-Passive-Tree and https://support.lastepoch.com/hc/en-us/articles/46362203855515-Sentinel-Skill-Tree (resource recovery from basic skills, automatic counter, block-to-attack-speed scaling and trade-off modifications); Torchlight Infinite support database https://tlidb.com/en/Support_Skill (alternating cast effects); Diablo IV Barbarian database https://diablo4.life/database/skills/barbarian (resource recovery on weapon swaps). Adapt principles, not direct copies.
+Proposed replacement for the five Warrior-specific passive skills:
+- Reprisal: blocks can trigger automatic counterstrike, partially scaling with damage prevented; internal cooldown.
+- Warmonger: transforms Battle Cry, replacing its defensive/Aggro benefits with ATK and Attack Speed; during empowered state offensive Impulse deals physical damage.
+- Tempered Resolve: convert a portion of damage prevented through blocking into personal shield; increased Resistance while shielded.
+- Relentless Assault: basic-chain extensions via active skills reduce Energy cost of next active; consecutive extensions strengthen benefit up to cap.
+- Shatterpoint: Armor break releases a damaging shockwave with Armor depletion against nearby enemies and a temporary physical damage vulnerability on original Broken target.
+Proposed revised shared starter passives: Conditioning (HP); Arms Training (ATK); Combat Rhythm (complete basic string restores Energy); Steadfast (blocking shortens remaining duration of harmful statuses); Opportunist (bonus damage against staggered or Broken targets). These replace the prior all-stat starter proposal only if approved.
+Review event recursion, proc frequency, blocked-damage conversion budgets, source attribution, vulnerability stacking, status-duration floors, and basic-chain-extension resource loops. No guaranteed chain reaction from Shatterpoint's secondary Armor depletion. All values, rarities for passive skills, scope and inheritance open. Prior passive candidates retained for comparison until owner decides.
+
 ## Example rotations (proposals)
 Tank: Unyielding Advance + Battle Cry + Iron Guard + Retaliation; Vanguard.
 Armor breaker: Martial Discipline + Rupture + Shield Bash + Linebreaker; Undaunted.
