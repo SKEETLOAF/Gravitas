@@ -54,7 +54,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Masteries: weapons, combat, class, abilities, professions.
 - Permanent development: bonuses, character-wide unlocks, milestone abilities, achievement benefits, training, collections, potential swap-slot unlocks.
 - Management: respec, catch-up, compression, pacing, soft/hard walls, newcomer/veteran growth.
-- Established separate permanent account Character Level, Class Mastery, lineage levels/prestige, skill and equipment development; exact scaling and XP attribution open. Most major foundational systems unlock during Prestige 0, including Reforge/Recast and customizable pet moves; mounts very early I, relics and evolved-pet Mythic Moves II, Pet Ascension tentatively II, hybrids tentatively II–III, mount equipment III, Stellar Path-like concept distant III+. Future prestige/stage clears may introduce more. Avoid redundant leveling.
+- Established separate permanent account Character Level, Class Mastery, lineage levels/prestige, skill and equipment development; exact scaling and XP attribution open. Most major foundational systems unlock during Prestige 0, including Reforge/Recast and customizable pet moves; mounts very early I, relics and evolved-pet Mythic Moves II, Pet Ascension tentatively II, equipment Enhancements II, core hybrids/awakened skills/mount equipment III, Stellar Path-like concept distant III+. Future prestige/stage clears may introduce more. Avoid redundant leveling.
 
 ## VII. Ability and build systems
 - Owner direction on Energy, skill acquisition, upgrade/duplicate ranks, focused summons and Stardust: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
@@ -94,7 +94,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Boss hunts: targeted/rare/world bosses.
 - Raids: group encounters, phases, raid progression.
 - Trials: class/mastery/combat challenges.
-- Expeditions: resources, exploration, offline activity.
+- Expeditions: owner accepts companion expeditions; resources/exploration/offline activity are candidate mechanics, unlock timing open.
 - Roguelite: temporary builds, randomized encounters, run modifiers.
 - Challenges: time trials, restricted builds, performance rankings.
 - Events: seasonal/limited encounters, special rewards.
@@ -114,7 +114,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Activities: bosses, raids, expeditions, quests, challenges, assistance.
 - Infrastructure: headquarters, facilities, shop, upgrades, storage.
 - Competition: rankings, tournaments, wars, territory, alliances.
-- Guilds established; individual features and scale undecided.
+- Guilds established; guild features unlock via guild level-ups and guild management, not Character Level or prestige (owner direction). Individual features and scale undecided.
 
 ## XIV. Competitive and PvP systems
 - Competitive PvE: stage rankings, clear times, damage records, class/solo/co-op rankings, seasonal competition.
@@ -199,7 +199,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Data: character, class, inventory, offline calculations, trade transactions, recovery.
 - Performance: enemy counts, animation/effect/network budgets, mobile, LOD.
 - Tooling: class/ability/enemy creation, loot and encounter editors, balance simulations, automated tests, analytics, admin, anti-exploit.
-- Release scope/roadmap: prototype, validation, priorities, dependencies, later manual combat.
+- Release scope/roadmap: prototype, validation, priorities, dependencies, later manual combat. Tentative P0/I first two weeks and biweekly updates thereafter, subject to readiness; see PROGRESSION.md.
 
 ## Cross-branch relationship map
 Character -> classes, attributes, equipment -> abilities/builds -> combat -> automation/active input -> adventure -> content/co-op/guilds -> rewards/economy/progression -> character. Switching touches III, IV, V, VI, VII, VIII, XX, XXI, XXIII and XXIV. This is not a dependency lock or implementation schedule.
