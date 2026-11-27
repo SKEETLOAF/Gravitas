@@ -3,7 +3,7 @@ Updated 2026-11-26. This is a concise overview; linked system documents are cano
 
 ## Identity and guardrails
 - Roblox semi-idle, real-time hack-and-slash RPG with one persistent customizable character per account and learnable/equippable classes, not a hero roster. No alternate character saves planned at launch (owner-approved); appearance/combat presets remain a quality-of-life direction.
-- AFK Dungeon-like moving battlefield combat; optional active input (boss/raid repositioning, brief clash QTEs, clickable exposed weak points, hazards and co-op mechanics; no standalone precision-timing QTEs) and future full manual combat. Hybrid worlds/instances, co-op and guilds.
+- AFK Dungeon-like moving battlefield combat; optional active input (boss/raid combat-zone repositioning, brief clash QTEs, clickable exposed weak points, hazards and co-op mechanics; no standalone precision-timing QTEs) and future action-RPG alternative with free movement. Hybrid worlds/instances, co-op and guilds.
 - Optional depth: casual players including children can use sensible builds and enjoy progression without mastering underlying RPG rules. Advanced optimization is available, not compulsory.
 - Paid acceleration is allowed, but free players have realistically attainable equivalent power and guaranteed acquisition paths. No mandatory purchase to progress.
 - [References](REFERENCES.md) includes Torchlight: Infinite and Black Desert Mobile as ARPG inspirations, and Sword x Staff for hybrid idle/world exploration, build customization and automated combat.
