@@ -31,7 +31,7 @@ Status: navigation index; linked canonical system documents distinguish establis
   - Heavy attacks: charges, guard breaks, launchers, finishers.
   - Abilities: slots, cooldowns, resource costs, follow-ups, combinations.
   - Ultimates; aerial combat; area attacks; ranged attacks; summons.
-  - Combat flow: skill hit-stun pulses (including support), basic-string resets/extensions, knockback after completed string, pursuit and class swaps; intact Armor prevents stagger. Mixed automatic combos; detailed timing, tracking, weapon swaps and animations open.
+  - Combat flow: Impulse hit-stun pulses (including support), basic-string resets/extensions, knockback after completed string, pursuit and class swaps; intact Armor prevents stagger. Mixed automatic combos; detailed timing, tracking, weapon swaps and animations open.
 - Defense: dodge, block, parry, counter, mitigation, shields/barriers, interruption, hyper armor, crowd-control resistance, recovery/healing.
 - Movement: pursuit, dash/gap close, reposition, target switching, lock-on, tracking, knockback, grouping, vertical movement.
 - Interactions: damage types, elemental interactions, status effects (DoT, buffs/debuffs, crowd control, stacking, reactions), stagger/posture, critical attacks, weak points, executions, environmental interactions, co-op synergy.
@@ -41,11 +41,11 @@ Status: navigation index; linked canonical system documents distinguish establis
 ## V. Automation and player participation
 - Current idle progression design: [WORLD-AND-IDLE.md](WORLD-AND-IDLE.md).
 - Auto-combat: movement, targeting, combos, skills, defense, resource management, stage progression, recovery, looting.
-- Intelligence: target/skill priority, sequencing, conditions, defensive thresholds, resource conservation, enemy awareness, class-specific decisions, configurable tactics, presets, possible automated swap decisions.
+- Automation: simple developer-authored presets and player-created combat macros; shared data-driven sequence executor recommended. Targeting, pursuit, skill readiness and resource management handled by common actions; advanced conditions and editor details open. See [Combat flow](COMBAT-SWITCHING.md).
 - Active participation: manual ability activation, targeting, repositioning, situational inputs, opportunities, temporary overrides, auto-resumption, performance advantages, possible manual swaps.
 - AFK/offline: online farming, offline simulation and limits, targeted farming, repeatable activities, auto-repeat, failure/retry, inventory management, return summaries.
 - Full manual (future): direct movement, attack chains, defense, ability combinations, PC/mobile/console controls, seamless control transitions.
-- Open: intelligence from mastery vs configuration vs baseline; exact launch inputs; offline progression is not the same as online automation.
+- Open: exact macro editor/executor rules, launch inputs and optional advanced conditions; offline progression is distinct from online automation.
 
 ## VI. Character power and progression
 - Approved three-layer direction (global character level, independent class mastery, promotion milestones, mastery catch-up) and optional depth principle: [PROGRESSION.md](PROGRESSION.md).
