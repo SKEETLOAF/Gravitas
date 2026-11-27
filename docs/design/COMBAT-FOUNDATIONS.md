@@ -41,7 +41,7 @@ Enemy breakable Armor is derived from defense, incrementally stronger on elites/
 All skills including ultimates consume Energy; no universal ultimate gauge. Specific skills may introduce stacks, gauges or charges. Attacks occur as fast as weapon attack/fire rate and cooldowns allow. Stat-based automatic defensive actions; optional active input; full manual mode and detailed choreography deferred. Suggested shared Energy across swaps, free basic attacks and passive plus normalized on-hit recovery. See [Skills](SKILLS-AND-COLLECTION.md) and [Switching](COMBAT-SWITCHING.md).
 
 ## Equipment slots
-Conceptually covered: primary/secondary weapon, head, chest, hands, legs, feet, necklace, ring; relic deferred. Exact ring count, global/per-class weapon slot scope and shield/off-hand handling open. Shared armor/accessories recommended for multiclass builds. Itemization in [ITEMIZATION.md](ITEMIZATION.md).
+Conceptually covered: primary/secondary weapon, head, chest, hands, legs, feet, necklace, ring; relic deferred. Two global weapon slots shared across both class selections. Armor, accessories and companions are shared and unchanged on class swaps. Exact ring count and shield/off-hand handling open. Itemization in [ITEMIZATION.md](ITEMIZATION.md).
 
 ## Open calculation work
 Damage/defense formulas, counter resolution, crit bonus mitigation, armor durability/regen, Energy rates, threat, skill coefficients, chance limits and buff/debuff ceilings (see ELEMENTS.md). No extra attribute or mechanic inferred from an example.
