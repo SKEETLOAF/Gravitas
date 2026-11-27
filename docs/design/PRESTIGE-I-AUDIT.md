@@ -1,0 +1,34 @@
+# Pre-Prestige II design review
+
+Status: structural review completed 2026-11-27; design and implementation gates below require owner review. No playtesting, damage simulation or implementation claimed. Preserve approved decisions; proposed resolutions are not canon.
+
+## Verified inventory
+Five foundations and five P I promotions have kit documents. Each has 2 Legendary Core choices, 4 Normal, 4 Rare, 2 Legendary ordinary actives and 5 collectible passives. 100 ordinary actives, 20 Cores, 50 collectible passives; separate lineage starters and class passives. All 20 native Legendary ordinary actives work with either class-compatible weapon. No duplicate native ordinary active names found. 40 foundation class routes + 40 promotion class routes + 12 linear universal sections = 92 checked 30-TP budgets. Attribute profiles match planned 18/19 allotments (S surcharge included). Historical talent files not implementation input. No balance or animation parity validated.
+
+## Corrected catalog issues
+Assassin Exploit readiness replaces speculative capacity/max wording; Mage Spellweaver can accumulate completed chains up to a cap, per kit; Ranger Flank is a shared starter, not missing skill; rename Cleric talent Divine Intervention to Lasting Mercy to avoid collision with Oracle skill. Legendary compatibility audit complete for native kits; no decision to broaden Normal/Rare or to remove class inheritance eligibility.
+
+## Ten-class identity and risks
+| Class | Protected identity | Priority review |
+| --- | --- | --- |
+| Warrior | Block-to-counter, frontline | Actual Block-prevented damage; protection vs Knight |
+| Ranger | Direct precision | Target-specific Precision, dagger fallback, aim/reposition |
+| Mage | Efficient spell weaving | Energy refunds, cap, reaction-independent builds |
+| Assassin | Evade/vulnerability into burst | Readiness, deathmark attribution, no forced dodge |
+| Cleric | Immediate restoration | Actual healing vs overheal, auto ally selection |
+| Berserker | Wounded bruiser/Frenzy | Multiplicative mitigation, Lifesteal, healing incentive |
+| Hunter | Quarry, traps and pursuit | Setup/payoff availability, moving enemies, CC-resistant bosses |
+| Elementalist | Reaction manipulation | Global reaction priority, ownership, Trace exception |
+| Shinobi | Clone cooperation and deception | Concurrent action locks, physical/magic gear tax, low-end VFX |
+| Oracle | Prepared blessings | Auto recipient/trigger choice, shared caps, solo fallback |
+Common issue: repeated Core -> readiness -> empowered skill patterns can make different classes feel alike. Preserve distinct action loops (Warrior defense events, Berserker sustained Frenzy, Hunter placement, Elementalist status order, Shinobi cooperation, Oracle future event). Test inherited skills and ordinary rotation under missing ideal triggers. Do not redo complete kits purely for novelty.
+
+## Decisions to resolve before P II (proposed resolutions, not approved)
+1. Talent economy/access: preserve 45 P0 and 124 cumulative P I unless owner explicitly revises earnings. P0 can finish one 30-TP section plus 15 elsewhere, not three full trees. Recommend 3 selected trees per preset, entry bonus only when selected, base section on class acquisition subject to initial level-15 unlock, expansion when appropriate lineage reaches P I AND tree already unlocked, completing previous section first. Promotion trees have separate nodes but draw same lineage TP pool. Prior 40-native/combined gates and rank-price premiums conflict with binary 30-TP routes; recommend replace gate with completion of one native section for non-ancestral access, native and parent/ancestral access normal cost, non-parent prices TBD. Hybrid parent trees immediately accessible; no forced prefill without approval. Clarify independent preset allocations vs shared earned budget and active contribution scaling.
+2. Skill inheritance: compatible learned ordinary actives transitive from ancestors, not reverse; no exclusive Traits or class passives. Recommend class-specific Core choices, compatible ancestral collectible passive eligibility by explicit skill ID/tag, five passive slots as working target. Native Legendary supports both class weapons; inherited skill still requires compatibility with recipient's weapon families; do not silently grant global access. Need owner decision whether lower-rarity skill promoted to Legendary unlocks its weapon requirement. Registry fields source class, base rarity, weapon families, animation variants, tags, target, scaling, element/application, cooldown identity.
+3. Combat event contract: authoritative order candidate: target validity -> Accuracy/Evasion -> crit/tier -> Block/tier -> DEF/MDEF -> effect-specific mitigation -> shield -> actual Health loss -> survival check -> bounded eligible healing/status followups. Review exact Block/mitigation attribution and pre-hit snapshot; armor integrity separate from Health damage, no universal formula yet. Define reaction priority and status consumption, direct/proc/DoT event ownership, cooldown and Energy floors, expiry/swap persistence. No event should recursively create itself. Distinct scope for conditional protection vs post-hit restoration. No universal reaction cooldown.
+4. Auto and encounter contract: shared ordered action executor; simple baseline works without exact boss timer or new minigame; target selector for allies/self; skip invalid actions, bounded waits, preserve Energy/cooldowns, range/geometry and 0.5s class switch. Define Impulse recovery/cancel windows and interruption floors; test bosses with intact Armor, forced zones, target death, no hits, solo, co-op, mobile. Need concrete support credit, aggro, party sizing, encounter rules.
+5. Balance/UX prototype: baseline stat curves and enemy HP/Armor, ability coefficients/costs/cooldowns, reference builds and metrics (time to kill, actual heal/mitigation, resource uptime, clear reliability, manual/auto difference, mobile VFX). Tooltips preview skill tags, native/ancestral eligibility and conditional modifiers; route-aware talent completion; warn incompatible investment. No subjective ratings substitute for measured results.
+
+## Broader remaining design backlog
+After decisions above, prioritize P II kits; then revisit combat formulas, encounter/dungeon progression and numerical benchmarks, acquisition/summon odds/pity and skill upgrades, gear enhancement/reforge, pets/moves/expeditions, mounts, economies and rewards, world/stage structure, multiplayer/guilds, UI/onboarding, art and technical scope. Existing master tree remains index; don't silently finalize unrelated systems. P II class work should not preempt owner review of key shared contracts. Implementation/playtest can proceed in a small representative vertical slice once its contracts are approved, not all 30 classes first.
