@@ -6,7 +6,8 @@ References are study targets, not imported requirements. Specific mechanics and 
 | Game | Study focus |
 | --- | --- |
 | AFK Dungeon | Moving automated hack-and-slash combat, farming and boss progression |
-| Go Go Muffin | Class changes, skill summons, pets, mounts, gear sets and slot investment |
+| Go Go Muffin | Class changes, skill summons, separate resettable talent trees that grant stats and modify skills, pets, mounts, gear sets and slot investment |
+| Diablo IV | Branching skill customization, especially transformative upgrades in April 2026 rework; loot and encounters |
 | Torchlight: Infinite | ARPG loot, build construction, skills, modifiers and synergy |
 | Black Desert Mobile | Automated action combat, character growth, farming and large-scale encounters |
 | AFK Arena | Idle reward accumulation and progression-linked rewards |
@@ -20,10 +21,11 @@ References are study targets, not imported requirements. Specific mechanics and 
 | Dragon Ball FighterZ | Sparking-style combo extension and cancel feel |
 
 ## Optional study targets
-Last Epoch (shared base/mastery passive tree structure), Diablo IV (loot and encounters), Granblue Fantasy: Relink (co-op action), Dragon's Dogma 2 (vocations), Nioh 2 (weapon identities), Black Desert Online (class awakening and PvE). These are suggestions, not additional scope.
+Last Epoch (shared base/mastery passive tree structure), Granblue Fantasy: Relink (co-op action), Dragon's Dogma 2 (vocations), Nioh 2 (weapon identities), Black Desert Online (class awakening and PvE). These are suggestions, not additional scope.
 
 ## Reference resources
-- Go Go Muffin guides: https://boarhat.gg/games/go-go-muffin/guide/ ; talent resets: https://boarhat.gg/games/go-go-muffin/guide/beginner-guide/ ; presets: https://boarhat.gg/games/go-go-muffin/guide/game-mode/
+- Go Go Muffin: level-linked stat/skill-modifying resettable talents https://boarhat.gg/games/go-go-muffin/guide/beginner-guide/ ; separate class change skill summon banners https://boarhat.gg/games/go-go-muffin/guide/cc1-guide/
+- Diablo IV April 2026 skill tree rework: https://news.xbox.com/en-us/2026/04/22/diablo-4-skill-tree-overhaul/ ; passive node removal https://news.blizzard.com/en-gb/article/24267729/prepare-for-the-reckoning-lord-of-hatred-draws-near
 - Last Epoch mastery passive access: https://support.lastepoch.com/hc/en-us/articles/46363282865435-Can-I-spend-Passive-points-in-the-Mastery-trees
 - Torchlight: Infinite talent panels and Hero Traits: https://tlidb.com/en/Basic_Rules
 - Black Desert Mobile Transcendence rework: https://www.world.blackdesertm.com/Ocean/News/Detail?boardNo=4521
