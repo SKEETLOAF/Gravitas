@@ -10,7 +10,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 
 ## II. Character creation and identity
 - Identity: name/profile; appearance (body proportions, facial features, hair/color, distinguishing features); races/species (characteristics, abilities, progression); origins/backgrounds (starting benefits, opportunities, narrative significance); traits (innate talents, strengths/weaknesses, acquired traits).
-- Individuality: earned titles with rarity-scaled bonuses and cosmetic 0/100 Style Score collection milestones (10 ranks maximum initially; recommended +0.5% main attributes per rank) independent of worn appearance, using seven equipment tiers (see ITEMIZATION.md), reputation; accomplishments; character history; visual customization; emotes/personality; inspection; profile showcases.
+- Individuality: earned titles with rarity-scaled bonuses and cosmetic 0/100 Style Score collection milestones (10 ranks maximum initially; approved +0.5% main attributes per rank) independent of worn appearance, using seven equipment tiers (see ITEMIZATION.md), reputation; accomplishments; character history; visual customization; emotes/personality; inspection; profile showcases.
 - Open: mechanical versus cosmetic individuality.
 
 ## III. Class and discipline systems
