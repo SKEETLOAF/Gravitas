@@ -199,7 +199,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Data: character, class, inventory, offline calculations, trade transactions, recovery.
 - Performance: enemy counts, animation/effect/network budgets, mobile, LOD.
 - Tooling: class/ability/enemy creation, loot and encounter editors, balance simulations, automated tests, analytics, admin, anti-exploit.
-- Release scope/roadmap: prototype, validation, priorities, dependencies, later manual combat. Tentative P0/I first two weeks and biweekly updates thereafter, subject to readiness; see PROGRESSION.md.
+- Release scope/roadmap: prototype, validation, priorities, dependencies, later manual combat. Tentative P0/I at launch, biweekly updates, P III after six full weeks, two batches of five core hybrids, subject to readiness; see PROGRESSION.md.
 
 ## Cross-branch relationship map
 Character -> classes, attributes, equipment -> abilities/builds -> combat -> automation/active input -> adventure -> content/co-op/guilds -> rewards/economy/progression -> character. Switching touches III, IV, V, VI, VII, VIII, XX, XXI, XXIII and XXIV. This is not a dependency lock or implementation schedule.
