@@ -14,7 +14,7 @@ Proposed Pet Ascension: consume eligible newer-generation donor plus Gold/ascens
 Recommended one equipped pet; generation, rarity and star rank separate. New generation access permanently character-wide once requirements met recommended; Class Change stage resets do not revoke earned access (owner-confirmed). Exact high-level and class-change milestone mapping open (PROGRESSION.md).
 
 ## Mounts
-Available from start, general-purpose across classes, one usable skill, modest player enhancement, rarity and duplicate upgrades, cool appearance. Not an independent fighter; no mandatory pet-like generation ladder. Recommend one equipped mount. Skill activation while mounted/unmounted, slots, travel, bonus ranges and acquisition details open.
+Unlocks very early in Prestige I (owner-confirmed; exact level/stage and shared unlock scope open, see PROGRESSION.md), general-purpose across classes, one usable skill, modest player enhancement, rarity and duplicate upgrades, cool appearance. Not an independent fighter; no mandatory pet-like generation ladder. Recommend one equipped mount. Skill activation while mounted/unmounted, slots, travel, bonus ranges and acquisition details open.
 
 ## Monetization and deferred systems
 Paid acceleration with realistically attainable free equivalents, transparent odds/costs, guaranteed acquisition, no mandatory purchase gates, investment protection. See [Economy](ECONOMY.md). Paid random rewards require applicable Roblox eligibility and disclosure; verify rules before implementation. Relics are future powerful unique build-synergy upgrades; no detailed design yet.
