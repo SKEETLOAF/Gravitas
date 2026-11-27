@@ -10,11 +10,11 @@ Updated 2026-11-26.
 - Gauntlet
 - Shield
 - Bow
-- Firearms (Light, Medium, Heavy)
+- Firearms (proposed unified family; skill-driven gun types)
 - Magic Staff
 - Tome
 
-These are 11 named weapon families, or 13 categories if the three firearm weights are counted individually. No additional families or specific weapon items are confirmed. Not all need to be available at launch.
+These are 11 named weapon families. Owner proposes consolidating the former three firearm weight categories into a single equipment family; different guns are determined by skills rather than separate equipped firearm categories. Under this proposal there are 11 total categories. No additional families or specific weapon items are confirmed. Not all need to be available at launch.
 
 ## Proposed foundational loadout mapping
 Five-role promotion architecture is the working direction. Owner requests primary and secondary weapons for each foundation, with Warrior using Sword as primary rather than sword-and-shield as one combined weapon.
@@ -36,5 +36,5 @@ Two global weapon slots shared by the two selected classes. The designated prima
 - Whether secondary means alternative wielded weapon, separate off-hand, or both; shield/off-hand presentation and secondary attribute multiplier tuning.
 - Universal weapon movesets and per-skill animations established; exact movesets, independent cooldown timings and cross-class transitions remain open.
 - Whether primary vs secondary differs in proficiency, skill access or progression.
-- Firearm weight categories, handling and class compatibility; future weapon assignments, promotion changes, and weapon mastery.
+- Gunslinger is a Ranger-lineage advancement with firearm access and skills focused on different guns (owner direction); exact prestige and secondary weapon pending. Recommended unified Firearms equipment family: pistol, shotgun, rifle, automatic and launcher presentations determined by the skill, using shared equipped firearm stats and individual skill animations. Default pistol basic moveset is a proposal; exact basic/weapon skill presentation, compatibility and cosmetics open. Future weapon assignments, promotion changes and weapon mastery remain open.
 - No specific movesets, stats, attack counts, items, promotion assignments or availability schedule are established.
