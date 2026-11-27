@@ -35,3 +35,5 @@ Last Epoch (shared base/mastery passive tree structure), Granblue Fantasy: Relin
 - Roblox PolicyService: https://create.roblox.com/docs/reference/engine/classes/PolicyService
 
 These links are reference starting points, not a completed research audit.
+
+- Go Go Muffin Stellar Path reference: https://boarhat.gg/games/go-go-muffin/guide/stellar-path/ (verified 2026-11-26; class-independent Paths, Authority modifiers and Ascension equipment; CC3 unlock). Secondary cross-reference: https://muffincompass.com/stellar-path. Adapt purpose, not a required copy of mechanics.
