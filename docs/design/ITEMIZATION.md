@@ -2,7 +2,7 @@
 Updated 2026-11-26. Overall itemization direction approved; exact rolls and costs open.
 
 ## Item identity
-Equipment does not require individual wearable models; cosmetics determine appearance. Shared weapon-family visuals recommended. Class-relevant loot picked up during adventure. Gear sets grow stronger and more varied with progression. Item level and rarity separate. Existing slots in [Combat](COMBAT-FOUNDATIONS.md). Primary equipped weapon contributes full stats; secondary contributes weakened stats independent of wielded weapon. Exact multiplier open. Future items/relics may grant bonus effective talent ranks beyond normal investment caps; linear node scaling supports this, no specific affixes approved.
+Equipment does not require individual wearable models; cosmetics determine appearance. Shared weapon-family visuals recommended. Class-relevant loot picked up during adventure. Gear sets grow stronger and more varied with progression. Item level and rarity separate. Existing slots in [Combat](COMBAT-FOUNDATIONS.md). Primary equipped weapon contributes 100% stats; secondary contributes 50% independent of wielded weapon. Starting multiplier subject to balance testing. Future items/relics may grant bonus effective talent ranks beyond normal investment caps; linear node scaling supports this, no specific affixes approved.
 - Standard equipment has slot-specific primary attribute; accessories may roll any primary attribute.
 - Secondary attributes may be any stat at smaller relative scale, with slot-favored probabilities permitted, never mandatory restrictions. Primary/secondary overlap and repeated secondary types allowed. Each rarity adds exactly one secondary line.
 | Rarity | Secondary lines |
