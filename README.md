@@ -1,6 +1,6 @@
 # Gravitas
 
-Roblox semi-idle single-character hack-and-slash RPG. Collaborative design notebook; gameplay is not implemented.
+Roblox semi-idle single-character-per-account hack-and-slash RPG. Collaborative design notebook; gameplay is not implemented.
 
 ## Start here
 - [Current direction](docs/design/DIRECTION.md) — concise project overview and decisions.
