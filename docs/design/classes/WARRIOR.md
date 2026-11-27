@@ -16,7 +16,7 @@ Successful blocks accumulate a bounded benefit for the next damaging skill, incr
 - Undaunted: increased Break Power versus intact Armor; damage bonus versus Broken enemies. Avoid dead passive during break windows.
 
 ## Ordinary active skill pool (eight prior candidates; expand to ten ordinary actives)
-Owner requires 4 Normal, 4 Rare, 2 Legendary ordinary active skills, 2 Legendary Core basic attack choices (one guaranteed at class acquisition) and 5 passive skills per class, plus shared lineage starter 4 Normal actives and 5 passives. Three actives and one Core equipped per class; proposed five passive-skill slots per class. Existing selectable class passives remain separate. Rarity assignment and additional skills pending. Skill XP levels slots; stars and tiers remain individual. Higher starting rarity provides a meaningful power advantage.
+Owner requires 4 Normal, 4 Rare, 2 Legendary ordinary active skills, 2 Legendary Core basic attack choices (one guaranteed at class acquisition) and 5 passive skills per class, plus shared lineage starter 4 Normal actives and 5 passives. Three actives and one Core equipped per class; proposed five passive-skill slots per class. Existing selectable class passives remain separate. Rarity assignment and additional skills pending. Skill XP levels slots; stars and tiers remain individual. Higher starting rarity provides intrinsic power advantage at comparable investment even after lower-rarity skills reach Legendary status; build-specific synergy can overcome that advantage.
 | Skill | Weapon | Function |
 | --- | --- | --- |
 | Cleave | Sword | Sweeping multi-target slash |
