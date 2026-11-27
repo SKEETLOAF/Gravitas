@@ -20,7 +20,7 @@ Status: navigation index; linked canonical system documents distinguish establis
   - Class switching: two class selections, two shared weapons, 0.5-second class swap cooldown, distinct class skill loadouts or same-class specialization; see [switching](COMBAT-SWITCHING.md).
   - Multiclassing: primary/secondary disciplines, cross-class abilities, inherited passives, class combinations.
   - Class/weapon relationship: linked compatible weapons (confirmed); potential primary and secondary weapon roles, asymmetric shared compatibility and cross-class synergy; see [switching proposal](COMBAT-SWITCHING.md).
-- Development: experience, mastery, ranks, skill trees, talent trees, specialization, trials, quests, mastery rewards.
+- Development: experience, mastery, ranks, one upgradeable passive Class Trait per class (mastery and Ascension items), talent trees, specialization, trials, quests, mastery rewards.
 - Identity: unique mechanics/resources/movement/automation; weapon proficiency; strengths/weaknesses; solo/co-op roles; fantasy/visual identity.
 
 ## IV. Combat systems
@@ -31,7 +31,7 @@ Status: navigation index; linked canonical system documents distinguish establis
   - Heavy attacks: charges, guard breaks, launchers, finishers.
   - Abilities: slots, cooldowns, resource costs, follow-ups, combinations.
   - Ultimates; aerial combat; area attacks; ranged attacks; summons.
-  - Combat switching: auto alternates skill kits or extends full basic combos via pursuit; detailed weapon swaps, transition timing, cooldown ownership and animations open.
+  - Combat flow: skill hit-stun pulses (including support), basic-string resets/extensions, knockback after completed string, pursuit and class swaps; intact Armor prevents stagger. Mixed automatic combos; detailed timing, tracking, weapon swaps and animations open.
 - Defense: dodge, block, parry, counter, mitigation, shields/barriers, interruption, hyper armor, crowd-control resistance, recovery/healing.
 - Movement: pursuit, dash/gap close, reposition, target switching, lock-on, tracking, knockback, grouping, vertical movement.
 - Interactions: damage types, elemental interactions, status effects (DoT, buffs/debuffs, crowd control, stacking, reactions), stagger/posture, critical attacks, weak points, executions, environmental interactions, co-op synergy.
