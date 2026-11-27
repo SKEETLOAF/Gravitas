@@ -13,7 +13,7 @@ Updated 2026-11-26. This is a concise overview; linked system documents are cano
 | --- | --- | --- |
 | Classes | Expand rather than replace disciplines; retained mastery, distinct benefits, hybrid/special options. Five-role promotion model is the working direction, exact lineage architecture still open. | [Classes](CLASSES.md) |
 | Weapons | 11 families / 13 categories including firearm weights; class-linked primary and secondary types. | [Weapons](WEAPONS.md) |
-| Switching | In-combat transitions with independent available skills; tentative 3 classes / 2 weapons, exact scope open. | [Switching](COMBAT-SWITCHING.md) |
+| Switching | Two class selections, two shared weapons (one skill each), shared equipment/companions; 0.5s class swap cooldown; duplicate-class specialization scaling; saved class talent loadouts. | [Switching](COMBAT-SWITCHING.md) |
 | Combat | 29-attribute roster, Energy, stat-based defenses; Crit/Super Crit and Block/Super Block; no Ultra Crit currently. Enemy Armor and Break; player breakable Armor not planned by default. | [Combat](COMBAT-FOUNDATIONS.md) |
 | Elements | Ten-element working roster; primer-first when required; cosmic stacking any order; reaction consumption/transformation; no general reaction cooldown; control diminishing returns. | [Elements](ELEMENTS.md) |
 | Progression | Character level, independent class mastery, catch-up, promotion requirements, retained earlier disciplines. | [Progression](PROGRESSION.md) |
@@ -23,4 +23,4 @@ Updated 2026-11-26. This is a concise overview; linked system documents are cano
 | Economy | Gold, Orbs, Stardust; summon tickets and compact reusable resource families. Costs and rates open. | [Economy](ECONOMY.md) |
 
 ## Open and deferred
-Current priority: class architecture and actual class kits; economy concept established, detailed tuning open. Core foundations and itemization are conceptually covered; do not reopen them without a design need. Numerical formulas, temporary buff/debuff caps, precise promotion/loot/summon rules, switching and specific skill kits remain open. Relics, Reforge, full manual combat and detailed choreography deferred. World setting, final title, individual content, presentation and release scope still to design. See [master tree](MASTER-TREE.md).
+Current priority: class architecture and actual class kits; economy concept established, detailed tuning open. Core foundations and itemization are conceptually covered; do not reopen them without a design need. Numerical formulas, temporary buff/debuff caps, precise promotion/loot/summon rules, detailed swap execution and specific skill kits remain open. Relics, Reforge, full manual combat and detailed choreography deferred. World setting, final title, individual content, presentation and release scope still to design. See [master tree](MASTER-TREE.md).
