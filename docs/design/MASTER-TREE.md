@@ -10,7 +10,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 
 ## II. Character creation and identity
 - Identity: name/profile; appearance (body proportions, facial features, hair/color, distinguishing features); races/species (characteristics, abilities, progression); origins/backgrounds (starting benefits, opportunities, narrative significance); traits (innate talents, strengths/weaknesses, acquired traits).
-- Individuality: earned titles and cosmetics with rarity-scaled statistical bonuses using the seven equipment tiers (see ITEMIZATION.md), reputation; accomplishments; character history; visual customization; emotes/personality; inspection; profile showcases.
+- Individuality: earned titles with rarity-scaled bonuses and cosmetic Style Score collection milestones independent of worn appearance, using seven equipment tiers (see ITEMIZATION.md), reputation; accomplishments; character history; visual customization; emotes/personality; inspection; profile showcases.
 - Open: mechanical versus cosmetic individuality.
 
 ## III. Class and discipline systems
@@ -20,7 +20,7 @@ Status: navigation index; linked canonical system documents distinguish establis
   - Class switching: two class selections, two shared weapons, 0.5-second class swap cooldown, two active-skill loadouts (four primary + three secondary ordinary actives, including same-class specialization), one overall ultimate, automatic weapon selection; see [switching](COMBAT-SWITCHING.md).
   - Multiclassing: primary full/secondary weakened talent contributions, same-class empowered primary nodes, overlapping same-lineage talent nodes stack effective ranks, class-associated passives, active-class Traits, class combinations.
   - Class/weapon relationship: linked compatible weapons (confirmed); potential primary and secondary weapon roles, asymmetric shared compatibility and cross-class synergy; see [switching proposal](COMBAT-SWITCHING.md).
-- Development: experience, mastery, ranks, one upgradeable passive Class Trait per class (mastery and Ascension items), five shared foundational lineage talent trees, specialization, trials, quests, mastery rewards.
+- Development: experience, mastery, ranks, one upgradeable passive Class Trait per class (mastery and Ascension items), five shared foundational lineage talent trees (all eventually accessible; working 60 invested native points gate, hybrids access both parent trees immediately), specialization, trials, quests, mastery rewards.
 - Identity: unique mechanics/resources/movement/automation; weapon proficiency; strengths/weaknesses; solo/co-op roles; fantasy/visual identity.
 
 ## IV. Combat systems
@@ -159,7 +159,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Collection: limited appearances/collectibles.
 - Premium services: customization/appearance changes.
 - Subscriptions; possible gacha; gifting; guild customization/supporter benefits.
-- Established: paid acceleration with attainable free equivalents, guaranteed acquisition paths, free cosmetic summons, minor cosmetic bonuses and optional boss respawn skips. Exact pricing, odds, progression rates and purchase scope open. See [ECONOMY.md](ECONOMY.md).
+- Established: paid acceleration with attainable free equivalents, guaranteed acquisition paths, free cosmetic summons, minor Style Score milestone bonuses and optional boss respawn skips. Exact pricing, odds, progression rates and purchase scope open. See [ECONOMY.md](ECONOMY.md).
 
 ## XX. User interface and player experience
 - Combat HUD: health/resources, ability slots/cooldowns, buffs/debuffs, enemy info, targeting, automation, potential swap/cooldown indicators.
