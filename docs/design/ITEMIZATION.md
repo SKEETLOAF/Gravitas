@@ -28,3 +28,6 @@ Equipment Enhancements are slated for Prestige II (owner direction, responding t
 
 ## Cosmetics
 Direct purchases and summons, earnable free spins, small statistical benefit. Recommended capped ownership/wardrobe bonus independent of currently worn outfit, attainable via free cosmetics as well. Avoid uncapped paid stacking and forcing specific appearance. Categories may include outfits, hair/accessories, weapon skins, auras, animations and companion skins. Bonus type/cap, acquisition odds, duplicates, slots and cosmetic catalog open.
+
+## Titles
+Owner confirms earned titles grant small statistical bonuses comparable in scale/purpose to cosmetic bonuses. Recommend ownership-based bonuses independent of the displayed title, with cumulative limits to prevent uncontrolled stacking; exact ownership/equip behavior, caps, acquisition categories and values remain open. Class Mastery, achievements and milestones are established title reward sources (PROGRESSION.md).
