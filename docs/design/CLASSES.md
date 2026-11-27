@@ -20,15 +20,15 @@ Five foundational role lineages, inspired by Go Go Muffin. Initial planning scop
 Exact weapon confirmation status in WEAPONS.md. Sequential versus branching promotion unlocks, exact names, inheritance and special/hybrid acquisition remain open. All classes should be solo-capable (recommended); roles are specialties, not restrictions.
 
 ## Initial promotion roster (proposed)
-Recommend two sequential unlock stages for each foundation initially, with distinct horizontal combat identities and room for later branches. Every ancestor remains playable; progression does not replace the earlier class. The two-promotions-per-lineage scope is owner-directed; sequential topology and all promoted names/identities below are candidates, not approved.
-| Foundation | Promotion I | Promotion II |
+Two promotions per foundation are established as the initial scope. Owner requires distinct, appealing class fantasies and mechanics that remain connected to their lineage, rather than generic upgrades or repeated roles. All ancestors remain playable. Sequential unlock stages are a candidate, not confirmed; independently themed descendants need not imply an obligatory Knight-to-Berserker narrative. Exact progression topology is open.
+| Foundation | Promotion I candidate | Promotion II candidate |
 | --- | --- | --- |
-| Warrior: adaptable frontline tank | Knight: ally protection, shielding and interception | Warlord: frontline command, group pressure, Armor breaking |
-| Ranger: versatile ranged damage | Hunter: sustained pursuit, marks and area control | Deadeye: precise high-impact ranged attacks and weak-point exploitation |
-| Mage: general spellcasting and elemental reactions | Sorcerer: focused elemental offense and reaction chains | Arcanist: spell manipulation, area control and Energy interactions |
-| Rogue: fast melee attacks and Evasion | Assassin: single-target burst and execution | Shadowblade: mobility, evasive counters and chained attacks |
-| Cleric: general healing and support | Priest: sustained healing, cleansing and protection | Oracle: proactive party enhancement and timed intervention |
-Earlier owner examples (Berserker, Paladin) remain candidate future branch/hybrid names, not removed from consideration. Assign weapons and design individual kits only after review of the roster. Names are working labels; no exact abilities, elements or values approved.
+| Warrior: adaptable frontline combat | Knight: protection, interception and countering enemy pressure; shield/counter specialist | Berserker: sustained aggression, heavy melee damage, and risk/reward scaling under pressure |
+| Ranger: versatile ranged damage | Hunter: marks and traps that create exploitable targets, area control | Gunslinger: mobile rapid-fire combat, ricochet and precision shots; firearm identity |
+| Mage: flexible spellcasting | Elementalist: deliberate elemental sequencing and reaction amplification | Hexweaver: curses, lingering damage and triggering accumulated effects |
+| Rogue: agile melee and evasion | Assassin: mark vulnerable targets and deliver decisive single-target burst | Phantom: afterimage-assisted attacks and evasive repositioning that extend combos |
+| Cleric: adaptable healing and support | Oracle: conditional blessings and wards that trigger as allies need them | Exorcist: offensive seals and enemy weakening with restorative/support payoff |
+All promoted names, signature mechanisms, elements, weapons and exact abilities above are exploratory. Use existing Energy, Impulse, status, mark, shielding, break and class-swap systems wherever practical; class identity does not require a new universal subsystem. Each kit should have a compelling primary playstyle and a useful secondary-class contribution through compatible skills/effects/talents, without bypassing trait/passive eligibility. Preserve foundational classes as versatile, consistent options. Paladin remains an illustrative Warrior/Cleric hybrid candidate. Firearm availability at launch and afterimage/ward implementation scope require review.
 
 ## Common class anatomy
 - Class Trait: exactly one inherent passive trait per class, unlocked and upgraded through Class Mastery and shared Ascension items. Not summoned or equipped in a selectable passive slot. Same-class specialization does not duplicate the trait. Class Trait is active only while its associated class is active; explicitly applied effects may finish their intended duration. Exact mastery thresholds, level caps, costs and effects open. Candidate identities (not approved kits): Warrior retaliation, Ranger precision, Mage spell sequencing, Rogue exploiting openings, Cleric divine favor.
