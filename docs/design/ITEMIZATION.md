@@ -1,6 +1,8 @@
 # Equipment and cosmetics
 Updated 2026-11-26. Overall itemization direction approved; exact rolls and costs open.
 
+Prestige labels denote intended progression ranges/release windows, not mandatory lineage prestige; shared system access uses Character Level and usually adventure-stage clears. See PROGRESSION.md.
+
 ## Item identity
 Equipment does not require individual wearable models; cosmetics determine appearance. Shared weapon-family visuals recommended. Class-relevant loot picked up during adventure. Gear sets grow stronger and more varied with progression. Item level and rarity separate. Existing slots in [Combat](COMBAT-FOUNDATIONS.md). Primary equipped weapon contributes 100% stats; secondary contributes 50% independent of wielded weapon. Starting multiplier subject to balance testing. Future items/relics (relics introduced in Prestige II) may grant bonus effective talent ranks beyond normal investment caps; linear node scaling supports this, no specific affixes approved.
 - Standard equipment has slot-specific primary attribute; accessories may roll any primary attribute.
