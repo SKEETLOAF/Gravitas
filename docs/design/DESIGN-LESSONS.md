@@ -47,5 +47,12 @@ Open balance priorities:
 - Check low-value rolls and mandatory stat thresholds, especially Break Power on unarmored enemies, Aggro in solo, Resistance against status-free opponents, and farming stats versus combat stats. Give optional content-specific usefulness rather than force every stat equally useful everywhere.
 - Validate 18-point grade profiles by simulations and representative encounters, not equal allotment alone; consider actual coefficients, damage mitigation, hit rate, Energy, threat and role value. No numerical changes approved.
 
+## Talent design lessons (working hypotheses)
+- A shared tree should support lineage descendants and compatible hybrid/cross-tree builds through mechanical tags, not named class-exclusive Traits. Preserve progression investment as classes evolve.
+- Use modest, linear rank effects, including measurable changes to geometry, falloff, damage distribution, effect duration, and resource economy. Collectible passives can make larger skill transformations; avoid duplicating them as full effects from a single rank.
+- Cost a starter section explicitly before setting hybrid acquisition budgets. Proposed 50 ranks per section gives 200 preallocated ranks across two parent trees' first two sections; the approximately 30 free TP estimate fits a plausible early unlock but is not a reason to force an unlock level.
+- Review gates against earned TP and effective-rank multipliers, distinguish native rank cost from effective rank, and avoid mandatory full-tree completion at each progression step. Defer deeper sections until future class kits and their dependencies are understood.
+- Starter node draft coverage: 5 trees, 2 sections each, 24 nodes/tree, 120 total nodes. Not a numerical balance test. See TALENTS.md.
+
 ## Evidence and validation
 No implementation/playtest evidence yet. When testing begins, record reproducible observations, relevant build/version, what changed, and the resulting lesson; do not present design hypotheses as measured outcomes.
