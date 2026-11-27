@@ -20,7 +20,7 @@ Status: navigation index; linked canonical system documents distinguish establis
   - Class switching: two class selections, two shared weapons, 0.5-second class swap cooldown, distinct class skill loadouts or same-class specialization; see [switching](COMBAT-SWITCHING.md).
   - Multiclassing: primary/secondary disciplines, cross-class abilities, inherited passives, class combinations.
   - Class/weapon relationship: linked compatible weapons (confirmed); potential primary and secondary weapon roles, asymmetric shared compatibility and cross-class synergy; see [switching proposal](COMBAT-SWITCHING.md).
-- Development: experience, mastery, ranks, one upgradeable passive Class Trait per class (mastery and Ascension items), talent trees, specialization, trials, quests, mastery rewards.
+- Development: experience, mastery, ranks, one upgradeable passive Class Trait per class (mastery and Ascension items), shared foundational lineage talent trees (proposed), specialization, trials, quests, mastery rewards.
 - Identity: unique mechanics/resources/movement/automation; weapon proficiency; strengths/weaknesses; solo/co-op roles; fantasy/visual identity.
 
 ## IV. Combat systems
@@ -60,7 +60,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Owner direction on Energy, skill acquisition, upgrade/duplicate ranks, focused summons and Stardust: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
 - Acquisition: classes, drops, trainers, tomes, quests/trials, crafting/discovery.
 - Development: levels, proficiency, evolution, variants, modifiers, ability-specific talent branches.
-- Construction: four actives, one ultimate, one of two passives per class (both when specializing); class talents/presets, inheritance, equipment interactions, resources, synergies, multi-kit rotation.
+- Construction: four actives, one ultimate, one of two passives per class (both when specializing); lineage talent trees/presets (proposed), inheritance, equipment interactions, resources, synergies, multi-kit rotation.
 - Management: presets/loadouts, auto/active configurations, testing, statistics, damage analysis, sharing, recommendations.
 
 ## VIII. Equipment and itemization
