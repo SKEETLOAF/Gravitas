@@ -34,3 +34,6 @@ See [Weapons](WEAPONS.md) for class-linked weapon families. The two equipped wea
 - Secondary weapon attribute multiplier, weapon skill activation/slot presentation, duplicate weapon eligibility.
 - Slot unlock milestones and out-of-combat loadout editing restrictions.
 - Prototype compare same-class specialization vs two distinct classes for uptime, survivability, role utility, automation and readability. Maintain server-authoritative cooldowns and prevent re-equipping/reset abuse.
+
+## Legendary class skill weapon compatibility
+Owner direction (2026-11-27): both native Legendary Core Skills and both native Legendary ordinary active skills of a class must work with either of its compatible weapons; no mandatory single weapon for class-defining Legendary skills. Preserve normal skill acquisition and class eligibility. Use weapon-appropriate choreography and skill-defined range, without requiring another equipped weapon. Dedicated weapon skills remain weapon-specific; existing Normal/Rare starting-skill restrictions are unchanged pending further owner direction. Whether rarity promotion of a lower-starting-rarity skill changes its compatibility remains open. Test both weapon loadouts and inherited skill eligibility; do not infer universal cross-class access.
