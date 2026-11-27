@@ -9,7 +9,7 @@ Updated 2026-11-26. Class expansion established; initial planning scope is two p
 - Character/class progression and promotion requirements are established in [PROGRESSION.md](PROGRESSION.md). Energy and shared combat rules are in [COMBAT-FOUNDATIONS.md](COMBAT-FOUNDATIONS.md).
 
 ## Working foundation model
-Five foundational role lineages, inspired by Go Go Muffin. Initial planning scope: two promoted disciplines per foundation, 15 total ordinary classes including foundations, excluding future hybrids/special classes. This is a design scope, not an approved release schedule.
+Five foundational role lineages, inspired by Go Go Muffin. Initial planning scope: two promoted disciplines per foundation, 15 total ordinary classes including foundations, excluding the ten planned core-pair hybrids and future special classes. This is a design scope, not an approved release schedule.
 | Foundation | Role | Primary | Secondary |
 | --- | --- | --- | --- |
 | Warrior | Tank | Sword | Shield |
@@ -28,7 +28,23 @@ Two promotions per foundation are established as the initial scope. Owner requir
 | Mage: flexible spellcasting | Elementalist: deliberate elemental sequencing and reaction amplification | Hexweaver: curses, lingering damage and triggering accumulated effects |
 | Rogue: agile melee and evasion | Assassin: mark vulnerable targets and deliver decisive single-target burst | Phantom: afterimage-assisted attacks and evasive repositioning that extend combos |
 | Cleric: adaptable healing and support | Oracle: conditional blessings and wards that trigger as allies need them | Exorcist: offensive seals and enemy weakening with restorative/support payoff |
-All promoted names, signature mechanisms, elements, weapons and exact abilities above are exploratory. Use existing Energy, Impulse, status, mark, shielding, break and class-swap systems wherever practical; class identity does not require a new universal subsystem. Each kit should have a compelling primary playstyle and a useful secondary-class contribution through compatible skills/effects/talents, without bypassing trait/passive eligibility. Preserve foundational classes as versatile, consistent options. Paladin remains an illustrative Warrior/Cleric hybrid candidate. Firearm availability at launch and afterimage/ward implementation scope require review.
+All promoted names, signature mechanisms, elements, weapons and exact abilities above are exploratory. Use existing Energy, Impulse, status, mark, shielding, break and class-swap systems wherever practical; class identity does not require a new universal subsystem. Each kit should have a compelling primary playstyle and a useful secondary-class contribution through compatible skills/effects/talents, without bypassing trait/passive eligibility. Preserve foundational classes as versatile, consistent options. Firearm availability at launch and afterimage/ward implementation scope require review.
+
+## Initial hybrid roster (proposed)
+Owner requests one hybrid for every unique unordered pair of the five foundational classes: ten hybrids, excluding self-pairs, order duplicates, promoted-class combinations and hybrids of hybrids. Combined with five foundations and ten ordinary promotions, this gives a 25-class initial design roster, not a release commitment. Names, weapon choices and mechanics below are candidates.
+| Core parents | Hybrid | Distinct combat identity |
+| --- | --- | --- |
+| Warrior + Ranger | Vanguard | Alternates ranged suppression and advancing melee pressure; closing on a suppressed enemy sets up a Break-focused strike. |
+| Warrior + Mage | Spellblade | Infuses melee attacks with elemental magic; spells and weapon strikes alternate to develop and consume elemental effects. |
+| Warrior + Rogue | Duelist | Converts successful blocks or evasions into precise counterattack opportunities; focused on one opponent. |
+| Warrior + Cleric | Paladin | Sacred frontline protection; successful defensive actions empower protective or restorative strikes. |
+| Ranger + Mage | Arcane Archer | Spell-infused projectiles deliver elemental effects at range, with secondary projectiles exploiting reactions. |
+| Ranger + Rogue | Stalker | Mobile ambush specialist; pursuit and repositioning empower targeted attacks and sustain pressure on marked prey. |
+| Ranger + Cleric | Warden | Ranged battlefield support; projectiles establish protective/restorative zones and help allies hold ground. |
+| Mage + Rogue | Nightblade | Close-range magical bursts; movement and evasive attacks establish spell marks for follow-up detonation. |
+| Mage + Cleric | Sage | Enhances allied spellcasting, Energy efficiency and magical support; can convert spell effects into party benefits. |
+| Rogue + Cleric | Inquisitor | Precision offensive support; judgment marks allow qualifying strikes to weaken enemies and restore allies. |
+Each hybrid is a distinct playable discipline, not the simultaneous activation of both parents. It has its own mastery, trait, two selectable passives, four active slots and ultimate, with no new mandatory resource. Recommend qualifying through mastery of both core parents and a hybrid trial; exact thresholds, promotion prerequisites, weapon compatibility and acquisition conditions open. The five existing talent trees remain the basis of hybrid talent access; do not create ten more trees. Exact hybrid selection/mixing rules remain open. Further hybrid combinations involving promoted or special classes are possible later, not in this initial roster.
 
 ## Common class anatomy
 - Class Trait: exactly one inherent passive trait per class, unlocked and upgraded through Class Mastery and shared Ascension items. Not summoned or equipped in a selectable passive slot. Same-class specialization does not duplicate the trait. Class Trait is active only while its associated class is active; explicitly applied effects may finish their intended duration. Exact mastery thresholds, level caps, costs and effects open. Candidate identities (not approved kits): Warrior retaliation, Ranger precision, Mage spell sequencing, Rogue exploiting openings, Cleric divine favor.
@@ -66,8 +82,8 @@ Use the same template for foundations, advanced, hybrid and special classes. Fil
 12. **Decision record:** established, exploratory, future, undecided, discarded; next questions.
 
 ## Open class architecture
-The shared architecture is ready for initial kit design. Primary/secondary talent and weapon scaling, active-class Trait and class-associated passive rules are established. Starting talent and weapon multipliers approved (50% secondary, 125% specialized talents); point sources, rank calculation order, overlapping same-lineage nodes, and weapon wielding transitions remain open. Initial promotion count established; specific promotion names and kits remain proposals.
+The shared architecture is ready for initial kit design. Primary/secondary talent and weapon scaling, active-class Trait and class-associated passive rules are established. Starting talent and weapon multipliers approved (50% secondary, 125% specialized talents); point sources, rank calculation order, overlapping same-lineage nodes, and weapon wielding transitions remain open. Initial promotion and core-pair hybrid counts established; specific names and kits remain proposals.
 - Trait level thresholds, ascension costs and upgrade effects; no automatic stacking of all learned disciplines.
 - Passive trigger design/acquisition and talent details, detailed weapon activation and swap execution/cooldowns. See [COMBAT-SWITCHING.md](COMBAT-SWITCHING.md).
 - Distinct benefits and viability of earlier classes after promotions, skill inheritance, class-specific mechanics, automation and active options.
-- Exact foundation and promotion kits, hybrid roster, special acquisition rules. No actual class skills or finalized named promotion roster established.
+- Exact foundation, promotion and hybrid kits, hybrid unlock requirements and special acquisition rules. No actual class skills or finalized named promotion roster established.
