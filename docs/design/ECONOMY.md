@@ -14,7 +14,7 @@ Earnable Skill, Pet, Mount and Cosmetic Summon Tickets. Event-specific tickets/c
 Keep resource families general and reusable rather than creating a separate material for each class, region, item or tier.
 | Resource family | Purpose |
 | --- | --- |
-| Skill XP | Ordinary skill development |
+| Skill XP | Skill-slot level development (investment retained when equipped skills change) |
 | Pet XP | Ordinary pet development |
 | Ascension items | Class Trait upgrades, pet generation advancement and other compatible ascension uses if designed |
 | Shards | Star-rank upgrades alongside duplicates |
