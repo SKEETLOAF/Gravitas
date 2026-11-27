@@ -3,7 +3,7 @@ Updated 2026-11-26. Conceptual decisions and open details.
 
 ## Skills
 Functional base kit at class acquisition; alternate skills and upgrades through summons. Skill XP for ordinary upgrades; duplicate/star-rank shards for star ranks. All skills/ultimates use Energy; no universal ultimate gauge. Cooldown after full use or charges that recharge over time/events. Specific skills may have stacks/conditions. See [Combat](COMBAT-FOUNDATIONS.md).
-Recommended ordinary skill levels separate from star ranks, alternative skills as viable build choices. Skill counts, levels, rank requirements, rarity, costs and specific kits open.
+Recommended ordinary skill levels separate from star ranks, alternative skills as viable build choices. Each class equips four actives, one ultimate and one of two available passives; same-class specialization equips both passives after class swapping unlocks, without duplicating the active/ultimate kit. Each weapon has one skill. Levels, rank requirements, rarity, costs, passive acquisition and specific kits open.
 
 ## Summons and Stardust
 Selectable summon focus, multiple pity levels, guaranteed acquisition alternatives. Recommend standard/class-focus/wishlist/featured pools, soft pity, hard rarity guarantee, target guarantee, compatible-banner pity carryover. Unwanted eligible summons may be disassembled into Stardust at any rank, and maxed duplicate overflow converts. Stardust redeems selected rewards, potentially star-rank shards/selectors. Protect locked/favorite items, clear costs/outcomes, spare-copy handling without removing learned skills recommended. Exact odds, exchanges, cross-pool eligibility and rank caps open.
