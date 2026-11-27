@@ -20,10 +20,13 @@ References are study targets, not imported requirements. Specific mechanics and 
 | Dragon Ball FighterZ | Sparking-style combo extension and cancel feel |
 
 ## Optional study targets
-Diablo IV (loot and encounters), Granblue Fantasy: Relink (co-op action), Dragon's Dogma 2 (vocations), Nioh 2 (weapon identities), Black Desert Online (class awakening and PvE). These are suggestions, not additional scope.
+Last Epoch (shared base/mastery passive tree structure), Diablo IV (loot and encounters), Granblue Fantasy: Relink (co-op action), Dragon's Dogma 2 (vocations), Nioh 2 (weapon identities), Black Desert Online (class awakening and PvE). These are suggestions, not additional scope.
 
 ## Reference resources
-- Go Go Muffin guides: https://boarhat.gg/games/go-go-muffin/guide/
+- Go Go Muffin guides: https://boarhat.gg/games/go-go-muffin/guide/ ; talent resets: https://boarhat.gg/games/go-go-muffin/guide/beginner-guide/ ; presets: https://boarhat.gg/games/go-go-muffin/guide/game-mode/
+- Last Epoch mastery passive access: https://support.lastepoch.com/hc/en-us/articles/46363282865435-Can-I-spend-Passive-points-in-the-Mastery-trees
+- Torchlight: Infinite talent panels and Hero Traits: https://tlidb.com/en/Basic_Rules
+- Black Desert Mobile Transcendence rework: https://www.world.blackdesertm.com/Ocean/News/Detail?boardNo=4521
 - Torchlight: Infinite: https://torchlight.xd.com/
 - Black Desert Mobile: https://www.world.blackdesertm.com/
 - Roblox paid random items: https://create.roblox.com/docs/production/monetization/paid-random-items
