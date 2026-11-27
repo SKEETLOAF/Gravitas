@@ -121,7 +121,7 @@ Use the same template for foundations, advanced, hybrid and special classes. Fil
 12. **Decision record:** established, exploratory, future, undecided, discarded; next questions.
 
 ## Open class architecture
-The shared architecture is ready for initial kit design. Primary/secondary talent and weapon scaling, active-class Trait and class-associated passive rules are established. Starting talent and weapon multipliers approved (50% secondary, 150% specialized talents); XP attribution across account Character Level, lineage levels and Class Mastery, rank calculation order, overlapping same-lineage nodes, and weapon wielding transitions remain open. Initial promotion and core-pair hybrid counts established; specific names and kits remain proposals.
+The shared architecture is ready for initial kit design. Primary/secondary talent and weapon scaling, active-class Trait and class-associated passive rules are established. Starting talent and weapon multipliers approved (50% secondary, 150% specialized talents); same-lineage XP handling, detailed source attribution, rank calculation order, overlapping same-lineage nodes, and weapon wielding transitions remain open. Initial promotion and core-pair hybrid counts established; specific names and kits remain proposals.
 - Trait level thresholds, ascension costs and upgrade effects; no automatic stacking of all learned disciplines.
 - Passive trigger design/acquisition and talent details, detailed weapon activation and swap execution/cooldowns. See [COMBAT-SWITCHING.md](COMBAT-SWITCHING.md).
 - Distinct benefits and viability of earlier classes after promotions, skill inheritance, class-specific mechanics, automation and active options.
