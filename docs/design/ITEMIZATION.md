@@ -19,7 +19,7 @@ Proposed slot primaries: weapon and hands ATK or MATK; head Magical Defense; che
 
 ## Equipment development
 Slot enhancement carries investment across replacements. Item-specific attributes remain on individual item. Mixed set bonuses supported; proposed 2/4/6 thresholds where appropriate, early stat benefits and later mechanical synergy. No named sets/values finalized.
-Recommended ordinary drops, dungeon set rewards, targeted acquisition/crafting through dungeon materials, salvage, class-aware loot preference across equipped classes, shared wearable gear where possible. No offline equipment. Default auto-pickup and recommended equip; optional filters and opt-in automatic salvage, protect locked/saved items. No mandatory extra gem/socket systems established.
+Recommended ordinary drops, dungeon set rewards, targeted acquisition/crafting through dungeon materials, salvage, class-aware loot preference across equipped classes. All equipped gear is shared and unchanged when switching classes. No offline equipment. Default auto-pickup and recommended equip; optional filters and opt-in automatic salvage, protect locked/saved items. No mandatory extra gem/socket systems established.
 Future Reforge: use a shared reforge material to change all or selected attribute identities, reroll existing value to seek higher roll. Show current value and min/max ranges plus replacement pool before rolling; preview costs and probabilities, consider line locks and retain-old option. Exact rules deferred.
 
 ## Cosmetics
