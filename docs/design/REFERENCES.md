@@ -5,6 +5,7 @@ References are study targets, not imported requirements. Specific mechanics and 
 ## Owner-selected
 | Game | Study focus |
 | --- | --- |
+| Sword x Staff | Hybrid idle RPG and explorable world, single-character build customization, skill sequencing and automated movement/pursuit; study co-op, progression pacing and active engagement |
 | AFK Dungeon | Moving automated hack-and-slash combat, farming and boss progression |
 | Go Go Muffin | Class changes, skill summons, separate resettable talent trees that grant stats and modify skills, pets, mounts, gear sets and slot investment |
 | Diablo IV | Branching skill customization, especially transformative upgrades in April 2026 rework; loot and encounters |
@@ -37,3 +38,5 @@ Last Epoch (shared base/mastery passive tree structure), Granblue Fantasy: Relin
 These links are reference starting points, not a completed research audit.
 
 - Go Go Muffin Stellar Path reference: https://boarhat.gg/games/go-go-muffin/guide/stellar-path/ (verified 2026-11-26; class-independent Paths, Authority modifiers and Ascension equipment; CC3 unlock). Secondary cross-reference: https://muffincompass.com/stellar-path. Adapt purpose, not a required copy of mechanics.
+
+- Sword x Staff (owner-selected): official Google Play description, updated Nov 24, 2026: https://play.google.com/store/apps/details?hl=en-US&id=com.zjcs.android.us ; official launch announcement https://swordxstaff.boltray.com/news/200. Publisher describes explorable regions, idle resources, flexible class/skill sequencing and automated repositioning/pursuit. Study actual gameplay before adopting particular mechanics; no claim that the game implements Gravitas's proposed clash QTEs.
