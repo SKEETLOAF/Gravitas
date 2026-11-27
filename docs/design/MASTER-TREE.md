@@ -10,7 +10,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 
 ## II. Character creation and identity
 - Identity: name/profile; appearance (body proportions, facial features, hair/color, distinguishing features); races/species (characteristics, abilities, progression); origins/backgrounds (starting benefits, opportunities, narrative significance); traits (innate talents, strengths/weaknesses, acquired traits).
-- Individuality: titles/reputation; accomplishments; character history; visual customization; emotes/personality; inspection; profile showcases.
+- Individuality: earned titles with small statistical bonuses (see ITEMIZATION.md), reputation; accomplishments; character history; visual customization; emotes/personality; inspection; profile showcases.
 - Open: mechanical versus cosmetic individuality.
 
 ## III. Class and discipline systems
@@ -18,7 +18,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Architecture: base, advanced, specialized, hybrid, hidden/unlockable classes; advancements/awakenings.
   - Class expansion is established: unlocking a descendant adds a distinct, independently developable and equippable discipline; no parent is replaced or consumed. Players can progress every accessible class, including sibling branches, and return to previous styles with their progression retained. Class lineage represents a common concept and unlock ancestry, not a mandatory power hierarchy. Every foundational, advanced, hybrid or special class must have a distinct combat identity and benefit, even relative to its parents or descendants. Combos, synergies and future hybrid unlock paths may originate from any class or branch, not only foundations; exact combinations, unlock requirements and equipment compatibility are still design work. All ten unique foundational pairs have an initial hybrid candidate; promoted/special-class pairs are not promised.
   - Class switching: two class selections, two shared weapons, 0.5-second class swap cooldown, distinct class skill loadouts or same-class specialization; see [switching](COMBAT-SWITCHING.md).
-  - Multiclassing: primary full/secondary weakened talent contributions, same-class empowered primary nodes, class-associated passives, active-class Traits, class combinations.
+  - Multiclassing: primary full/secondary weakened talent contributions, same-class empowered primary nodes, overlapping same-lineage talent nodes stack effective ranks, class-associated passives, active-class Traits, class combinations.
   - Class/weapon relationship: linked compatible weapons (confirmed); potential primary and secondary weapon roles, asymmetric shared compatibility and cross-class synergy; see [switching proposal](COMBAT-SWITCHING.md).
 - Development: experience, mastery, ranks, one upgradeable passive Class Trait per class (mastery and Ascension items), five shared foundational lineage talent trees, specialization, trials, quests, mastery rewards.
 - Identity: unique mechanics/resources/movement/automation; weapon proficiency; strengths/weaknesses; solo/co-op roles; fantasy/visual identity.
