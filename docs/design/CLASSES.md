@@ -105,6 +105,8 @@ Distinct individual class trees with two independent reconverging forks, linear 
 
 - [Elementalist](classes/ELEMENTALIST.md): Catalysis reaction sequencing, complete proposed kit and two Elemental Dominion sections; Trace exception and affinity selection pending owner review.
 
+- [Shinobi](classes/SHINOBI.md): Naruto-inspired deception, martial and elemental techniques, complete proposed kit and Hidden Arts sections; exact mechanics and weapons pending review.
+
 ## Foundation kit documents
 All five foundations now have complete working skill pools; Warrior's revised passive direction is owner-approved and the remaining four kits were delegated to the assistant for draft design. Not a finalized numerical balance or launch commitment.
 - [Warrior](classes/WARRIOR.md)
