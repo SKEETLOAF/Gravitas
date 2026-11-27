@@ -1,43 +1,32 @@
-# Shared lineage talent trees
+# Talent trees
 
-Status: owner replaces multi-rank talents with single-purchase nodes and more distinct nodes. Universal talent pool plus two paths per class pool is proposed for review; all prior three-path/multi-rank layouts below are superseded reference drafts, not implementation specs. No exact coefficients or playtest results.
+Status: owner revises talent architecture (2026-11-27): a distinct talent tree for every individual class, single-purchase nodes, two paths within each class tree, multiple selectable universal trees with additional content opening at later promotions/Character Level, a base selection bonus for each tree, and an initial TP budget allowing roughly three complete base trees. Exact layout, bonus effects and selection limits below are proposals, not approved numbers.
 
-## Revised direction
-- One purchase per talent node; native cost 1 TP, existing cross-tree costs 2/3 TP per node remain the working rules. No 3–5 repeated upgrades. More nodes, meaningful incremental progression; preserve Attribute, Conditional, Transformative categories.
-- Proposal: universal talent pool accessible to all classes, and five class/lineage pools with two nonexclusive thematic paths each; later promotions expand their class pool. Candidate universal nodes cover broadly applicable stats, Energy, Core attacks, skill/class switching and farming. Candidate class paths Warrior Fortitude/Martial Mastery; Ranger Precision/Skirmishing; Mage Sorcery/Spellcraft; Assassin Lethality/Elusiveness; Cleric Restoration/Benediction. Exact names/topology open; whether universal pool uses one shared account allocation or each class's existing TP budget needs confirmation. Recommend existing per-track allocation and 1 TP universal cost, no extra currency, universal spending does not satisfy native 40-point gate.
-- Binary ownership requires reinterpretation of earlier 100%/50%/150% effective rank scaling. Recommend scaling numerical node effects instead, with no minimum-one rank (would make secondary nodes full strength); explicitly define qualitative transforms and overlapping nodes. Not yet approved. No duplicate universal account-wide bonus by default.
-- Recompute hybrid starting budget after new class node counts and universal allocation are decided. Previous 200 preallocated + 30 unspent example remains illustrative only.
+## Point economy
+- Keep independent earned lineage TP budgets, retained across sequential class changes; hybrids own separate tier-equivalent starting budget plus normal earning. One TP per eligible level gained; no point for resetting to level 1. Working example: initial unlock at level 10, 60 cap, 50 TP from gains 11–60 (unlock grants no extra point). Owner's desired approximate three base trees fits 16 paid nodes each, 48 TP total and 2 remaining. No multipurchase ranks.
+- Proposed 16 native-cost nodes per base tree: two paths of eight nodes; tree selection bonus granted separately on equipping the tree. Nodes are individually bought once; branch prerequisites and cross-links open. Base costs 1 TP per universal or native tree node proposed; previous cross-tree costs 2/3 TP and native investment gate 40 are pending reconciliation with smaller individual class trees.
+- Recommended starting capacity of three selected trees per class talent preset, with entry bonus only for selected trees, not every unlocked catalog entry. This is a proposal to prevent free bonus hoarding, not an owner-confirmed slot cap. Node investment and selection retain preset-specific allocation; no in-combat swapping. Whether selected tree slots grow later remains open. If more than three trees may be selected, require meaningful entry investment or other bonus limit.
+- No new talent currency. Existing 100% primary/50% secondary/150% specialized talent contributions need numerical effect-strength interpretation for binary nodes. Overlapping effects, qualitative transforms, root bonuses and external bonus order remain open.
 
-## Superseded multi-rank reference layout
-The following retained proposal is for extracting useful node concepts and comparing costs, not current topology.
+## Class trees
+Each actual class gets its own tree upon acquisition, not just an extra section in one of five lineage trees. Examples: Warrior (Fortitude/Martial Mastery), Berserker (Frenzy/Reckless Might), Knight (Guardian/Counteroffensive), Ranger (Precision/Skirmishing), Hunter (Predator/Trapping), Gunslinger (Firepower/Gunplay); names are illustrative. Applies to every foundation, promotion, hybrid and special class. Each tree's entry bonus reinforces class identity without replacing its Trait or collectible passives. Base selection does not itself grant a class or skill.
+- Prior class-tree purchases and earned TP remain retained across prestige. Recommend acquired ancestral trees remain available to descendants at native cost; actual eligibility for other learned class trees, hybrid parents/ancestor trees, and the previous 40 native-TP gate need review. A 40-TP requirement in one 16-node foundation tree is impossible without later expansions, so do not implement the old gate as written. Cross-class access and costs are unresolved, not abolished.
+- Earlier five shared lineage starter node files in talents/ are superseded layout references. Extract suitable effects for individual class and universal trees; do not implement earlier three-path, multi-rank, 50-TP-per-section proposals. New distinct tree designs not finalized.
 
-## Established rules
-- Five shared native lineage trees; descendants retain access. All five eventually accessible. Ordinary native rank costs 1 TP, other tree ranks 2 TP after 40 invested native TP. Hybrid parents immediately accessible at 1 TP/rank; non-parent ranks 3 TP after 40 combined invested parent TP.
-- One TP per eligible lineage level gained after talent unlock, preserved across prestige; no point on resetting to level 1. Independent track budgets; hybrids have tier-equivalent one-time starting allotment plus normal level earning.
-- Previous layout: Attribute, Conditional and Transformative nodes, 3–5 investable ranks, modest linear effective-rank increments (multi-rank structure superseded; categories retained). No ordinary skill acquisition through talents. Primary effective ranks 100%, secondary 50% (minimum 1 for invested node), specialization 150% of single primary allocation; overlapping nodes add effective ranks. No arbitrary investment-cap clamp on effective ranks; explicit effect safety caps separate.
-- Class Trait, selectable class passives and collectible passive skills retain separate identities. No changes to skill eligibility, skill-slot levels, stars or tiers.
-
-## Proposed structure
-One tree per lineage, with three thematic paths continuing through prestige sections. Sections 1 (Foundation) and 2 (Prestige I) each have 12 nodes and 50 investment ranks: paths A and B each 5/5/4/3 ranks (17 TP), path C 5/4/4/3 (16 TP). Every tree totals 24 nodes and 100 native ranks across the two drafted sections; five trees total 120 nodes and 500 ranks.
-Proposed lightweight gates: first two nodes of each path open once section is available; third requires 5 invested ranks in the same path/section, fourth requires 10. Gates count paid ranks, not effective/bonus ranks. Prior section need not be maxed to unlock next. Section access by permanent progression milestones; exact destination-tree unlock rules for cross-tree allocations, hybrid deeper-section access and respec enforcement remain open. Recommend shared early-section gates based on the allocating track's tier so cross-tree builds remain practical; owner review required.
-Cost is 50 TP per section only at native/parent rates; ordinary non-native section 100 TP, hybrid non-parent section 150 TP. No mandatory new capstone mechanic or class-exclusive tree.
-Later P II and P III sections: reserve for actual promotion-kit design. Size and rank budgets open. Keep enough total choices to maintain meaningful trade-offs rather than assuming every tree can be maxed each prestige. The first two sections are not the entire tree.
-
-## Five starter tree designs
-| Tree | Paths | Detailed node file |
+## Universal tree catalog
+Proposal: several reusable standalone two-path trees, offered to all eligible classes. Each has a distinct entry bonus and base node budget. Initial candidates:
+| Tree | Entry bonus direction | Paths |
 | --- | --- | --- |
-| Warrior | Fortitude / Martial Mastery / Battle Instinct | [Warrior](talents/WARRIOR.md) |
-| Ranger | Marksmanship / Barrage / Mobility | [Ranger](talents/RANGER.md) |
-| Mage | Arcane Mastery / Elemental Control / Spellcraft | [Mage](talents/MAGE.md) |
-| Assassin | Precision / Evasion / Exploitation | [Assassin](talents/ASSASSIN.md) |
-| Cleric | Restoration / Protection / Benediction | [Cleric](talents/CLERIC.md) |
+| Foundation | HP and defenses | Vitality / Resilience |
+| Warfare | ATK/MATK appropriate to eligible damage | Core offense / Active offense |
+| Tempo | Attack Speed or cooldown efficiency | Attack cadence / Skill cadence |
+| Flow | Energy economy | Recovery / Efficiency |
+| Endurance | Recovery and sustain | Health recovery / Mitigation |
+| Opportunity | Accuracy and critical performance | Precision / Exploitation |
+Exact starting catalog/count, names, bonus values and branch nodes proposed, not approved. Later promotions/Character Level open additional universal trees and/or expansion nodes in existing trees; unlock access permanently rather than requiring repeated shared system unlocks. Which progression milestone, new trees versus expansions, availability to lagging class tracks and future selection capacity open. General-purpose effects do not require a specific class Trait.
 
-## Hybrid starting budget illustration
-Owner wants hybrids to start with P III-equivalent TP, possibly the first two sections of both parent trees maxed and around 30 unspent TP, accounting deferred until tree costs known. With this proposed layout, preallocation costs 2 parents x 2 sections x 50 ranks = 200 TP. Example talent unlock at P0 level 8, award only subsequent level gains: P0 60-8=52; P I 80-1=79; P II 100-1=99. Cumulative earned on entering P III = 230; leaves 30 TP after 200 preallocated. If unlock at level 5 instead, budget 233 and free 33. Unlock timing/award convention and exact starter grant remain open; do not force level 8 to meet an estimate. A hybrid starts level 1, cap 120, gains 119 more TP across normal level-ups if all eligible. At the example 230 starting allotment, maximum 349 TP. This is independent from actual parent balances and does not require taking their points.
-Recommendation for review: grant one tier-equivalent budget, provide a default allocation maxing both parents' first two sections; let the remaining TP be freely allocated. Preallocated ranks should count toward 40 combined parent-tree gate; don't create a second free rank grant. Respec permanence/locking of starter ranks and gate behavior not approved. If actual section costs or unlock level change, recompute before finalizing.
+## Hybrid budget and migration
+Earlier 200 preallocated + 30 free TP illustration was for a rejected large shared-tree layout and must not be carried over. At example talent unlock level 10, cumulative ordinary entering P III budget = (60-10)+(80-1)+(100-1)=228 TP, before any separate grant. Hybrid owns that tier-equivalent budget under existing working rule; its own class tree plus compatible parent trees and universal trees are proposed available choices. Exact starter allocation, selection capacity, access/costs, and whether parent-tree starters are prefilled require fresh design. Do not assume all 228 points can be spent on the same three unexpanded base trees.
 
-## Numerical and implementation review
-- Node IDs stable within draft, each effect has a measurable rank increment and explicit eligibility, scope, units and cap to be specified later. A Transformative node should modify an existing behavior fractionally, not grant a whole new action at rank 1. Same-rank stat nodes across sections are intentional incremental growth, not new attributes.
-- Use skill tags and existing events, not specific class Trait requirements. Distinguish direct action, secondary/proc, actual damage, actual healing, armor and status application. No recursive triggers. Geometry and target caps, legal encounter zones, cooldown and Energy loop safeguards.
-- Review whether conditional stat nodes remain useful in solo, boss, party and multi-target encounters; test potential duplication with collectible passive skills and cross-tree rank-1 breadth incentives. No assumption of tested balance.
-- Exact numerical increments, unlocking milestones, respec, bonus rank ordering, node dependencies and future sections are open.
+## Reference and design lessons
+Go Go Muffin community guides show class tree plus general tree combinations, two paths, and later additional talent disks: https://boarhat.gg/games/go-go-muffin/class/ranger/ ; https://mobi.gg/en/tips/go-go-muffin-build/ ; https://boarhat.gg/games/go-go-muffin/guide/cc5-guide/ . Adapt selection bonuses per owner direction; exact GGM root bonus values not independently verified. Keep the three existing Attribute/Conditional/Transformative categories, tagged compatibility, modest incremental effects, no recursive procs, no skill acquisition via talent nodes. No implementation or balancing validation yet.
