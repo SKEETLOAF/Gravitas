@@ -54,5 +54,8 @@ Open balance priorities:
 - Review gates against earned TP and effective-rank multipliers, distinguish native rank cost from effective rank, and avoid mandatory full-tree completion at each progression step. Defer deeper sections until future class kits and their dependencies are understood.
 - Starter node draft coverage: 5 trees, 2 sections each, 24 nodes/tree, 120 total nodes. Not a numerical balance test. See TALENTS.md.
 
+## Talent topology revision
+Owner prefers more distinct single-purchase nodes instead of repeatedly leveling each talent 3–5 times, inspired by Go Go Muffin. General and class-specialized pools with two paths per class pool are proposed. Design lesson: distinguish frequent progression choices from repetitive rank spending; preserve build breadth, avoid filler, and re-evaluate class-slot multipliers when node ownership becomes binary. Verified community reference: https://mobi.gg/en/tips/go-go-muffin-build/ (two branches per tree) and https://boarhat.gg/games/go-go-muffin/guide/beginner-guide/ (level-linked talents and resettable allocations). Prior numerical starter layout is not current canon.
+
 ## Evidence and validation
 No implementation/playtest evidence yet. When testing begins, record reproducible observations, relevant build/version, what changed, and the resulting lesson; do not present design hypotheses as measured outcomes.
