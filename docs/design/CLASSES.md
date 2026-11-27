@@ -67,9 +67,9 @@ All classes receive class-specific natural attribute growth tied to global Chara
 | Class | HP | Energy | ATK | MATK | DEF | MDEF | Weight total |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Warrior | A | D | B | F | B | D | 18 |
-| Ranger | C | B | A | F | D | C | 18 |
+| Ranger | D | B | A | D | D | C | 18 |
 | Mage | D | B | F | A | D | B | 18 |
-| Rogue | C | C | A | F | C | C | 18 |
+| Rogue | C | B | A | F | D | C | 18 |
 | Cleric | C | B | F | B | C | C | 18 |
 | Jack-of-all-trades unique class | C | C | C | C | C | C | 18 |
 Owner requests a unique jack-of-all-trades class with C/3 growth in every main attribute and access to any unlocked skill, maximizing customization. Working name Freelancer (candidate); preserve as a future unique-class concept, not a new core lineage or promotion slot. Recommend normal loadout slot limits and no automatic copying of other Class Traits; weapon compatibility, passive/ultimate eligibility, talent access, acquisition, timing and exact rules remain open. Do not treat these recommendations as restrictions confirmed by owner. Other classes' soft growth, exact profiles and multiclass profile combination are open.
