@@ -47,3 +47,6 @@ Conceptually covered: primary/secondary weapon, head, chest, hands, legs, feet, 
 
 ## Open calculation work
 Damage/defense formulas, counter resolution, crit bonus mitigation, armor durability/regen, Energy rates, threat, skill coefficients, chance limits and buff/debuff ceilings (see ELEMENTS.md). No extra attribute or mechanic inferred from an example.
+
+## Support healing budget
+Owner direction: healing effectiveness reflects the skill's overall utility budget. Dedicated single-target healing has high per-target throughput; dedicated AoE healing has strong aggregate throughput with appropriate per-target tuning. A skill combining healing with one substantial secondary purpose (e.g. cleansing OR protection) should generally deliver moderate healing, not low healing. Reserve low healing for skills combining roughly three meaningful functions or incidental healing; tune by actual strength, coverage, duration, Energy and cooldown rather than mechanically counting labels. This is qualitative guidance, not coefficients.
