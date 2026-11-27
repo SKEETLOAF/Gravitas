@@ -11,9 +11,9 @@ Updated 2026-11-26. This is a concise overview; linked system documents are cano
 ## Current system decisions
 | System | Direction | Canonical document |
 | --- | --- | --- |
-| Classes | Expand rather than replace disciplines; retained mastery, distinct benefits, hybrid/special options. Five-role promotion model is the working direction, exact lineage architecture still open. | [Classes](CLASSES.md) |
+| Classes | Expand rather than replace disciplines; retained mastery, one inherent passive trait per class (mastery/Ascension items), hybrid/special options. Five-role promotion model is the working direction, exact lineage architecture still open. | [Classes](CLASSES.md) |
 | Weapons | 11 families / 13 categories including firearm weights; class-linked primary and secondary types. | [Weapons](WEAPONS.md) |
-| Switching | Two class selections, two shared weapons (one skill each), shared equipment/companions; 0.5s class swap cooldown; duplicate-class specialization scaling and both passives; saved class talent loadouts. Auto swaps alternate skill kits or extend completed basic combos with pursuit. | [Switching](COMBAT-SWITCHING.md) |
+| Switching | Two class selections, two shared weapons (one skill each), shared equipment/companions; 0.5s class swap cooldown; duplicate-class specialization scaling and both passives; saved class talent loadouts. Auto mixes basic strings, skill-pulse extensions (including support skills), and class swaps with pursuit; Armor prevents stagger/knockback until broken. | [Switching](COMBAT-SWITCHING.md) |
 | Combat | 29-attribute roster, Energy, stat-based defenses; Crit/Super Crit and Block/Super Block; no Ultra Crit currently. Enemy Armor and Break; player breakable Armor not planned by default. | [Combat](COMBAT-FOUNDATIONS.md) |
 | Elements | Ten-element working roster; primer-first when required; cosmic stacking any order; reaction consumption/transformation; no general reaction cooldown; control diminishing returns. | [Elements](ELEMENTS.md) |
 | Progression | Character level, independent class mastery, catch-up, promotion requirements, retained earlier disciplines. | [Progression](PROGRESSION.md) |
