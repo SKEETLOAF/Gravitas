@@ -6,7 +6,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Game identity: genre/subgenres; core fantasy; unique selling points; inspirations; target audience; setting/themes.
 - Design philosophy: idle vs active participation; accessibility vs complexity; power fantasy vs challenge; freedom vs specialization; solo vs multiplayer viability.
 - Gameplay loops: moment-to-moment; short sessions; daily; weekly; long-term; endgame; returning-player experience.
-- Established: one persistent character, multiple classes, fast semi-idle hack-and-slash combat. Reference library: [REFERENCES.md](REFERENCES.md).
+- Established: one persistent character per account (no alternate character saves planned at launch), multiple classes, fast semi-idle hack-and-slash combat. Reference library: [REFERENCES.md](REFERENCES.md).
 
 ## II. Character creation and identity
 - Identity: name/profile; appearance (body proportions, facial features, hair/color, distinguishing features); races/species (characteristics, abilities, progression); origins/backgrounds (starting benefits, opportunities, narrative significance); traits (innate talents, strengths/weaknesses, acquired traits).
@@ -48,13 +48,13 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Open: exact macro editor/executor rules, launch inputs and optional advanced conditions; offline progression is distinct from online automation.
 
 ## VI. Character power and progression
-- Progression direction (global character-level concept, independent class mastery, independent lineage prestige levels with lossless stage resets and rising caps, catch-up; exact level-track relationship open) and optional depth principle: [PROGRESSION.md](PROGRESSION.md).
+- Progression direction (permanent account-wide Character Level for milestone rewards, unlocks, inherent stats, level-gap penalties and percentage scaling; independent class mastery and lineage prestige levels with lossless stage resets and rising caps; catch-up; XP attribution open) and optional depth principle: [PROGRESSION.md](PROGRESSION.md).
 - Fundamental: character level/XP, ranks, milestones, ascension/rebirth, vertical/horizontal growth.
 - Attributes: primary, secondary, derived stats, allocation/scaling, caps/diminishing returns, interactions.
 - Masteries: weapons, combat, class, abilities, professions.
 - Permanent development: bonuses, character-wide unlocks, milestone abilities, achievement benefits, training, collections, potential swap-slot unlocks.
 - Management: respec, catch-up, compression, pacing, soft/hard walls, newcomer/veteran growth.
-- Established separate Character Level, Class Mastery, promotions, skill and equipment development; exact scaling open. Avoid redundant leveling.
+- Established separate permanent account Character Level, Class Mastery, lineage levels/prestige, skill and equipment development; exact scaling and XP attribution open. Most major foundational systems unlock during Prestige 0; future prestige/stage clears may introduce more. Avoid redundant leveling.
 
 ## VII. Ability and build systems
 - Owner direction on Energy, skill acquisition, upgrade/duplicate ranks, focused summons and Stardust: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
@@ -130,7 +130,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Open: avoid forcing one character to interrupt combat for chores.
 
 ## XVI. Supplemental character growth
-- Pet and mount collection/upgrade direction: both available from start, each one skill, pets also basic attacks; pet generations improve with class progression plus character level; mounts more universal; potential donor-sacrifice ascension for earlier pets. Detailed relic design deferred: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
+- Pet and mount collection/upgrade direction: pets available from start, mounts very early Prestige I, each one skill, pets also basic attacks; pet generations improve with class progression plus character level; mounts more universal; potential donor-sacrifice ascension for earlier pets. Detailed relic design deferred: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
 - Owner confirms relics as unique upgrades, and mounts/pets as character enhancement directions. Specific mechanics, slots, acquisition and scope remain open; see [ELEMENTS.md](ELEMENTS.md).
 - Companions/familiars/pets: combat/gathering assistance, passive bonuses, development.
 - Mounts/transport; relic/collection systems; housing; personal training facilities; reputation/factions; titles/achievements; blessings/contracts; transformations/temporary states; account-wide benefits.
