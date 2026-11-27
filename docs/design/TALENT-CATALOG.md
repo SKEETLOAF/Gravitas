@@ -40,7 +40,7 @@ Innate: Accuracy, Critical Damage. [Kit](classes/RANGER.md).
 | Fork 1 R | 1, 1, 2, 3 | Movement Speed;Attack Speed;repositioning effectiveness;Mobile Arsenal: eligible attacks preserve offensive effectiveness during movement transitions |
 | Shared | 1, 2, 2 | Energy Recovery;Precision capacity;Core finisher damage |
 | Fork 2 L | 1, 2, 2, 3 | Accuracy;projectile travel speed;single-target damage;Pierce and Scatter: penetrating projectiles retain more damage, multi-target volleys widen |
-| Fork 2 R | 1, 2, 2, 3 | Evasion;Movement Speed;advancing skill effectiveness;Hunter's Pursuit: Quickdraw, Flank and eligible approaches retain some Precision on acquiring a target |
+| Fork 2 R | 1, 2, 2, 3 | Evasion;Movement Speed;advancing skill effectiveness;Ranger's Pursuit: Quickdraw, shared lineage starter Flank and eligible approaches retain some Precision on acquiring a target |
 | Conclusion | 1, 2, 3 | ATK;Critical Chance;Perfect Release: maximum Precision improves damage and Accuracy without sacrificing secondary coverage |
 
 ### Prestige I
@@ -92,21 +92,21 @@ Innate: Critical Chance, Evasion. [Kit](classes/ASSASSIN.md).
 | Opening | 1, 1, 2 | ATK;Evasion;Critical Chance |
 | Fork 1 L | 1, 1, 2, 3 | Critical Damage;Penetration;Exploit effectiveness;Surgical Precision: empowered single-target strikes gain Penetration against reduced-Health enemies |
 | Fork 1 R | 1, 1, 2, 3 | Evasion;Attack Speed;Exploit gain from evasion;Counterstep: evasive skills improve next compatible approach/thrust |
-| Shared | 1, 2, 2 | Energy Recovery;Exploit capacity;active damage |
+| Shared | 1, 2, 2 | Energy Recovery;Exploit readiness duration;active damage |
 | Fork 2 L | 1, 2, 2, 3 | ATK;Broken-target damage;finishing damage;Exposed Anatomy: heavy thrusts/finishers stronger against Broken enemies without extending Break |
 | Fork 2 R | 1, 2, 2, 3 | Core damage;Attack Speed;recovery;Flowing Blades: eligible multihit skills preserve Core progress |
-| Conclusion | 1, 2, 3 | Critical Damage;Penetration;Ruthless Intent: consuming maximum Exploit empowers next qualifying direct attack at reduced strength |
+| Conclusion | 1, 2, 3 | Critical Damage;Penetration;Ruthless Intent: consuming Exploit readiness empowers next qualifying direct attack at reduced strength |
 
 ### Prestige I
 | Segment | Costs | Talents |
 | --- | --- | --- |
 | Opening | 2, 2 | ATK;Critical Chance |
-| Fork 1 L | 3, 5 | Exploit damage;Anatomical Precision: fully empowered single-target strikes improve critical effectiveness and Penetration against vulnerable targets |
+| Fork 1 L | 3, 5 | Exploit damage;Anatomical Precision: Exploit-empowered single-target strikes improve critical effectiveness and Penetration against vulnerable targets |
 | Fork 1 R | 3, 5 | Evasion effectiveness;Phantom Approach: after evasion, advancing attacks gain range and reduced recovery within encounter rules |
 | Shared | 2, 2 | Critical Damage;Energy Efficiency |
 | Fork 2 L | 4, 6 | Finishing effectiveness;Death Sentence: Deathmark, Severance and compatible finishers gain vulnerability-based finishing properties on activation |
 | Fork 2 R | 4, 6 | Core transition effectiveness;Seamless Assault: designated fast actives extend rather than interrupt Core chain, advancing toward finisher |
-| Conclusion | 4 | Exploit Mastery: maximum Exploit strengthens applicable finishing or sequence-extension property |
+| Conclusion | 4 | Exploit Mastery: consuming Exploit strengthens applicable finishing or sequence-extension property |
 
 Review: Specify Death Sentence per skill. No guaranteed crits, corpse/mark recursion or free chain loops. Reserve broader combos for Blade Dancer.
 
@@ -131,7 +131,7 @@ Innate: Energy Recovery, ordinary healing effectiveness. [Kit](classes/CLERIC.md
 | Fork 1 L | 3, 5 | Healing empowerment;Greater Communion: area heals distribute more restorative potential toward most injured recipients |
 | Fork 1 R | 3, 5 | Offensive empowerment;Radiant Geometry: Divine Favor-empowered Light attacks improve secondary-target effectiveness |
 | Shared | 2, 2 | Energy Efficiency;Effect Duration |
-| Fork 2 L | 4, 6 | Protective effectiveness;Divine Intervention: targeted heals/protection gain substantially improved protection on critically injured allies, auto prioritizes them |
+| Fork 2 L | 4, 6 | Protective effectiveness;Lasting Mercy: targeted heals/protection gain substantially improved protection on critically injured allies, auto prioritizes them |
 | Fork 2 R | 4, 6 | Light damage;Sacred Convergence: compatible damaging spells cast into own restorative area reinforce next pulse based on actual damage, capped |
 | Conclusion | 4 | Divine Harmony: consuming both Divine Favor forms successively improves next applicable restorative/damaging property |
 
@@ -175,3 +175,5 @@ Effect Potency/Duration, status and support, persistent skill properties, Linger
 
 ## Validation
 Static cost arithmetic checked: 40 class routes and 12 universal sections, each 30 TP. No gameplay tests. Resolve compatibility registry, modifier order and derived tags (e.g. Mage Arcane Geometry area then Warfare Broad Assault only if explicitly supported), active-class/persistent scope, cooldown/refund floors, binary stacking, actual resource expenditure and missing Health, tooltip clarity, no recursive statuses/heals/hits. Major talents must justify opportunity cost in manual/auto, solo/co-op, farming/bossing. Vague property modifiers need per-skill definitions before implementation.
+
+Pre-PII audit clarification: Assassin Exploit is bounded readiness, not a confirmed multi-stack meter; these nodes modify readiness duration/payoff, not capacity. Mage Spellweaver explicitly permits additional Core chains up to a cap; exact cap still open. Ranger Flank is a shared lineage starter. Cleric talent renamed Lasting Mercy to avoid confusion with Oracle's Legendary Divine Intervention. Promotion talent sections are in their individual class documents. See [pre-PII audit](PRESTIGE-I-AUDIT.md).
