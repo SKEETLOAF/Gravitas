@@ -60,7 +60,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Owner direction on Energy, skill acquisition, upgrade/duplicate ranks, focused summons and Stardust: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
 - Acquisition: classes, drops, trainers, tomes, quests/trials, crafting/discovery.
 - Development: levels, proficiency, evolution, variants, modifiers, ability-specific talent branches.
-- Construction: four actives, one ultimate, one of two passives per class (both when specializing); lineage talent trees/presets (Attribute, Conditional, Transformative nodes), inheritance, equipment interactions, resources, synergies, multi-kit rotation.
+- Construction: four actives, one ultimate, one of two passives per class (both when specializing); lineage talent trees/presets (Attribute, Conditional, Transformative nodes with 3–5 ranks each), inheritance, equipment interactions, resources, synergies, multi-kit rotation.
 - Management: presets/loadouts, auto/active configurations, testing, statistics, damage analysis, sharing, recommendations.
 
 ## VIII. Equipment and itemization
