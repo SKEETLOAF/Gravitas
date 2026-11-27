@@ -104,6 +104,15 @@ One reusable tree for each of five foundational lineages (Warrior, Ranger, Mage,
 - Illustrative branches only: Warrior Fortitude/Martial Mastery/Battle Instinct (broadened after owner questioned Break as a standalone branch; Break-related nodes distributed where relevant); Ranger precision/sustained attacks/mobility; Mage elemental interactions/spell power/Energy efficiency; Assassin criticals/evasion/rapid attacks; Cleric restoration/shielding/enhancement.
 - Reference distinction: Go Go Muffin separates skill acquisition (including Class Change summon pools) from level-linked, resettable talents that grant stats and modify current skills. Diablo IV's April 2026 rework emphasizes branching active skill modifications, including changes to element, area and range; passive nodes were removed from its skill tree. Use GGM's separation and consider Diablo's transformative upgrades, not its whole skill acquisition model. Verified references in REFERENCES.md.
 
+## Foundation kit documents
+All five foundations now have complete working skill pools; Warrior's revised passive direction is owner-approved and the remaining four kits were delegated to the assistant for draft design. Not a finalized numerical balance or launch commitment.
+- [Warrior](classes/WARRIOR.md)
+- [Ranger](classes/RANGER.md)
+- [Mage](classes/MAGE.md)
+- [Assassin](classes/ASSASSIN.md)
+- [Cleric](classes/CLERIC.md)
+Each includes 2 Legendary Cores, 4 Normal/4 Rare/2 Legendary ordinary actives, 5 class-specific passive skills and 9 shared lineage starters. Trait, selectable class passives, build examples and balance guardrails included. See [design lessons](DESIGN-LESSONS.md).
+
 ## Reusable class design template (proposal)
 Use the same template for foundations, advanced, hybrid and special classes. Fill only established details; mark others TBD. Use the confirmed loadout capacities and universal Energy; unique mechanics are class-specific.
 
@@ -125,4 +134,4 @@ The shared architecture is ready for initial kit design. Primary/secondary talen
 - Trait level thresholds, ascension costs and upgrade effects; no automatic stacking of all learned disciplines.
 - Passive trigger design/acquisition and talent details, detailed weapon activation and swap execution/cooldowns. See [COMBAT-SWITCHING.md](COMBAT-SWITCHING.md).
 - Distinct benefits and viability of earlier classes after promotions, class-specific mechanics, automation and active options. Ancestor-to-descendant ordinary skill inheritance is established; compatibility and hybrid eligibility remain open.
-- Exact foundation, promotion and hybrid kits, detailed hybrid trial conditions and special acquisition rules. No actual class skills or finalized named promotion roster established.
+- Exact foundation, promotion and hybrid kits, detailed hybrid trial conditions and special acquisition rules. Foundation skill pools are now drafted; promotion and hybrid kits and remaining named roster choices remain open.
