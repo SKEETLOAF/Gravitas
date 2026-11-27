@@ -2,7 +2,7 @@
 Updated 2026-11-26. Class expansion established; initial planning scope is two promotions per foundation. Roster names, unlock topology and kits remain open.
 
 ## Established direction
-- One character can learn, independently develop and equip multiple distinct disciplines. Promotions unlock new disciplines without replacing prior classes or losing mastery. Sibling branches can remain accessible. Every class must have a distinct benefit, even relative to its ancestors.
+- One persistent character per account (no alternate character saves planned at launch) can learn, independently develop and equip multiple distinct disciplines. Promotions unlock new disciplines without replacing prior classes or losing mastery. Sibling branches can remain accessible. Every class must have a distinct benefit, even relative to its ancestors.
 - Classes have linked primary/secondary weapons; see [WEAPONS.md](WEAPONS.md). Shared weapons encourage synergy without requiring every compatible class pair to share a weapon (recommended).
 - Hybrid classes may unlock through multiple developed disciplines, including advanced branches. Warrior + Cleric -> Paladin is an illustrative owner example, not a roster commitment. Warrior -> Berserker is an illustrative advancement.
 - Independent special classes may be obtained via dungeons, events, battle passes or game passes; sources remain candidates. Earnable equivalent power and ordinary progression without payment remain guardrails.
@@ -121,7 +121,7 @@ Use the same template for foundations, advanced, hybrid and special classes. Fil
 12. **Decision record:** established, exploratory, future, undecided, discarded; next questions.
 
 ## Open class architecture
-The shared architecture is ready for initial kit design. Primary/secondary talent and weapon scaling, active-class Trait and class-associated passive rules are established. Starting talent and weapon multipliers approved (50% secondary, 150% specialized talents); evolution-level relationship to mastery/global level, rank calculation order, overlapping same-lineage nodes, and weapon wielding transitions remain open. Initial promotion and core-pair hybrid counts established; specific names and kits remain proposals.
+The shared architecture is ready for initial kit design. Primary/secondary talent and weapon scaling, active-class Trait and class-associated passive rules are established. Starting talent and weapon multipliers approved (50% secondary, 150% specialized talents); XP attribution across account Character Level, lineage levels and Class Mastery, rank calculation order, overlapping same-lineage nodes, and weapon wielding transitions remain open. Initial promotion and core-pair hybrid counts established; specific names and kits remain proposals.
 - Trait level thresholds, ascension costs and upgrade effects; no automatic stacking of all learned disciplines.
 - Passive trigger design/acquisition and talent details, detailed weapon activation and swap execution/cooldowns. See [COMBAT-SWITCHING.md](COMBAT-SWITCHING.md).
 - Distinct benefits and viability of earlier classes after promotions, skill inheritance, class-specific mechanics, automation and active options.
