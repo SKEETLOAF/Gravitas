@@ -29,8 +29,11 @@ Five-role promotion architecture is the working direction. Owner requests primar
 
 Early compatibility: Sword connects Warrior/Rogue; Dagger connects Rogue/Ranger; Shield connects Warrior/Cleric; Tome connects Cleric/Mage. All five belong to a connected compatibility network, but not every pair shares a weapon. Shared weapons should encourage synergy rather than dictate class pair eligibility (recommended principle). Mace remains in the full-game roster, currently unassigned to a foundation. Shield is listed independently; whether it functions as an active weapon, off-hand, or both is unresolved.
 
+## Shared loadout (established)
+Two global weapon slots shared by the two selected classes. Each weapon has one skill. The equipped weapons do not change on class swap; selection of active weapon and weapon skill activation rules remain open. See [Combat switching](COMBAT-SWITCHING.md).
+
 ## Open design questions
-- Whether secondary means alternative equipped weapon, separate off-hand, or both; two-weapon cap scope and interaction with three classes.
+- Whether secondary means alternative wielded weapon, separate off-hand, or both; compatible weapon selection and attribute contribution.
 - Shared weapon base animations/techniques and class-specific expressions, independent cooldowns and cross-class transitions.
 - Whether primary vs secondary differs in proficiency, skill access or progression.
 - Firearm weight categories, handling and class compatibility; future weapon assignments, promotion changes, and weapon mastery.
