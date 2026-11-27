@@ -35,5 +35,17 @@ Assistant-derived working design hypotheses, not playtest conclusions (2026-11-2
 ## Reference leads for further verification
 Prior design discussions identified Go Go Muffin's Swordbearer skill transformations and retaliation, Sword x Staff's Charms and trigger-dependent effects, Last Epoch's skill-specific trade-offs, Torchlight: Infinite's skill support interactions and Diablo IV's weapon-switch incentives. Use these as research leads, not proof of exact named effects or values; verify current primary/community documentation before relying on specific mechanics. Adapt principles to Gravitas, not exact kits. See REFERENCES.md for the wider reference index.
 
+## Comparative attribute review (2026-11-27)
+Research sources: Go Go Muffin community beginner guide, stat breakdown (https://boarhat.gg/games/go-go-muffin/guide/beginner-guide/); Sword x Staff compiled in-game stat descriptions and keywords (https://www.gacha.gg/sword-x-staff/mechanics); Sword x Staff community build guides (https://www.prydwen.gg/sword-x-staff/guides/build-guide-dominator and https://www.prydwen.gg/sword-x-staff/guides/build-guide-duelist).
+GGM uses general ATK for damage/healing, DEF, ASPD/Haste, Crit, Determination (chance-based defense bypass or healing amplification), Mastery, Accuracy/Evasion, Block and mitigation stats. SxS uses ATK/DEF/HP/SPD, Resilience against ailments, Crit/Block and counters, Effect Hit/RES, broad damage/heal modifiers and element/target-specific modifiers. Community documentation, not independent gameplay validation.
+Design assessment (assistant recommendation, not new canon): retain Gravitas's 29-attribute roster for now. Separate physical/magical scaling, explicit Break Power and Energy economy, Super Crit/Block and action-linked effects differentiate our real-time hybrid combat. Avoid adding universal damage multipliers or per-element permanent character attributes merely because references have them; use targeted skill/equipment/talent effects.
+Open balance priorities:
+- Specify Accuracy vs Evasion/Block resolution so Accuracy does not cheaply erase both defenses; define crit/block coexistence and mitigation order, overflow and anti-counter limits.
+- Specify Effect Potency vs Resistance (application chance, magnitude and/or duration) and Effect Duration's distinct purpose, avoiding double-counted scaling or permanent CC.
+- Attack Speed vs Cooldown Reduction vs Energy economy: distinguish animation/channel/recovery and cooldown effects; preserve readable combat and sustainable rates without exponential loops.
+- ATK/MATK and DEF/MDEF: test mixed-build stat dilution, shield magical/physical behavior, split damage, hybrid scaling and healing eligibility for criticals/other modifiers. No assumption that heals can crit yet.
+- Check low-value rolls and mandatory stat thresholds, especially Break Power on unarmored enemies, Aggro in solo, Resistance against status-free opponents, and farming stats versus combat stats. Give optional content-specific usefulness rather than force every stat equally useful everywhere.
+- Validate 18-point grade profiles by simulations and representative encounters, not equal allotment alone; consider actual coefficients, damage mitigation, hit rate, Energy, threat and role value. No numerical changes approved.
+
 ## Evidence and validation
 No implementation/playtest evidence yet. When testing begins, record reproducible observations, relevant build/version, what changed, and the resulting lesson; do not present design hypotheses as measured outcomes.
