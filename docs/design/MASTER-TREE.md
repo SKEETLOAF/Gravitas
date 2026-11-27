@@ -27,11 +27,11 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Elemental architecture and reaction exploration: [ELEMENTS.md](ELEMENTS.md).
 - Shared combat foundations and attribute roster established conceptually; exact formulas open. See [COMBAT-FOUNDATIONS.md](COMBAT-FOUNDATIONS.md).
 - Offense:
-  - Basic attacks: attack chains, branching combos, attack speed, recovery, hit reactions.
+  - Basic attacks: completed chain has brief recovery; class swap can extend chain and pursue knocked-back target. Chain lengths, attack speed, recovery values and hit reactions open.
   - Heavy attacks: charges, guard breaks, launchers, finishers.
   - Abilities: slots, cooldowns, resource costs, follow-ups, combinations.
   - Ultimates; aerial combat; area attacks; ranged attacks; summons.
-  - Combat switching: established loadout and class swap cooldown; detailed weapon swaps, combo transitions, cooldown ownership and animations open.
+  - Combat switching: auto alternates skill kits or extends full basic combos via pursuit; detailed weapon swaps, transition timing, cooldown ownership and animations open.
 - Defense: dodge, block, parry, counter, mitigation, shields/barriers, interruption, hyper armor, crowd-control resistance, recovery/healing.
 - Movement: pursuit, dash/gap close, reposition, target switching, lock-on, tracking, knockback, grouping, vertical movement.
 - Interactions: damage types, elemental interactions, status effects (DoT, buffs/debuffs, crowd control, stacking, reactions), stagger/posture, critical attacks, weak points, executions, environmental interactions, co-op synergy.
@@ -60,7 +60,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Owner direction on Energy, skill acquisition, upgrade/duplicate ranks, focused summons and Stardust: [SKILLS-AND-COLLECTION.md](SKILLS-AND-COLLECTION.md).
 - Acquisition: classes, drops, trainers, tomes, quests/trials, crafting/discovery.
 - Development: levels, proficiency, evolution, variants, modifiers, ability-specific talent branches.
-- Construction: active/passive slots, class talents, inheritance, equipment interactions, resources, synergies, trade-offs, multi-kit rotation.
+- Construction: four actives, one ultimate, one of two passives per class (both when specializing); class talents/presets, inheritance, equipment interactions, resources, synergies, multi-kit rotation.
 - Management: presets/loadouts, auto/active configurations, testing, statistics, damage analysis, sharing, recommendations.
 
 ## VIII. Equipment and itemization
