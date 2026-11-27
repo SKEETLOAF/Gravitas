@@ -58,7 +58,7 @@ Owner direction: special disciplines have shorter and simpler advancement famili
 | Summoner | Beastmaster | Coordinated attacks with summoned creatures; optional third candidate, distinct from ordinary universal pets. |
 | Gunslinger | Outlaw | Trick shots, ricochets and mid-range pistol combat. |
 | Gunslinger | Heavy Gunner | Heavy firearm suppression, area damage and Armor breaking. |
-| Gunslinger | Quickdraw | Light firearms, rapid movement and concentrated burst windows; working name. |
+| Gunslinger | Run N Gun | Light firearms, rapid movement and concentrated burst windows; owner-selected variant name. |
 Recommend a single accessible base discipline per family followed by parallel variants, each playable without replacing the base or requiring the other variants. Consider shared family advancement milestones to reduce redundant grinding while retaining distinct kit development; exact mastery ownership, talents, trait/passive rules and variant switching must be resolved against the existing class system. Do not automatically grant a full additional core talent tree or free third class slot. Continue ordinary Character Level, equipment, skill level/star, trait/mastery and other universal power scaling; shorter variant paths must not impose a lower endgame ceiling. Purchase, earned unlock, event and other acquisition methods remain possible, not approved for every family; maintain comparable earnable combat power. Variant roster/count and release timing are not commitments.
 
 ## Common class anatomy
