@@ -107,6 +107,10 @@ Distinct individual class trees with two independent reconverging forks, linear 
 
 - [Shinobi](classes/SHINOBI.md): Naruto-inspired deception, martial and elemental techniques, complete proposed kit and Hidden Arts sections; exact mechanics and weapons pending review.
 
+- [Oracle](classes/ORACLE.md): Providence, prepared blessings and Threads of Fate; proposed kit, native Legendary skills support either weapon.
+
+All ten P0/P I class drafts structurally reviewed; see [Pre-Prestige II audit](PRESTIGE-I-AUDIT.md) for open decisions and test gates.
+
 ## Foundation kit documents
 All five foundations now have complete working skill pools; Warrior's revised passive direction is owner-approved and the remaining four kits were delegated to the assistant for draft design. Not a finalized numerical balance or launch commitment.
 - [Warrior](classes/WARRIOR.md)
