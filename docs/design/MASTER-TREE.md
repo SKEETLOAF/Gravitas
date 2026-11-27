@@ -17,7 +17,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 - Working foundation model: Warrior, Ranger, Mage, Rogue, Cleric; earned promotions and independent retained disciplines, distinct benefits, potential hybrid/special classes. Exact lineage structure open. See [class architecture and template](CLASSES.md).
 - Architecture: base, advanced, specialized, hybrid, hidden/unlockable classes; advancements/awakenings.
   - Class expansion is established: unlocking a descendant adds a distinct, independently developable and equippable discipline; no parent is replaced or consumed. Players can progress every accessible class, including sibling branches, and return to previous styles with their progression retained. Class lineage represents a common concept and unlock ancestry, not a mandatory power hierarchy. Every foundational, advanced, hybrid or special class must have a distinct combat identity and benefit, even relative to its parents or descendants. Combos, synergies and future hybrid unlock paths may originate from any class or branch, not only foundations; exact combinations, unlock requirements and equipment compatibility are still design work. This does not promise that every pair yields a bespoke hybrid.
-  - Class switching: restrictions, loadouts, progression retention, in-combat swaps, progression-gated swap capacity, cooldown ownership.
+  - Class switching: two class selections, two shared weapons, 0.5-second class swap cooldown, distinct class skill loadouts or same-class specialization; see [switching](COMBAT-SWITCHING.md).
   - Multiclassing: primary/secondary disciplines, cross-class abilities, inherited passives, class combinations.
   - Class/weapon relationship: linked compatible weapons (confirmed); potential primary and secondary weapon roles, asymmetric shared compatibility and cross-class synergy; see [switching proposal](COMBAT-SWITCHING.md).
 - Development: experience, mastery, ranks, skill trees, talent trees, specialization, trials, quests, mastery rewards.
@@ -31,7 +31,7 @@ Status: navigation index; linked canonical system documents distinguish establis
   - Heavy attacks: charges, guard breaks, launchers, finishers.
   - Abilities: slots, cooldowns, resource costs, follow-ups, combinations.
   - Ultimates; aerial combat; area attacks; ranged attacks; summons.
-  - Combat switching (exploratory): class/weapon swaps, cross-kit combo transitions, independent cooldowns, swap windows and animations.
+  - Combat switching: established loadout and class swap cooldown; detailed weapon swaps, combo transitions, cooldown ownership and animations open.
 - Defense: dodge, block, parry, counter, mitigation, shields/barriers, interruption, hyper armor, crowd-control resistance, recovery/healing.
 - Movement: pursuit, dash/gap close, reposition, target switching, lock-on, tracking, knockback, grouping, vertical movement.
 - Interactions: damage types, elemental interactions, status effects (DoT, buffs/debuffs, crowd control, stacking, reactions), stagger/posture, critical attacks, weak points, executions, environmental interactions, co-op synergy.
@@ -65,7 +65,7 @@ Status: navigation index; linked canonical system documents distinguish establis
 
 ## VIII. Equipment and itemization
 - Current itemization specification: [ITEMIZATION.md](ITEMIZATION.md).
-- Planned full-game weapon roster and foundational compatibility: see [WEAPONS.md](WEAPONS.md). Each foundational class has primary and secondary compatibility; exact equip and swap rules remain open.
+- Planned full-game weapon roster and foundational compatibility: see [WEAPONS.md](WEAPONS.md). Each foundational class has primary and secondary compatibility; two global weapon slots with one weapon skill each; detailed wielding rules open.
 - Weapons: categories, movesets, attributes, exclusive abilities, mastery, stances, dual wield, off-hand, unique/legendary weapons, potential weapon swap slots; primary and secondary class compatibility; shared weapon bridges.
 - Armor/accessories: slots, categories, jewelry, relics/artifacts, set bonuses, exclusive effects.
 - Generation: rarity, item levels, fixed/random stats, affixes/modifiers, unique effects, drop tables, targeted loot, duplicates.
