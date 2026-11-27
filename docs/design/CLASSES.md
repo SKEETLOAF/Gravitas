@@ -38,7 +38,7 @@ Use the same template for foundations, advanced, hybrid and special classes. Fil
 4. **Weapons:** primary type, compatible alternatives, shared compatibility, weapon-specific interactions, proficiencies.
 5. **Combat foundation:** attack chains, movement, offense, defense, range, resource/gauge if needed, signature loop.
 6. **Kit:** inherent passive, active abilities, optional ultimate, weapon techniques versus class techniques, skill modifiers, cooldown ownership. Use confirmed four active / one ultimate / one of two passives; both passives when specializing.
-7. **Automation:** default behavior, target and skill priorities, swap conditions, ability timing, active intervention opportunities, future manual compatibility.
+7. **Automation:** easy-to-author default macro/preset, reusable actions and class-specific sequence options, Impulse and swap opportunities, future manual compatibility.
 8. **Synergies:** same-class kit, weapon overlaps, non-overlapping functional combos, swap-in/out effects, cross-class resources/buffs/cooldowns.
 9. **Growth:** talents, mastery milestones, advanced branches, new techniques, horizontal options; later hybrid prerequisites.
 10. **Balance and experience:** strengths, weaknesses, solo viability, team contribution, farm/boss performance, comparisons, guardrails. Explicitly identify what makes this class distinct from parents, siblings and hybrids, and what reason remains to use its parent after unlocking it.
@@ -46,6 +46,7 @@ Use the same template for foundations, advanced, hybrid and special classes. Fil
 12. **Decision record:** established, exploratory, future, undecided, discarded; next questions.
 
 ## Open class architecture
+The shared architecture is ready for initial kit design. Before tuning, resolve whether selected passives persist across class swaps, how weapon skills are accessed and whether both weapons contribute stats, and how talent and trait effects apply. Suggested defaults for review: both equipped classes' selected passives remain eligible (subject to their own triggers), only the active class's trait and talent effects are eligible unless explicitly persistent, each equipped weapon skill has a dedicated slot and requires its own weapon to execute, shared gear stats persist. Weapon attribute contribution is not yet decided. No final class kit or promotion roster approved.
 - Trait level thresholds, ascension costs, upgrade effects and activation scope; no automatic stacking of all learned disciplines.
 - Passive activation/acquisition and talent details, class/weapon ability ownership, detailed swap execution and cooldowns. See [COMBAT-SWITCHING.md](COMBAT-SWITCHING.md).
 - Distinct benefits and viability of earlier classes after promotions, skill inheritance, class-specific mechanics, automation and active options.
