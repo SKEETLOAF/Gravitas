@@ -68,11 +68,22 @@ All classes receive class-specific natural attribute growth tied to global Chara
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Warrior | A | D | B | F | B | D | 18 |
 | Ranger | D | B | A | D | D | C | 18 |
-| Mage | D | B | F | A | D | B | 18 |
+| Mage | D | A | F | A | D | C | 18 |
 | Rogue | C | B | A | F | D | C | 18 |
-| Cleric | C | B | F | B | C | C | 18 |
+| Cleric | C | C | F | B | C | B | 18 |
 | Jack-of-all-trades unique class | C | C | C | C | C | C | 18 |
-Owner requests a unique jack-of-all-trades class with C/3 growth in every main attribute and access to any unlocked skill, maximizing customization. Working name Freelancer (candidate); preserve as a future unique-class concept, not a new core lineage or promotion slot. Recommend normal loadout slot limits and no automatic copying of other Class Traits; weapon compatibility, passive/ultimate eligibility, talent access, acquisition, timing and exact rules remain open. Do not treat these recommendations as restrictions confirmed by owner. Other classes' soft growth, exact profiles and multiclass profile combination are open.
+Owner requests a unique jack-of-all-trades class with C/3 growth in every main attribute and access to any unlocked skill, maximizing customization. Working name Freelancer (candidate); preserve as a future unique-class concept, not a new core lineage or promotion slot. Recommend normal loadout slot limits and no automatic copying of other Class Traits; weapon compatibility, passive/ultimate eligibility, talent access, acquisition, timing and exact rules remain open. Do not treat these recommendations as restrictions confirmed by owner. Exact growth curves and multiclass profile combination remain open.
+
+### Soft attribute proficiencies
+Owner accepts the foundational affinities as a working basis with Rogue's Movement Speed replaced by Effect Duration. Proficient soft attributes grow at roughly comparable, modest natural rates across classes; non-proficient soft attributes grow much more slowly. Equipment, pets, mounts, cosmetics, talents and other progression sources supply the bulk of soft-attribute growth. Proficiency is an affinity, not a restriction. Exact rates, units, curves and multiclass contribution remain open.
+| Foundation | Proficient soft attributes |
+| --- | --- |
+| Warrior | Block Chance, Aggro, Break Power, Resistance |
+| Ranger | Accuracy, Penetration, Critical Damage, Attack Speed |
+| Mage | Effect Potency, Effect Duration, Energy Efficiency, Cooldown Reduction |
+| Rogue | Evasion, Critical Chance, Effect Duration, Attack Speed |
+| Cleric | Energy Recovery, Cooldown Reduction, Effect Duration, Critical Resistance |
+Promoted, hybrid and unique-class proficiency profiles remain open.
 
 ## Common class anatomy
 - Class Trait: exactly one inherent passive trait per class, unlocked and upgraded through Class Mastery and shared Ascension items. Not summoned or equipped in a selectable passive slot. Same-class specialization does not duplicate the trait. Class Trait is active only while its associated class is active; explicitly applied effects may finish their intended duration. Exact mastery thresholds, level caps, costs and effects open. Candidate identities (not approved kits): Warrior retaliation, Ranger precision, Mage spell sequencing, Rogue exploiting openings, Cleric divine favor.
