@@ -47,18 +47,21 @@ Open balance priorities:
 - Check low-value rolls and mandatory stat thresholds, especially Break Power on unarmored enemies, Aggro in solo, Resistance against status-free opponents, and farming stats versus combat stats. Give optional content-specific usefulness rather than force every stat equally useful everywhere.
 - Validate 18-point grade profiles by simulations and representative encounters, not equal allotment alone; consider actual coefficients, damage mitigation, hit rate, Energy, threat and role value. No numerical changes approved.
 
-## Talent design lessons (working hypotheses)
+## Historical talent design lessons (superseded numerical layouts; retain general lessons)
 - A shared tree should support lineage descendants and compatible hybrid/cross-tree builds through mechanical tags, not named class-exclusive Traits. Preserve progression investment as classes evolve.
 - Use modest, linear rank effects, including measurable changes to geometry, falloff, damage distribution, effect duration, and resource economy. Collectible passives can make larger skill transformations; avoid duplicating them as full effects from a single rank.
 - Cost a starter section explicitly before setting hybrid acquisition budgets. Proposed 50 ranks per section gives 200 preallocated ranks across two parent trees' first two sections; the approximately 30 free TP estimate fits a plausible early unlock but is not a reason to force an unlock level.
 - Review gates against earned TP and effective-rank multipliers, distinguish native rank cost from effective rank, and avoid mandatory full-tree completion at each progression step. Defer deeper sections until future class kits and their dependencies are understood.
 - Starter node draft coverage: 5 trees, 2 sections each, 24 nodes/tree, 120 total nodes. Not a numerical balance test. See TALENTS.md.
 
-## Talent topology revision
+## Historical talent topology revision
 Owner prefers more distinct single-purchase nodes instead of repeatedly leveling each talent 3–5 times, inspired by Go Go Muffin. General and class-specialized pools with two paths per class pool are proposed. Design lesson: distinguish frequent progression choices from repetitive rank spending; preserve build breadth, avoid filler, and re-evaluate class-slot multipliers when node ownership becomes binary. Verified community reference: https://mobi.gg/en/tips/go-go-muffin-build/ (two branches per tree) and https://boarhat.gg/games/go-go-muffin/guide/beginner-guide/ (level-linked talents and resettable allocations). Prior numerical starter layout is not current canon.
 
-## Selectable talent tree revision
+## Historical selectable talent tree revision
 Owner prefers a distinct tree for every actual class, several universal trees unlocking/expanding with progression, two class paths and a base bonus for choosing a tree. Aim for approximately three complete base trees with 50 TP by P0 level 60 if unlocked at 10. Proposed 16 paid nodes per tree provides 48 TP spend and two spare. Review selection caps to prevent free entry-bonus hoarding. A previous 40-point investment gate cannot be satisfied inside a single 16-node base tree; reconcile gates, costs and hybrid allocations instead of blindly preserving incompatible rules. Reference verified: Boarhat Ranger guide shows Hawk Arrow plus Forging Foundation and Zealous Burden (https://boarhat.gg/games/go-go-muffin/class/ranger/), CC5 guide documents new elemental talent disks (https://boarhat.gg/games/go-go-muffin/guide/cc5-guide/). Earlier shared multi-rank tree drafts are reference-only; exact bonuses and selection capacity not yet approved.
 
 ## Evidence and validation
 No implementation/playtest evidence yet. When testing begins, record reproducible observations, relevant build/version, what changed, and the resulting lesson; do not present design hypotheses as measured outcomes.
+
+## Accepted talent architecture and review standard (2026-11-27)
+Distinct individual class trees with two independent reconverging forks, linear universal trees with class-independent skill modifiers, entry bonuses and single-purchase nodes; level 15 unlock, 30 TP per completed section, P0 costs 1–3 and P I 2–6. See TALENTS.md and TALENT-CATALOG.md. Compare opportunity cost, branch identity, skill compatibility, readability, auto/manual viability, solo/co-op performance, stacking and resource loops, future promotion territory. Avoid repeated procs disguised by names, dead nodes, invented attributes and arbitrary prestige taxes. 52 static budget checks passed; numerical balance not tested. See TALENTS.md for current rules; earlier numerical layouts above historical only.
