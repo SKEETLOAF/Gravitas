@@ -101,6 +101,8 @@ Distinct individual class trees with two independent reconverging forks, linear 
 ## Prestige I kit documents
 - [Berserker](classes/BERSERKER.md): owner-approved low-Health mitigation and Bloodlust generation identity; full kit, growth, weapons and talent drafts pending review/tuning.
 
+- [Hunter](classes/HUNTER.md): tactical prey/setup-payoff kit and two Hunting Grounds talent sections drafted; specific mechanics and weapons proposed.
+
 ## Foundation kit documents
 All five foundations now have complete working skill pools; Warrior's revised passive direction is owner-approved and the remaining four kits were delegated to the assistant for draft design. Not a finalized numerical balance or launch commitment.
 - [Warrior](classes/WARRIOR.md)
