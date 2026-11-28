@@ -2,7 +2,7 @@
 
 Owner accepted conceptual direction 2026-11-27. Latest class effect drafts below; coefficients, tags, exact per-skill behavior, cooldowns and route balance remain draft. [Canonical architecture](TALENTS.md). No implementation. Each semicolon-separated entry is one node; costs correspond in order. Each fork is independent.
 
-**Template revision:** P0 layouts remain valid. The P I effects and nine-node schedules below (including promotion class documents) are prior working drafts, not implementation-ready under the owner-directed 2–12 TP range. Proposed new P I template has eight purchased nodes per family, with equal 30 TP completion budget; merge/reallocate one node and review 12 TP effects before migrating. See [current templates](TALENTS.md#uniform-node-templates).
+**Template revision:** P0 layouts remain valid. The P I effects and nine-node schedules below (including promotion class documents) are prior working drafts, not implementation-ready under the owner-directed 2–11 TP range. Proposed new P I template has seven purchased class nodes per route and six universal nodes, with equal 30 TP completion budget; consolidate/reallocate prior nodes and review high-cost effects before migrating. See [current templates](TALENTS.md#uniform-node-templates).
 
 ## Warrior
 Innate: Block Chance, Break Power. [Kit](classes/WARRIOR.md).
@@ -175,8 +175,8 @@ Innate: Critical Chance, Accuracy.
 ### Influence (candidate)
 Effect Potency/Duration, status and support, persistent skill properties, Lingering Presence (persistent effects last longer), Cascading Affliction (eligible harmful status spreads at reduced potency on defeat, capped and nonrecursive). Full sections and roster inclusion open.
 
-## P II+ standard template
-See [TALENTS.md](TALENTS.md#uniform-node-templates). P0 retains existing costs and counts; P I requires migration as noted above; universal topology uses constellation offshoots; each later section costs 50 TP, with proposed uniform nine purchased nodes per class route (13 visible), or nine universal constellation nodes. Actual P II effects remain undesigned. P I pricing/effect revision pending; P II template also subject to review.
+## P II+ expansion design
+See [TALENTS.md](TALENTS.md#uniform-node-templates). P0 retains existing costs and counts; P I requires migration as noted above; universal topology uses constellation offshoots; each later section costs 50 TP, with tier-specific node distributions under the rising minimum and universal 11 TP ceiling (not yet finalized). Actual P II effects remain undesigned. P I pricing/effect revision pending; P II and later distributions not finalized; minimum +1 per Prestige and universal ceiling 11 TP.
 
 ## Validation
 Static cost arithmetic checked: 40 class routes and 12 universal sections, each 30 TP. No gameplay tests. Resolve compatibility registry, modifier order and derived tags (e.g. Mage Arcane Geometry area then Warfare Broad Assault only if explicitly supported), active-class/persistent scope, cooldown/refund floors, binary stacking, actual resource expenditure and missing Health, tooltip clarity, no recursive statuses/heals/hits. Major talents must justify opportunity cost in manual/auto, solo/co-op, farming/bossing. Vague property modifiers need per-skill definitions before implementation.
