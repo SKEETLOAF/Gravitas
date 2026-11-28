@@ -31,21 +31,21 @@ Full tree means every applicable section through the current prestige. From P I 
 Owner favors GGM-inspired milestone-led progression and separate uniform templates for class and universal trees. Talent earning starts after P0 level 20. Proposed first/second/third selection milestones at levels 20/40/60, with Class Change quest preparation around 60 and promotion eligibility at 80. Exact access gates remain open. Preserve learned disciplines and no server time locks.
 
 ## Uniform node templates
-Owner approves uniform structure within each tree family. Existing P0 and P I templates unchanged; P II+ detailed allocation is a working proposal, with nine purchased nodes per route/section. Branch alternatives have identical node count and cost sequence; effects must differ. Innate entry bonuses are separate, free on selection, not paid nodes.
+Owner approves uniform structure within each tree family. Existing P0 and P I templates unchanged; P II detailed allocation is a working proposal, with nine purchased nodes per route/section; later stages use the same 50 TP budget but their node counts and price schedules remain open. Branch alternatives have identical node count and cost sequence; effects must differ. Innate entry bonuses are separate, free on selection, not paid nodes.
 
 | Section | Class shared opening | First fork (each side) | Shared development | Second fork (each side) | Conclusion | Visible / purchased | Total |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | P0 | 1,1,2 | 1,1,2,3 | 1,2,2 | 1,2,2,3 | 1,2,3 | 25 / 17 | 30 |
 | P I | 2,2 | 3,5 | 2,2 | 4,6 | 4 | 13 / 9 | 30 |
-| P II+ | 4,4 | 5,8 | 4,4 | 5,9 | 7 | 13 / 9 | 50 |
+| P II | 4,4 | 5,8 | 4,4 | 5,9 | 7 | 13 / 9 | 50 |
 
 | Section | Universal linear node sequence | Visible / purchased | Total |
 | --- | --- | --- | --- |
 | P0 | 1,1,2,3,1,2,2,3,1,2,2,3,1,1,2,3 | 16 / 16 | 30 |
 | P I | 2,2,3,4,2,3,3,5,6 | 9 / 9 | 30 |
-| P II+ | 4,4,5,6,4,5,5,8,9 | 9 / 9 | 50 |
+| P II | 4,4,5,6,4,5,5,8,9 | 9 / 9 | 50 |
 
-At P II+ use smaller nodes for focused attribute/skill improvements and major nodes for meaningful mechanical changes; stronger prices must justify the opportunity cost. Stable prices and density, not automatic escalation with every prestige. No new P II node effects designed yet. If later balance requires a changed template, migrate all corresponding class or universal trees consistently rather than ad hoc exceptions. Section eligibility for promoted classes remains open.
+Owner clarification: uniformity means consistent structure, node counts and pricing conventions within each tree family at the same prestige, not identical prices for all nodes or identical density across all prestiges. Individual node prices vary by significance and generally increase with progression within a section and across prestige tiers; major branch effects and later unlocks should justify higher costs, while smaller shared nodes can remain cheaper even after a major node. Preserve exact legal route budgets of 30/30/50/50/...; both alternatives at each class fork must cost equally. P0 and P I existing schedules already use distinct prices. P II's nine-node template is proposed. Do not lock its specific prices or node count to every later prestige: with fixed 50 TP, raising average node price requires fewer purchased nodes (or redistributing costs for larger major nodes while retaining the same average). Review later sections individually, keep the two reconverging forks and meaningful node density; no arbitrary inflation or endless compression. No new P II node effects designed yet. If later balance requires a changed template, migrate all corresponding class or universal trees consistently rather than ad hoc exceptions. Section eligibility for promoted classes remains open.
 
 ## Multiclass and compatibility
 Retain approved primary 100%, secondary 50%, same-class specialization 150% contribution weights. Proposed interpretation for binary ownership: scale eligible numeric coefficients, not the existence of the mechanic; one secondary extra strike at half strength rather than half a strike. Qualitative effects, thresholds, area, count rounding, overlapping universal nodes, external item bonus effects and contribution order require explicit rules. No automatic cross-class Trait or class-specific skill effects; only eligible skills/actions, respecting active class and persistent effect scope. Existing overlap intent retained, no duplicate recursive procs. Use skill tags (projectile, area, persistent, heavy impact, defense, healing, etc.) and per-skill overrides; tags and stacking not finalized. Respect encounter movement zones; auto must be able to use major effects. Modifier order and actual coefficients remain untested.
