@@ -8,7 +8,7 @@
 - Keep this project separate from ORBIT!, OMDB and other Roblox concepts. Do not import their mechanics without approval.
 - Maintain concise README navigation and stable branch IDs. Validate links, current terminology and contradictions after changes.
 - Optional depth is a game-wide requirement; ordinary play should not require detailed mechanical knowledge.
-- Current priority: owner review of [Oracle](classes/ORACLE.md) and [pre-Prestige II audit](PRESTIGE-I-AUDIT.md); resolve talent economy/access, skill inheritance, combat event contract, auto/encounter contract and balance prototype before P II. Ten class drafts structurally verified. Earlier working decisions remain in canonical CLASSES, TALENTS, PROGRESSION, COMBAT-SWITCHING, SKILLS-AND-COLLECTION and DESIGN-LESSONS; do not treat open proposals as approved.
+- Current priority: owner review of [Oracle](classes/ORACLE.md) and [pre-Prestige II audit](PRESTIGE-I-AUDIT.md); talent economy approved (see TALENTS.md); resolve tree access, hybrid cap compatibility, skill inheritance, combat event contract, auto/encounter contract and balance prototype before P II. Ten class drafts structurally verified. Earlier working decisions remain in canonical CLASSES, TALENTS, PROGRESSION, COMBAT-SWITCHING, SKILLS-AND-COLLECTION and DESIGN-LESSONS; do not treat open proposals as approved.
 - No gameplay implementation is represented by this design notebook.
 
 ## Legendary class skill weapon compatibility
