@@ -173,6 +173,9 @@ Innate: Critical Chance, Accuracy.
 ### Influence (candidate)
 Effect Potency/Duration, status and support, persistent skill properties, Lingering Presence (persistent effects last longer), Cascading Affliction (eligible harmful status spreads at reduced potency on defeat, capped and nonrecursive). Full sections and roster inclusion open.
 
+## P II+ standard template
+See [TALENTS.md](TALENTS.md#uniform-node-templates). P0 and P I retain existing layouts; each later section costs 50 TP, with proposed uniform nine purchased nodes per class route (13 visible), or nine linear universal nodes. Actual P II effects remain undesigned. No changes to existing nodes required by the approved economy.
+
 ## Validation
 Static cost arithmetic checked: 40 class routes and 12 universal sections, each 30 TP. No gameplay tests. Resolve compatibility registry, modifier order and derived tags (e.g. Mage Arcane Geometry area then Warfare Broad Assault only if explicitly supported), active-class/persistent scope, cooldown/refund floors, binary stacking, actual resource expenditure and missing Health, tooltip clarity, no recursive statuses/heals/hits. Major talents must justify opportunity cost in manual/auto, solo/co-op, farming/bossing. Vague property modifiers need per-skill definitions before implementation.
 
