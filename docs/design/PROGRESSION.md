@@ -19,6 +19,9 @@ Skill-slot levels (Skill XP upgrades slots, retained on skill swaps), individual
 ## Accessibility
 Simple default view of current character/class, next promotion, recommended upgrade and adventure goal. Optional advanced stats and build analysis. Explainable reversible recommendations, no automatic premium spend or destruction of locked items. Avoid redundant XP tracks. Detailed UX later.
 
+## Talent extension gates (owner-approved)
+Class tree sections extend with their specific lineage's Prestige progression. Universal sections extend with permanent Character Level at baseline cumulative XP-equivalent stage boundaries, independently of class promotions. Character Level does not grant TP; existing lineage budgets remain. Exact account-level thresholds require XP-curve calibration. See TALENTS.md.
+
 ## Open
 XP curves, account-level reward/penalty/stat-percentage formulas, caps, source/offline attribution and catch-up rates, promotion structure/trials, allocation, system unlock map, slot milestones and skill/talent relationship.
 
